@@ -122,6 +122,9 @@ public class Tower : MonoBehaviour
         towerData = towerData.upgradeTo;
         isUpgraded = true;
         
+        // Maintain tower size at 100px x 100px after upgrade
+        transform.localScale = Vector3.one * 1.0f;
+        
         if (rangeDisplay != null)
         {
             rangeDisplay.localScale = Vector3.one * towerData.range * 2f;
