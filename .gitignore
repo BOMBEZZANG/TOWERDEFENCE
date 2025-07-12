@@ -1,0 +1,46 @@
+# This .gitignore file should be placed at the root of your Unity project folder.
+# It is used to ignore files and directories that are generated automatically or are not needed for version control.
+
+# =============== Unity Generated Folders and Files ===============
+Library/
+Temp/
+obj/
+Builds/
+Logs/
+AssetStoreTools/
+
+# =============== Unity Generated Project Files ===============
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.natvis
+*.pfx
+
+# =============== Other Files ===============
+.vs/
+.vscode/
+.idea/
+UserSettings/
+EditorUserBuildSettings.asset
+
+# =============== MacOS ===============
+.DS_Store
+.Trashes
+
+# =============== Windows ===============
+Thumbs.db
+
+# =============== Linux ===============
+*.orig
+
+# =============== Optional: Ignore specific assets ===============
+# If you have specific large assets or downloaded packages you don't want to track in Git,
+# add their paths here. For example:
+# Assets/SomeLargeAssetPack/
+
+# =============== Optional: Ignore external dependency folders ===============
+# If you are using package managers like npm or yarn for web stuff within Unity
+# node_modules/
