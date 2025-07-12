@@ -11,19 +11,24 @@ public class EnemyMovement : MonoBehaviour
     
     private void Start()
     {
-        target = Waypoints.points[0];
+        SetInitialTarget();
     }
     
     private void Update()
     {
-        if (target == null) return;
+        if (target == null) 
+        {
+            SetInitialTarget();
+            return;
+        }
         
         Vector3 direction = target.position - transform.position;
-        direction.y = 0;
+        
         
         transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
         
-        if (Vector3.Distance(transform.position, target.position) <= distanceThreshold)
+        float distanceToTarget = Vector3.Distance(transform.position, target.position);
+        if (distanceToTarget <= distanceThreshold)
         {
             GetNextWaypoint();
         }
@@ -39,6 +44,14 @@ public class EnemyMovement : MonoBehaviour
         
         waypointIndex++;
         target = Waypoints.points[waypointIndex];
+    }
+    
+    private void SetInitialTarget()
+    {
+        if (Waypoints.points != null && Waypoints.points.Length > 0)
+        {
+            target = Waypoints.points[0];
+        }
     }
     
     private void EndPath()

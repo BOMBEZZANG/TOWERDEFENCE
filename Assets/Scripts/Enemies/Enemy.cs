@@ -26,6 +26,9 @@ public class Enemy : MonoBehaviour
         enemyData = data;
         currentHealth = enemyData.health;
         
+        // Set enemy scale to 65px x 65px (assuming 1 unit = 100px, so 0.65f = 65px)
+        transform.localScale = Vector3.one * 0.65f;
+        
         if (healthBar != null)
         {
             healthBar.fillAmount = 1f;

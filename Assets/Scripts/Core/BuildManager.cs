@@ -77,6 +77,9 @@ public class BuildManager : MonoBehaviour
         GameObject tower = Instantiate(towerToBuild.prefab, node.GetBuildPosition(), Quaternion.identity);
         node.tower = tower;
         
+        // Set tower scale to 100px x 100px (assuming 1 unit = 100px)
+        tower.transform.localScale = Vector3.one * 1.0f;
+        
         Tower towerScript = tower.GetComponent<Tower>();
         if (towerScript != null)
         {

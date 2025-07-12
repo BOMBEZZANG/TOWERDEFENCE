@@ -1,0 +1,211 @@
+Enemy Movement Debug Log - Started at 7/12/2025 6:24:22 PM
+===========================================
+
+[0.000] DebugLogger initialized. Log file: C:/Projects/TowerDefence/Assets\..\enemy_movement_debug.txt
+[0.000] [Waypoints] Awake called. Child count: 4
+[0.000] [Waypoints] Point 0: Waypoint (0) at position (-9.95, 6.36, 0.00)
+[0.000] [Waypoints] Point 1: Waypoint (1) at position (-10.05, 0.00, 0.00)
+[0.000] [Waypoints] Point 2: Waypoint (2) at position (0.01, 0.00, 0.00)
+[0.000] [Waypoints] Point 3: Waypoint (3) at position (7.73, 0.00, 0.00)
+[0.000] [Waypoints] Initialization complete. Total waypoints: 4
+[1.982] [EnemyMovement] SetInitialTarget called for RunnerEnemy(Clone)
+[1.982] [EnemyMovement] Waypoints.points is null: False
+[1.982] [EnemyMovement] Waypoints.points.Length: 4
+[1.982] [EnemyMovement] Target set to: Waypoint (0) at position (-9.95, 6.36, 0.00)
+[1.982] [EnemyMovement] Enemy spawn position: (-9.95, 6.36, 0.00)
+[1.982] [EnemyMovement] Initial distance to target: 0
+[1.996] [EnemyMovement] RunnerEnemy(Clone) reached waypoint! Distance: 0, Threshold: 0.4
+[1.996] [EnemyMovement] GetNextWaypoint called for RunnerEnemy(Clone). Current waypointIndex: 0
+[1.996] [EnemyMovement] Current position: (-9.95, 6.36, 0.00), Current target: (-9.95, 6.36, 0.00)
+[1.996] [EnemyMovement] Distance to target: 0
+[1.996] [EnemyMovement] Moving to next waypoint 1: Waypoint (1) at (-10.05, 0.00, 0.00)
+[2.024] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[2.024] [EnemyMovement] Time.deltaTime: 0.002038804, Time.timeScale: 1
+[2.159] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[2.159] [EnemyMovement] Time.deltaTime: 0.001903501, Time.timeScale: 1
+[2.291] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[2.291] [EnemyMovement] Time.deltaTime: 0.001936203, Time.timeScale: 1
+[2.426] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[2.426] [EnemyMovement] Time.deltaTime: 0.002107603, Time.timeScale: 1
+[2.560] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[2.560] [EnemyMovement] Time.deltaTime: 0.002052997, Time.timeScale: 1
+[2.694] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[2.694] [EnemyMovement] Time.deltaTime: 0.0025875, Time.timeScale: 1
+[2.823] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[2.823] [EnemyMovement] Time.deltaTime: 0.002137401, Time.timeScale: 1
+[2.989] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[2.989] [EnemyMovement] Time.deltaTime: 0.002470599, Time.timeScale: 1
+[3.159] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[3.159] [EnemyMovement] Time.deltaTime: 0.0022795, Time.timeScale: 1
+[3.332] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[3.332] [EnemyMovement] Time.deltaTime: 0.002967999, Time.timeScale: 1
+[3.482] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[3.482] [EnemyMovement] Time.deltaTime: 0.002317999, Time.timeScale: 1
+[3.616] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[3.616] [EnemyMovement] Time.deltaTime: 0.0019812, Time.timeScale: 1
+[3.749] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[3.749] [EnemyMovement] Time.deltaTime: 0.002067503, Time.timeScale: 1
+[3.884] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[3.884] [EnemyMovement] Time.deltaTime: 0.002243899, Time.timeScale: 1
+[4.013] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[4.013] [EnemyMovement] Time.deltaTime: 0.002015101, Time.timeScale: 1
+[4.145] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[4.145] [EnemyMovement] Time.deltaTime: 0.001889505, Time.timeScale: 1
+[4.287] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[4.287] [EnemyMovement] Time.deltaTime: 0.002235594, Time.timeScale: 1
+[4.420] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[4.420] [EnemyMovement] Time.deltaTime: 0.001965001, Time.timeScale: 1
+[4.552] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[4.552] [EnemyMovement] Time.deltaTime: 0.002489399, Time.timeScale: 1
+[4.691] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[4.691] [EnemyMovement] Time.deltaTime: 0.002050397, Time.timeScale: 1
+[4.817] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[4.817] [EnemyMovement] Time.deltaTime: 0.002077204, Time.timeScale: 1
+[4.949] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[4.949] [EnemyMovement] Time.deltaTime: 0.002432001, Time.timeScale: 1
+[5.083] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[5.083] [EnemyMovement] Time.deltaTime: 0.002070203, Time.timeScale: 1
+[5.214] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[5.214] [EnemyMovement] Time.deltaTime: 0.002030102, Time.timeScale: 1
+[5.343] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[5.343] [EnemyMovement] Time.deltaTime: 0.002363804, Time.timeScale: 1
+[5.474] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[5.474] [EnemyMovement] Time.deltaTime: 0.002018304, Time.timeScale: 1
+[5.605] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[5.605] [EnemyMovement] Time.deltaTime: 0.002074603, Time.timeScale: 1
+[5.734] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[5.734] [EnemyMovement] Time.deltaTime: 0.001995302, Time.timeScale: 1
+[5.863] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[5.863] [EnemyMovement] Time.deltaTime: 0.002272399, Time.timeScale: 1
+[6.016] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[6.016] [EnemyMovement] Time.deltaTime: 0.002886699, Time.timeScale: 1
+[6.164] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[6.164] [EnemyMovement] Time.deltaTime: 0.002131902, Time.timeScale: 1
+[6.304] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[6.304] [EnemyMovement] Time.deltaTime: 0.002712195, Time.timeScale: 1
+[6.457] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[6.457] [EnemyMovement] Time.deltaTime: 0.002117496, Time.timeScale: 1
+[6.598] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[6.598] [EnemyMovement] Time.deltaTime: 0.002677501, Time.timeScale: 1
+[6.744] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[6.744] [EnemyMovement] Time.deltaTime: 0.0024339, Time.timeScale: 1
+[6.880] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[6.880] [EnemyMovement] Time.deltaTime: 0.005337004, Time.timeScale: 1
+[7.019] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[7.019] [EnemyMovement] Time.deltaTime: 0.002162705, Time.timeScale: 1
+[7.156] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[7.156] [EnemyMovement] Time.deltaTime: 0.002082497, Time.timeScale: 1
+[7.288] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[7.288] [EnemyMovement] Time.deltaTime: 0.002145103, Time.timeScale: 1
+[7.415] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[7.415] [EnemyMovement] Time.deltaTime: 0.001838598, Time.timeScale: 1
+[7.551] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[7.551] [EnemyMovement] Time.deltaTime: 0.0021285, Time.timeScale: 1
+[7.703] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[7.703] [EnemyMovement] Time.deltaTime: 0.002242, Time.timeScale: 1
+[7.832] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[7.832] [EnemyMovement] Time.deltaTime: 0.001965795, Time.timeScale: 1
+[7.987] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[7.987] [EnemyMovement] Time.deltaTime: 0.002036402, Time.timeScale: 1
+[8.133] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.04, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (-0.01, 0.00, 0.00), Speed: 5
+[8.133] [EnemyMovement] Time.deltaTime: 0.0019964, Time.timeScale: 1
+[8.260] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.06, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.01, 0.00, 0.00), Speed: 5
+[8.260] [EnemyMovement] Time.deltaTime: 0.002074603, Time.timeScale: 1
+[8.393] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[8.393] [EnemyMovement] Time.deltaTime: 0.002022995, Time.timeScale: 1
+[8.544] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[8.544] [EnemyMovement] Time.deltaTime: 0.002354599, Time.timeScale: 1
+[8.674] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[8.674] [EnemyMovement] Time.deltaTime: 0.0018303, Time.timeScale: 1
+[8.815] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[8.815] [EnemyMovement] Time.deltaTime: 0.002064201, Time.timeScale: 1
+[8.952] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[8.952] [EnemyMovement] Time.deltaTime: 0.002466504, Time.timeScale: 1
+[9.086] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[9.086] [EnemyMovement] Time.deltaTime: 0.003177799, Time.timeScale: 1
+[9.234] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[9.234] [EnemyMovement] Time.deltaTime: 0.002058999, Time.timeScale: 1
+[9.376] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[9.376] [EnemyMovement] Time.deltaTime: 0.002272102, Time.timeScale: 1
+[9.515] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[9.515] [EnemyMovement] Time.deltaTime: 0.002042701, Time.timeScale: 1
+[9.650] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[9.650] [EnemyMovement] Time.deltaTime: 0.002395805, Time.timeScale: 1
+[9.785] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[9.785] [EnemyMovement] Time.deltaTime: 0.002064598, Time.timeScale: 1
+[9.918] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[9.918] [EnemyMovement] Time.deltaTime: 0.002092, Time.timeScale: 1
+[10.044] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[10.044] [EnemyMovement] Time.deltaTime: 0.001963003, Time.timeScale: 1
+[10.181] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[10.181] [EnemyMovement] Time.deltaTime: 0.002162904, Time.timeScale: 1
+[10.312] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[10.312] [EnemyMovement] Time.deltaTime: 0.001910495, Time.timeScale: 1
+[10.442] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[10.442] [EnemyMovement] Time.deltaTime: 0.001948299, Time.timeScale: 1
+[10.578] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[10.578] [EnemyMovement] Time.deltaTime: 0.002064704, Time.timeScale: 1
+[10.714] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[10.714] [EnemyMovement] Time.deltaTime: 0.001935998, Time.timeScale: 1
+[10.844] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[10.844] [EnemyMovement] Time.deltaTime: 0.0020205, Time.timeScale: 1
+[10.982] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[10.982] [EnemyMovement] Time.deltaTime: 0.002144296, Time.timeScale: 1
+[11.115] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[11.115] [EnemyMovement] Time.deltaTime: 0.002309099, Time.timeScale: 1
+[11.242] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[11.242] [EnemyMovement] Time.deltaTime: 0.002123406, Time.timeScale: 1
+[11.375] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[11.375] [EnemyMovement] Time.deltaTime: 0.001851701, Time.timeScale: 1
+[11.514] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[11.514] [EnemyMovement] Time.deltaTime: 0.002180896, Time.timeScale: 1
+[11.681] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[11.681] [EnemyMovement] Time.deltaTime: 0.002597803, Time.timeScale: 1
+[11.834] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[11.834] [EnemyMovement] Time.deltaTime: 0.0025562, Time.timeScale: 1
+[11.985] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[11.985] [EnemyMovement] Time.deltaTime: 0.0020277, Time.timeScale: 1
+[12.128] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[12.128] [EnemyMovement] Time.deltaTime: 0.002498894, Time.timeScale: 1
+[12.290] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[12.290] [EnemyMovement] Time.deltaTime: 0.001893105, Time.timeScale: 1
+[12.451] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[12.451] [EnemyMovement] Time.deltaTime: 0.001910799, Time.timeScale: 1
+[12.588] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[12.588] [EnemyMovement] Time.deltaTime: 0.002088698, Time.timeScale: 1
+[12.731] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[12.731] [EnemyMovement] Time.deltaTime: 0.002278203, Time.timeScale: 1
+[12.862] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[12.862] [EnemyMovement] Time.deltaTime: 0.002623902, Time.timeScale: 1
+[12.989] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[12.989] [EnemyMovement] Time.deltaTime: 0.002106696, Time.timeScale: 1
+[13.120] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[13.120] [EnemyMovement] Time.deltaTime: 0.002228203, Time.timeScale: 1
+[13.247] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[13.247] [EnemyMovement] Time.deltaTime: 0.001933999, Time.timeScale: 1
+[13.384] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[13.384] [EnemyMovement] Time.deltaTime: 0.002813797, Time.timeScale: 1
+[13.511] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[13.511] [EnemyMovement] Time.deltaTime: 0.001971003, Time.timeScale: 1
+[13.639] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[13.639] [EnemyMovement] Time.deltaTime: 0.001918197, Time.timeScale: 1
+[13.761] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[13.761] [EnemyMovement] Time.deltaTime: 0.001811997, Time.timeScale: 1
+[13.883] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[13.883] [EnemyMovement] Time.deltaTime: 0.001942602, Time.timeScale: 1
+[14.006] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[14.006] [EnemyMovement] Time.deltaTime: 0.0017812, Time.timeScale: 1
+[14.135] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[14.135] [EnemyMovement] Time.deltaTime: 0.002149199, Time.timeScale: 1
+[14.255] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[14.255] [EnemyMovement] Time.deltaTime: 0.001810105, Time.timeScale: 1
+[14.386] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[14.386] [EnemyMovement] Time.deltaTime: 0.0017491, Time.timeScale: 1
+[14.509] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[14.509] [EnemyMovement] Time.deltaTime: 0.001974695, Time.timeScale: 1
+[14.655] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[14.655] [EnemyMovement] Time.deltaTime: 0.002284396, Time.timeScale: 1
+[14.789] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[14.789] [EnemyMovement] Time.deltaTime: 0.001836005, Time.timeScale: 1
+[14.911] [EnemyMovement] RunnerEnemy(Clone) - Position: (-10.05, 6.36, 0.00), Target: (-10.05, 0.00, 0.00), Direction: (0.00, 0.00, 0.00), Speed: 5
+[14.911] [EnemyMovement] Time.deltaTime: 0.001943297, Time.timeScale: 1
