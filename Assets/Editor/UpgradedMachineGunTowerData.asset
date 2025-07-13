@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a41ac0a83ff6ca34fb2a2826dd033670, type: 3}
   m_Name: UpgradedMachineGunTowerData
   m_EditorClassIdentifier: 
-  towerName: 
+  towerName: Machine Gun V2
   cost: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 5219407297504306523, guid: 432781580277cf14ca44a6e55a378a78, type: 3}
   icon: {fileID: 0}
-  damage: 0
-  range: 0
-  fireRate: 0
+  damage: 12
+  range: 5
+  fireRate: 2
   turnSpeed: 10
   upgradeTo: {fileID: 0}
   upgradeCost: 0
   towerType: 0
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 8512991773346346766, guid: e3864e0a82b7a214b97502809b9c31c3, type: 3}
   projectileSpeed: 10

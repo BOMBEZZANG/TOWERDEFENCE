@@ -14,10 +14,10 @@ public class Tower : MonoBehaviour
     private Transform target;
     private float fireCountdown = 0f;
     private bool isUpgraded = false;
+    private int upgradeLevel = 0; // 업그레이드 레벨 추적용 변수 추가
     
     private void Start()
     {
-        // InvokeRepeating이 여기에서 삭제되었습니다.
         if (rangeDisplay != null)
         {
             rangeDisplay.gameObject.SetActive(false);
@@ -33,7 +33,6 @@ public class Tower : MonoBehaviour
             rangeDisplay.localScale = Vector3.one * towerData.range * 2f;
         }
 
-        // 이 위치로 옮겨줍니다.
         InvokeRepeating("UpdateTarget", 0f, 0.5f); 
     }
 
@@ -112,7 +111,14 @@ public class Tower : MonoBehaviour
     
     public bool CanUpgrade()
     {
+        // 업그레이드는 한 번만 가능하도록 isUpgraded 플래그를 유지합니다.
         return !isUpgraded && towerData.upgradeTo != null;
+    }
+
+    // AI 에이전트를 위한 업그레이드 레벨 반환 메서드
+    public int GetUpgradeLevel()
+    {
+        return upgradeLevel;
     }
     
     public void Upgrade()
@@ -121,8 +127,8 @@ public class Tower : MonoBehaviour
         
         towerData = towerData.upgradeTo;
         isUpgraded = true;
+        upgradeLevel = 1; // 업그레이드 시 레벨 1로 설정
         
-        // Maintain tower size at 100px x 100px after upgrade
         transform.localScale = Vector3.one * 1.0f;
         
         if (rangeDisplay != null)

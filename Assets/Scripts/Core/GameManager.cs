@@ -111,6 +111,49 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
+    public void ManualReset()
+    {
+        currentMoney = startingMoney;
+        currentLives = startingLives;
+        currentWaveIndex = 0;
+        gameOver = false;
+        gameWon = false;
+        
+        // Clear all existing towers
+        Node[] nodes = FindObjectsByType<Node>(FindObjectsSortMode.None);
+        foreach (Node node in nodes)
+        {
+            if (node.tower != null)
+            {
+                Destroy(node.tower);
+                node.tower = null;
+            }
+        }
+        
+        // Clear all existing enemies
+        Enemy[] enemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
+        foreach (Enemy enemy in enemies)
+        {
+            if (enemy != null)
+            {
+                Destroy(enemy.gameObject);
+            }
+        }
+        
+        // Reset wave spawner
+        if (WaveSpawner.Instance != null)
+        {
+            WaveSpawner.Instance.ResetWaveSpawner();
+        }
+        
+        // Update UI
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateMoney(currentMoney);
+            UIManager.Instance.UpdateLives(currentLives);
+        }
+    }
+    
     public void NextWave()
     {
         currentWaveIndex++;

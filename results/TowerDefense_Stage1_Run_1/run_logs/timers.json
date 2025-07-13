@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1752378054",
+        "python_version": "3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\mlagents-learn td_config.yaml --run-id=TowerDefense_Stage1_Run_1",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.7.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1752378146"
+    },
+    "total": 92.22630700000445,
+    "count": 1,
+    "self": 0.0444279000221286,
+    "children": {
+        "run_training.setup": {
+            "total": 0.12778929999331012,
+            "count": 1,
+            "self": 0.12778929999331012
+        },
+        "TrainerController.start_learning": {
+            "total": 92.05408979998901,
+            "count": 1,
+            "self": 0.0001215000229422003,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 92.05394709997927,
+                    "count": 1,
+                    "self": 92.05394709997927
+                },
+                "TrainerController._save_models": {
+                    "total": 2.1199986804276705e-05,
+                    "count": 1,
+                    "self": 2.1199986804276705e-05
+                }
+            }
+        }
+    }
+}

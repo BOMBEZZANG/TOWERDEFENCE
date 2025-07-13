@@ -122,4 +122,14 @@ public class WaveSpawner : MonoBehaviour
             countdown = 0f;
         }
     }
+    
+    public void ResetWaveSpawner()
+    {
+        countdown = 2f;
+        waveIndex = 0;
+        waveInProgress = false;
+        enemiesAlive = 0;
+        
+        StopAllCoroutines();
+    }
 }

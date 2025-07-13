@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TankerEnemyData
   m_EditorClassIdentifier: 
   enemyName: Tanker
-  prefab: {fileID: 0}
+  prefab: {fileID: 1632687622412796070, guid: 0199b9b9221f7244a844c57b9baa9706, type: 3}
   health: 150
   speed: 2
   reward: 25
