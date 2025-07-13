@@ -17,50 +17,39 @@ public class WaveSpawner : MonoBehaviour
     
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
     }
     
     private void Start()
     {
-        if (spawnPoint == null)
-        {
-            spawnPoint = GameManager.Instance.enemySpawnPoint;
-        }
+        if (spawnPoint == null) spawnPoint = GameManager.Instance.enemySpawnPoint;
     }
     
     private void Update()
     {
-        if (GameManager.GameIsOver)
-            return;
-        
+        if (GameManager.GameIsOver) return;
         if (waveInProgress)
         {
-            if (enemiesAlive == 0)
-            {
-                WaveCompleted();
-            }
+            if (enemiesAlive == 0) WaveCompleted();
             return;
         }
-        
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
         }
-        
         countdown -= Time.deltaTime;
-        
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.UpdateWaveCountdown(countdown);
-        }
+        if (UIManager.Instance != null) UIManager.Instance.UpdateWaveCountdown(countdown);
+    }
+
+    public void ResetSpawner()
+    {
+        StopAllCoroutines();
+        waveInProgress = false;
+        enemiesAlive = 0;
+        waveIndex = 0;
+        countdown = 2f;
     }
     
     private IEnumerator SpawnWave()
@@ -71,14 +60,8 @@ public class WaveSpawner : MonoBehaviour
             GameManager.Instance.GameWin();
             yield break;
         }
-        
         waveInProgress = true;
-        
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.UpdateWaveNumber(waveIndex + 1);
-        }
-        
+        if (UIManager.Instance != null) UIManager.Instance.UpdateWaveNumber(waveIndex + 1);
         foreach (EnemySpawn enemySpawn in currentWave.enemies)
         {
             for (int i = 0; i < enemySpawn.count; i++)
@@ -91,19 +74,22 @@ public class WaveSpawner : MonoBehaviour
     
     private void SpawnEnemy(EnemyData enemyData)
     {
-        GameObject enemy = Instantiate(enemyData.prefab, spawnPoint.position, spawnPoint.rotation);
-        Enemy enemyScript = enemy.GetComponent<Enemy>();
-        if (enemyScript != null)
-        {
-            enemyScript.Initialize(enemyData);
-        }
+        GameObject enemyGO = Instantiate(enemyData.prefab, spawnPoint.position, spawnPoint.rotation);
+        GameManager.Instance.RegisterEnemy(enemyGO); // GameManager에 적 등록
+
+        Debug.Log($"Spawned enemy: {enemyGO.name} with tag: {enemyGO.tag} at position: {enemyGO.transform.position}");
         
+        Enemy enemyScript = enemyGO.GetComponent<Enemy>();
+        if (enemyScript != null) enemyScript.Initialize(enemyData);
         enemiesAlive++;
+        
+        Debug.Log($"Enemies alive: {enemiesAlive}");
     }
     
-    public void EnemyDestroyed()
-    {
+    public void EnemyDestroyed() 
+    { 
         enemiesAlive--;
+        Debug.Log($"Enemy destroyed! Enemies alive: {enemiesAlive}");
     }
     
     private void WaveCompleted()
@@ -111,25 +97,18 @@ public class WaveSpawner : MonoBehaviour
         waveInProgress = false;
         waveIndex++;
         GameManager.Instance.NextWave();
-        
         Debug.Log("Wave " + waveIndex + " completed!");
+
+        // AI 에이전트를 찾아 웨이브 완료 신호를 보냅니다.
+        SimpleTowerDefenseAgent agent = FindFirstObjectByType<SimpleTowerDefenseAgent>();
+        if (agent != null)
+        {
+            agent.OnWaveCompleted();
+        }
     }
     
     public void StartNextWave()
     {
-        if (!waveInProgress)
-        {
-            countdown = 0f;
-        }
-    }
-    
-    public void ResetWaveSpawner()
-    {
-        countdown = 2f;
-        waveIndex = 0;
-        waveInProgress = false;
-        enemiesAlive = 0;
-        
-        StopAllCoroutines();
+        if (!waveInProgress) countdown = 0f;
     }
 }

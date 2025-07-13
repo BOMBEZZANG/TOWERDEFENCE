@@ -1,0 +1,620 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/13/2025 4:17:09 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[16:17:10.206] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[16:17:11.840] [0.100s] [INFO] Building MachineGunTowerData at position (4.68, -1.55, 0.00)
+[16:17:11.841] [0.100s] [INFO] Tower MachineGunTower(Clone) initialized at (4.68, -1.55, 0.00)
+[16:17:11.843] [0.100s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:17:11.844] [0.100s] [INFO] Tower built! Money left: 50, Tower active: True
+[16:17:11.844] [0.100s] [INFO] Action 9 executed successfully
+[16:17:12.667] [0.340s] [INFO] Action 29 executed successfully
+[16:17:12.673] [0.400s] [INFO] Building MachineGunTowerData at position (2.57, 2.41, 0.00)
+[16:17:12.675] [0.400s] [INFO] Tower MachineGunTower(Clone) initialized at (2.57, 2.41, 0.00)
+[16:17:12.675] [0.400s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:17:12.676] [0.400s] [INFO] Tower built! Money left: 38, Tower active: True
+[16:17:12.676] [0.400s] [INFO] Action 8 executed successfully
+[16:17:12.744] [0.700s] [INFO] Action 2 executed successfully
+[16:17:12.744] [0.720s] [INFO] Action 2 executed successfully
+[16:17:12.745] [0.740s] [INFO] Action 2 executed successfully
+[16:17:12.745] [0.760s] [INFO] Action 2 executed successfully
+[16:17:12.746] [0.780s] [INFO] Action 2 executed successfully
+[16:17:12.791] [1.200s] [INFO] Action 28 executed successfully
+[16:17:12.835] [1.680s] [INFO] Action 1 executed successfully
+[16:17:12.846] [1.800s] [INFO] Building MachineGunTowerData at position (2.57, -1.55, 0.00)
+[16:17:12.847] [1.800s] [INFO] Tower MachineGunTower(Clone) initialized at (2.57, -1.55, 0.00)
+[16:17:12.848] [1.800s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:17:12.848] [1.800s] [INFO] Tower built! Money left: 26, Tower active: True
+[16:17:12.849] [1.800s] [INFO] Action 3 executed successfully
+[16:17:12.856] [1.900s] [INFO] Action 13 executed successfully
+[16:17:12.857] [1.920s] [INFO] Action 13 executed successfully
+[16:17:12.857] [1.940s] [INFO] Action 13 executed successfully
+[16:17:12.857] [1.960s] [INFO] Action 13 executed successfully
+[16:17:12.858] [1.980s] [INFO] Action 13 executed successfully
+[16:17:12.904] [2.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:17:12.905] [2.333s] [INFO] Enemies alive: 1
+[16:17:13.016] [3.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:17:13.017] [3.333s] [INFO] Enemies alive: 2
+[16:17:13.121] [4.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:17:13.122] [4.333s] [INFO] Enemies alive: 3
+[16:17:13.229] [5.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:17:13.230] [5.333s] [INFO] Enemies alive: 4
+[16:17:13.245] [5.400s] [INFO] Action 2 executed successfully
+[16:17:13.246] [5.420s] [INFO] Action 2 executed successfully
+[16:17:13.246] [5.440s] [INFO] Action 2 executed successfully
+[16:17:13.246] [5.460s] [INFO] Action 2 executed successfully
+[16:17:13.247] [5.480s] [INFO] Action 2 executed successfully
+[16:17:13.270] [5.680s] [INFO] Action 23 executed successfully
+[16:17:13.332] [6.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:17:13.332] [6.333s] [INFO] Enemies alive: 5
+[16:17:13.463] [7.500s] [INFO] Action 2 executed successfully
+[16:17:13.464] [7.520s] [INFO] Action 2 executed successfully
+[16:17:13.464] [7.540s] [INFO] Action 2 executed successfully
+[16:17:13.464] [7.560s] [INFO] Action 2 executed successfully
+[16:17:13.465] [7.580s] [INFO] Action 2 executed successfully
+[16:17:13.481] [7.680s] [INFO] Action 1 executed successfully
+[16:17:13.492] [7.800s] [INFO] Building MachineGunTowerData at position (8.30, -1.55, 0.00)
+[16:17:13.493] [7.800s] [INFO] Tower MachineGunTower(Clone) initialized at (8.30, -1.55, 0.00)
+[16:17:13.494] [7.800s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:17:13.494] [7.800s] [INFO] Tower built! Money left: 14, Tower active: True
+[16:17:13.494] [7.800s] [INFO] Action 12 executed successfully
+[16:17:13.495] [7.800s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:13.509] [8.000s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:13.511] [8.000s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:13.532] [8.100s] [INFO] Action 1 executed successfully
+[16:17:13.534] [8.120s] [INFO] Action 1 executed successfully
+[16:17:13.534] [8.140s] [INFO] Action 1 executed successfully
+[16:17:13.535] [8.160s] [INFO] Action 1 executed successfully
+[16:17:13.536] [8.180s] [INFO] Action 1 executed successfully
+[16:17:13.548] [8.300s] [INFO] Action 2 executed successfully
+[16:17:13.549] [8.320s] [INFO] Action 2 executed successfully
+[16:17:13.551] [8.320s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.29
+[16:17:13.552] [8.333s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:13.553] [8.333s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:13.554] [8.333s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 50/50
+[16:17:13.555] [8.333s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 40/50
+[16:17:13.570] [8.340s] [INFO] Action 2 executed successfully
+[16:17:13.571] [8.360s] [INFO] Action 2 executed successfully
+[16:17:13.571] [8.380s] [INFO] Action 2 executed successfully
+[16:17:13.576] [8.400s] [INFO] Action 1 executed successfully
+[16:17:13.577] [8.420s] [INFO] Action 1 executed successfully
+[16:17:13.577] [8.440s] [INFO] Action 1 executed successfully
+[16:17:13.577] [8.460s] [INFO] Action 1 executed successfully
+[16:17:13.578] [8.480s] [INFO] Action 1 executed successfully
+[16:17:13.591] [8.667s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:13.592] [8.667s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:13.619] [8.820s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:13.626] [8.900s] [INFO] Action 1 executed successfully
+[16:17:13.627] [8.920s] [INFO] Action 1 executed successfully
+[16:17:13.628] [8.940s] [INFO] Action 1 executed successfully
+[16:17:13.629] [8.960s] [INFO] Action 1 executed successfully
+[16:17:13.630] [8.980s] [INFO] Action 1 executed successfully
+[16:17:13.637] [9.000s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:13.639] [9.000s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:13.639] [9.000s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 40/50
+[16:17:13.640] [9.000s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 30/50
+[16:17:13.649] [9.020s] [INFO] Action 2 executed successfully
+[16:17:13.650] [9.040s] [INFO] Action 2 executed successfully
+[16:17:13.650] [9.060s] [INFO] Action 2 executed successfully
+[16:17:13.650] [9.080s] [INFO] Action 2 executed successfully
+[16:17:13.671] [9.320s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:13.672] [9.333s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:13.672] [9.333s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:13.711] [9.667s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:13.711] [9.667s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:13.711] [9.667s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 30/50
+[16:17:13.712] [9.667s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 20/50
+[16:17:13.738] [9.820s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:13.766] [10.000s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:13.767] [10.000s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:13.796] [10.200s] [INFO] Action 22 executed successfully
+[16:17:13.796] [10.220s] [INFO] Action 22 executed successfully
+[16:17:13.797] [10.240s] [INFO] Action 22 executed successfully
+[16:17:13.798] [10.260s] [INFO] Action 22 executed successfully
+[16:17:13.798] [10.280s] [INFO] Action 22 executed successfully
+[16:17:13.807] [10.320s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:13.808] [10.333s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:13.809] [10.333s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:13.810] [10.333s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 20/50
+[16:17:13.811] [10.333s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 10/50
+[16:17:13.825] [10.400s] [INFO] Action 1 executed successfully
+[16:17:13.826] [10.420s] [INFO] Action 1 executed successfully
+[16:17:13.827] [10.440s] [INFO] Action 1 executed successfully
+[16:17:13.827] [10.460s] [INFO] Action 1 executed successfully
+[16:17:13.828] [10.480s] [INFO] Action 1 executed successfully
+[16:17:13.841] [10.667s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:13.842] [10.667s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:13.870] [10.820s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:13.888] [11.000s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:13.888] [11.000s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:13.889] [11.000s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 50/50
+[16:17:13.889] [11.000s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 40/50
+[16:17:13.929] [11.320s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:13.929] [11.333s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:13.931] [11.333s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:13.974] [11.667s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:13.975] [11.667s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:13.975] [11.667s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 10/50
+[16:17:13.976] [11.667s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/50
+[16:17:13.976] [11.667s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[16:17:13.976] [11.667s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[16:17:13.978] [11.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:17:13.978] [11.667s] [INFO] Enemy destroyed! Enemies alive: 4
+[16:17:13.979] [11.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:17:13.992] [11.680s] [INFO] Action 1 executed successfully
+[16:17:14.007] [11.820s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:14.022] [12.000s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:14.022] [12.000s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:14.033] [12.020s] [INFO] Action 22 executed successfully
+[16:17:14.034] [12.040s] [INFO] Action 22 executed successfully
+[16:17:14.035] [12.060s] [INFO] Action 22 executed successfully
+[16:17:14.036] [12.080s] [INFO] Action 22 executed successfully
+[16:17:14.048] [12.200s] [INFO] Action 32 executed successfully
+[16:17:14.058] [12.333s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:14.059] [12.333s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:14.059] [12.333s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 50/50
+[16:17:14.059] [12.333s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 40/50
+[16:17:14.101] [12.680s] [INFO] Building MachineGunTowerData at position (0.00, 2.52, 0.00)
+[16:17:14.101] [12.680s] [INFO] Tower MachineGunTower(Clone) initialized at (0.00, 2.52, 0.00)
+[16:17:14.101] [12.680s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:17:14.101] [12.680s] [INFO] Tower built! Money left: 12, Tower active: True
+[16:17:14.103] [12.680s] [INFO] Action 4 executed successfully
+[16:17:14.256] [14.100s] [INFO] Action 2 executed successfully
+[16:17:14.256] [14.120s] [INFO] Action 2 executed successfully
+[16:17:14.257] [14.140s] [INFO] Action 2 executed successfully
+[16:17:14.257] [14.160s] [INFO] Action 2 executed successfully
+[16:17:14.258] [14.180s] [INFO] Action 2 executed successfully
+[16:17:14.298] [14.600s] [INFO] Action 1 executed successfully
+[16:17:14.299] [14.620s] [INFO] Action 1 executed successfully
+[16:17:14.299] [14.640s] [INFO] Action 1 executed successfully
+[16:17:14.300] [14.660s] [INFO] Action 1 executed successfully
+[16:17:14.389] [15.500s] [INFO] Action 2 executed successfully
+[16:17:14.391] [15.520s] [INFO] Action 2 executed successfully
+[16:17:14.391] [15.540s] [INFO] Action 2 executed successfully
+[16:17:14.391] [15.560s] [INFO] Action 2 executed successfully
+[16:17:14.392] [15.580s] [INFO] Action 2 executed successfully
+[16:17:14.502] [16.500s] [INFO] Action 24 executed successfully
+[16:17:14.531] [16.800s] [INFO] Action 1 executed successfully
+[16:17:14.532] [16.820s] [INFO] Action 1 executed successfully
+[16:17:14.532] [16.840s] [INFO] Action 1 executed successfully
+[16:17:14.533] [16.860s] [INFO] Action 1 executed successfully
+[16:17:14.533] [16.880s] [INFO] Action 1 executed successfully
+[16:17:14.544] [17.000s] [INFO] Action 2 executed successfully
+[16:17:14.633] [17.800s] [INFO] Action 1 executed successfully
+[16:17:14.634] [17.820s] [INFO] Action 1 executed successfully
+[16:17:14.634] [17.840s] [INFO] Action 1 executed successfully
+[16:17:14.635] [17.860s] [INFO] Action 1 executed successfully
+[16:17:14.635] [17.880s] [INFO] Action 1 executed successfully
+[16:17:14.640] [17.900s] [INFO] Building MachineGunTowerData at position (6.67, -1.55, 0.00)
+[16:17:14.641] [17.900s] [INFO] Tower MachineGunTower(Clone) initialized at (6.67, -1.55, 0.00)
+[16:17:14.641] [17.900s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:17:14.641] [17.900s] [INFO] Tower built! Money left: 0, Tower active: True
+[16:17:14.641] [17.900s] [INFO] Action 5 executed successfully
+[16:17:14.642] [17.900s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:14.650] [18.000s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:14.651] [18.000s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:14.688] [18.333s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:14.689] [18.333s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:14.689] [18.333s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 40/50
+[16:17:14.689] [18.333s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 30/50
+[16:17:14.706] [18.420s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:14.721] [18.667s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:14.722] [18.667s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:14.744] [18.800s] [INFO] Action 2 executed successfully
+[16:17:14.745] [18.820s] [INFO] Action 2 executed successfully
+[16:17:14.746] [18.840s] [INFO] Action 2 executed successfully
+[16:17:14.749] [18.860s] [INFO] Action 2 executed successfully
+[16:17:14.749] [18.880s] [INFO] Action 2 executed successfully
+[16:17:14.766] [18.920s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:14.779] [19.000s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:14.779] [19.000s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:14.780] [19.000s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 30/50
+[16:17:14.781] [19.000s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 20/50
+[16:17:14.817] [19.333s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:17:14.818] [19.333s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:17:14.843] [19.420s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.55
+[16:17:14.872] [19.667s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:17:14.872] [19.667s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:17:14.873] [19.667s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 40/50
+[16:17:14.874] [19.667s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 30/50
+[16:17:14.878] [19.680s] [INFO] Observations - Money: 0, Lives: 20, Wave: 0, Enemies: 4
+[16:17:14.884] [19.700s] [INFO] Observations - Money: 0, Lives: 20, Wave: 0, Enemies: 4
+[16:17:14.896] [19.800s] [INFO] Observations - Money: 0, Lives: 20, Wave: 0, Enemies: 4
+[16:17:14.904] [19.900s] [INFO] Observations - Money: 0, Lives: 20, Wave: 0, Enemies: 4
+[16:17:14.909] [19.900s] [INFO] Action 25 executed successfully
+[16:17:14.912] [20.000s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:14.996] [20.680s] [INFO] Action 1 executed successfully
+[16:17:15.037] [21.020s] [INFO] Action 2 executed successfully
+[16:17:15.038] [21.040s] [INFO] Action 2 executed successfully
+[16:17:15.038] [21.060s] [INFO] Action 2 executed successfully
+[16:17:15.039] [21.080s] [INFO] Action 2 executed successfully
+[16:17:15.105] [21.700s] [INFO] Action 1 executed successfully
+[16:17:15.105] [21.720s] [INFO] Action 1 executed successfully
+[16:17:15.107] [21.740s] [INFO] Action 1 executed successfully
+[16:17:15.107] [21.760s] [INFO] Action 1 executed successfully
+[16:17:15.108] [21.780s] [INFO] Action 1 executed successfully
+[16:17:15.225] [23.000s] [INFO] Action 2 executed successfully
+[16:17:15.245] [23.100s] [INFO] Action 1 executed successfully
+[16:17:15.246] [23.120s] [INFO] Action 1 executed successfully
+[16:17:15.247] [23.140s] [INFO] Action 1 executed successfully
+[16:17:15.247] [23.160s] [INFO] Action 1 executed successfully
+[16:17:15.248] [23.180s] [INFO] Action 1 executed successfully
+[16:17:15.314] [23.800s] [INFO] Action 2 executed successfully
+[16:17:15.314] [23.820s] [INFO] Action 2 executed successfully
+[16:17:15.315] [23.840s] [INFO] Action 2 executed successfully
+[16:17:15.316] [23.860s] [INFO] Action 2 executed successfully
+[16:17:15.316] [23.880s] [INFO] Action 2 executed successfully
+[16:17:15.351] [24.200s] [INFO] Action 2 executed successfully
+[16:17:15.351] [24.220s] [INFO] Action 2 executed successfully
+[16:17:15.352] [24.240s] [INFO] Action 2 executed successfully
+[16:17:15.353] [24.260s] [INFO] Action 2 executed successfully
+[16:17:15.353] [24.280s] [INFO] Action 2 executed successfully
+[16:17:15.518] [25.900s] [INFO] Action 2 executed successfully
+[16:17:15.519] [25.920s] [INFO] Action 2 executed successfully
+[16:17:15.519] [25.940s] [INFO] Action 2 executed successfully
+[16:17:15.521] [25.960s] [INFO] Action 2 executed successfully
+[16:17:15.521] [25.980s] [INFO] Action 2 executed successfully
+[16:17:15.701] [27.700s] [INFO] Action 1 executed successfully
+[16:17:15.702] [27.720s] [INFO] Action 1 executed successfully
+[16:17:15.702] [27.740s] [INFO] Action 1 executed successfully
+[16:17:15.703] [27.760s] [INFO] Action 1 executed successfully
+[16:17:15.704] [27.780s] [INFO] Action 1 executed successfully
+[16:17:16.140] [32.020s] [INFO] Action 1 executed successfully
+[16:17:16.141] [32.040s] [INFO] Action 1 executed successfully
+[16:17:16.141] [32.060s] [INFO] Action 1 executed successfully
+[16:17:16.142] [32.080s] [INFO] Action 1 executed successfully
+[16:17:16.193] [32.600s] [INFO] Action 1 executed successfully
+[16:17:16.194] [32.620s] [INFO] Action 1 executed successfully
+[16:17:16.194] [32.640s] [INFO] Action 1 executed successfully
+[16:17:16.194] [32.660s] [INFO] Action 1 executed successfully
+[16:17:16.276] [33.500s] [INFO] Action 2 executed successfully
+[16:17:16.277] [33.520s] [INFO] Action 2 executed successfully
+[16:17:16.278] [33.540s] [INFO] Action 2 executed successfully
+[16:17:16.279] [33.560s] [INFO] Action 2 executed successfully
+[16:17:16.279] [33.580s] [INFO] Action 2 executed successfully
+[16:17:16.298] [33.700s] [INFO] Action 1 executed successfully
+[16:17:16.299] [33.720s] [INFO] Action 1 executed successfully
+[16:17:16.299] [33.740s] [INFO] Action 1 executed successfully
+[16:17:16.299] [33.760s] [INFO] Action 1 executed successfully
+[16:17:16.300] [33.780s] [INFO] Action 1 executed successfully
+[16:17:16.304] [33.800s] [INFO] Action 1 executed successfully
+[16:17:16.305] [33.820s] [INFO] Action 1 executed successfully
+[16:17:16.306] [33.840s] [INFO] Action 1 executed successfully
+[16:17:16.306] [33.860s] [INFO] Action 1 executed successfully
+[16:17:16.308] [33.880s] [INFO] Action 1 executed successfully
+[16:17:16.397] [34.680s] [INFO] Action 1 executed successfully
+[16:17:16.481] [35.500s] [INFO] Action 1 executed successfully
+[16:17:16.482] [35.520s] [INFO] Action 1 executed successfully
+[16:17:16.482] [35.540s] [INFO] Action 1 executed successfully
+[16:17:16.484] [35.560s] [INFO] Action 1 executed successfully
+[16:17:16.484] [35.580s] [INFO] Action 1 executed successfully
+[16:17:16.511] [35.800s] [INFO] Action 1 executed successfully
+[16:17:16.512] [35.820s] [INFO] Action 1 executed successfully
+[16:17:16.512] [35.840s] [INFO] Action 1 executed successfully
+[16:17:16.513] [35.860s] [INFO] Action 1 executed successfully
+[16:17:16.514] [35.880s] [INFO] Action 1 executed successfully
+[16:17:16.586] [36.500s] [INFO] Action 2 executed successfully
+[16:17:16.587] [36.520s] [INFO] Action 2 executed successfully
+[16:17:16.588] [36.540s] [INFO] Action 2 executed successfully
+[16:17:16.588] [36.560s] [INFO] Action 2 executed successfully
+[16:17:16.589] [36.580s] [INFO] Action 2 executed successfully
+[16:17:16.602] [36.680s] [INFO] Action 2 executed successfully
+[16:17:16.761] [38.300s] [INFO] Action 2 executed successfully
+[16:17:16.762] [38.320s] [INFO] Action 2 executed successfully
+[16:17:16.829] [39.000s] [INFO] Action 1 executed successfully
+[16:17:16.868] [39.340s] [INFO] Action 2 executed successfully
+[16:17:16.869] [39.360s] [INFO] Action 2 executed successfully
+[16:17:16.869] [39.380s] [INFO] Action 2 executed successfully
+[16:17:16.898] [39.680s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:16.904] [39.700s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:16.913] [39.800s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:16.919] [39.900s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:16.926] [40.000s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:17.288] [44.000s] [INFO] Action 1 executed successfully
+[16:17:17.451] [45.500s] [INFO] Action 2 executed successfully
+[16:17:17.451] [45.520s] [INFO] Action 2 executed successfully
+[16:17:17.452] [45.540s] [INFO] Action 2 executed successfully
+[16:17:17.452] [45.560s] [INFO] Action 2 executed successfully
+[16:17:17.453] [45.580s] [INFO] Action 2 executed successfully
+[16:17:17.458] [45.600s] [INFO] Action 2 executed successfully
+[16:17:17.459] [45.620s] [INFO] Action 2 executed successfully
+[16:17:17.460] [45.640s] [INFO] Action 2 executed successfully
+[16:17:17.460] [45.660s] [INFO] Action 2 executed successfully
+[16:17:17.580] [46.800s] [INFO] Action 2 executed successfully
+[16:17:17.581] [46.820s] [INFO] Action 2 executed successfully
+[16:17:17.581] [46.840s] [INFO] Action 2 executed successfully
+[16:17:17.582] [46.860s] [INFO] Action 2 executed successfully
+[16:17:17.582] [46.880s] [INFO] Action 2 executed successfully
+[16:17:17.704] [48.100s] [INFO] Action 2 executed successfully
+[16:17:17.704] [48.120s] [INFO] Action 2 executed successfully
+[16:17:17.704] [48.140s] [INFO] Action 2 executed successfully
+[16:17:17.706] [48.160s] [INFO] Action 2 executed successfully
+[16:17:17.706] [48.180s] [INFO] Action 2 executed successfully
+[16:17:17.743] [48.600s] [INFO] Action 2 executed successfully
+[16:17:17.745] [48.620s] [INFO] Action 2 executed successfully
+[16:17:17.745] [48.640s] [INFO] Action 2 executed successfully
+[16:17:17.746] [48.660s] [INFO] Action 2 executed successfully
+[16:17:18.487] [50.020s] [INFO] Action 2 executed successfully
+[16:17:18.487] [50.040s] [INFO] Action 2 executed successfully
+[16:17:18.488] [50.060s] [INFO] Action 2 executed successfully
+[16:17:18.488] [50.080s] [INFO] Action 2 executed successfully
+[16:17:18.501] [50.200s] [INFO] Action 2 executed successfully
+[16:17:18.502] [50.220s] [INFO] Action 2 executed successfully
+[16:17:18.502] [50.240s] [INFO] Action 2 executed successfully
+[16:17:18.503] [50.260s] [INFO] Action 2 executed successfully
+[16:17:18.503] [50.280s] [INFO] Action 2 executed successfully
+[16:17:18.537] [50.600s] [INFO] Action 1 executed successfully
+[16:17:18.538] [50.620s] [INFO] Action 1 executed successfully
+[16:17:18.538] [50.640s] [INFO] Action 1 executed successfully
+[16:17:18.538] [50.660s] [INFO] Action 1 executed successfully
+[16:17:18.677] [52.000s] [INFO] Action 1 executed successfully
+[16:17:18.786] [53.100s] [INFO] Action 1 executed successfully
+[16:17:18.787] [53.120s] [INFO] Action 1 executed successfully
+[16:17:18.787] [53.140s] [INFO] Action 1 executed successfully
+[16:17:18.788] [53.160s] [INFO] Action 1 executed successfully
+[16:17:18.788] [53.180s] [INFO] Action 1 executed successfully
+[16:17:18.793] [53.200s] [INFO] Action 1 executed successfully
+[16:17:18.793] [53.220s] [INFO] Action 1 executed successfully
+[16:17:18.793] [53.240s] [INFO] Action 1 executed successfully
+[16:17:18.794] [53.260s] [INFO] Action 1 executed successfully
+[16:17:18.794] [53.280s] [INFO] Action 1 executed successfully
+[16:17:18.921] [54.500s] [INFO] Action 2 executed successfully
+[16:17:18.922] [54.520s] [INFO] Action 2 executed successfully
+[16:17:18.922] [54.540s] [INFO] Action 2 executed successfully
+[16:17:18.923] [54.560s] [INFO] Action 2 executed successfully
+[16:17:18.923] [54.580s] [INFO] Action 2 executed successfully
+[16:17:18.942] [54.700s] [INFO] Action 2 executed successfully
+[16:17:18.942] [54.720s] [INFO] Action 2 executed successfully
+[16:17:18.943] [54.740s] [INFO] Action 2 executed successfully
+[16:17:18.943] [54.760s] [INFO] Action 2 executed successfully
+[16:17:18.943] [54.780s] [INFO] Action 2 executed successfully
+[16:17:19.128] [56.680s] [INFO] Action 1 executed successfully
+[16:17:19.165] [57.100s] [INFO] Action 2 executed successfully
+[16:17:19.166] [57.120s] [INFO] Action 2 executed successfully
+[16:17:19.166] [57.140s] [INFO] Action 2 executed successfully
+[16:17:19.167] [57.160s] [INFO] Action 2 executed successfully
+[16:17:19.167] [57.180s] [INFO] Action 2 executed successfully
+[16:17:19.225] [57.680s] [INFO] Action 2 executed successfully
+[16:17:19.323] [58.680s] [INFO] Action 2 executed successfully
+[16:17:19.384] [59.200s] [INFO] Action 2 executed successfully
+[16:17:19.384] [59.220s] [INFO] Action 2 executed successfully
+[16:17:19.385] [59.240s] [INFO] Action 2 executed successfully
+[16:17:19.385] [59.260s] [INFO] Action 2 executed successfully
+[16:17:19.385] [59.280s] [INFO] Action 2 executed successfully
+[16:17:19.427] [59.680s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:19.434] [59.700s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:19.443] [59.800s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:19.451] [59.900s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:19.461] [60.000s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:19.475] [60.020s] [INFO] Action 2 executed successfully
+[16:17:19.476] [60.040s] [INFO] Action 2 executed successfully
+[16:17:19.477] [60.060s] [INFO] Action 2 executed successfully
+[16:17:19.477] [60.080s] [INFO] Action 2 executed successfully
+[16:17:19.497] [60.300s] [INFO] Action 2 executed successfully
+[16:17:19.498] [60.320s] [INFO] Action 2 executed successfully
+[16:17:19.505] [60.340s] [INFO] Action 2 executed successfully
+[16:17:19.506] [60.360s] [INFO] Action 2 executed successfully
+[16:17:19.506] [60.380s] [INFO] Action 2 executed successfully
+[16:17:19.611] [61.400s] [INFO] Action 2 executed successfully
+[16:17:19.613] [61.420s] [INFO] Action 2 executed successfully
+[16:17:19.613] [61.440s] [INFO] Action 2 executed successfully
+[16:17:19.614] [61.460s] [INFO] Action 2 executed successfully
+[16:17:19.614] [61.480s] [INFO] Action 2 executed successfully
+[16:17:19.903] [64.340s] [INFO] Action 1 executed successfully
+[16:17:19.903] [64.360s] [INFO] Action 1 executed successfully
+[16:17:19.904] [64.380s] [INFO] Action 1 executed successfully
+[16:17:20.003] [65.400s] [INFO] Action 1 executed successfully
+[16:17:20.003] [65.420s] [INFO] Action 1 executed successfully
+[16:17:20.004] [65.440s] [INFO] Action 1 executed successfully
+[16:17:20.005] [65.460s] [INFO] Action 1 executed successfully
+[16:17:20.005] [65.480s] [INFO] Action 1 executed successfully
+[16:17:20.062] [66.000s] [INFO] Action 1 executed successfully
+[16:17:20.208] [67.500s] [INFO] Action 1 executed successfully
+[16:17:20.208] [67.520s] [INFO] Action 1 executed successfully
+[16:17:20.208] [67.540s] [INFO] Action 1 executed successfully
+[16:17:20.210] [67.560s] [INFO] Action 1 executed successfully
+[16:17:20.210] [67.580s] [INFO] Action 1 executed successfully
+[16:17:20.215] [67.600s] [INFO] Action 2 executed successfully
+[16:17:20.215] [67.620s] [INFO] Action 2 executed successfully
+[16:17:20.215] [67.640s] [INFO] Action 2 executed successfully
+[16:17:20.217] [67.660s] [INFO] Action 2 executed successfully
+[16:17:20.287] [68.300s] [INFO] Action 1 executed successfully
+[16:17:20.287] [68.320s] [INFO] Action 1 executed successfully
+[16:17:20.338] [68.800s] [INFO] Action 1 executed successfully
+[16:17:20.339] [68.820s] [INFO] Action 1 executed successfully
+[16:17:20.340] [68.840s] [INFO] Action 1 executed successfully
+[16:17:20.340] [68.860s] [INFO] Action 1 executed successfully
+[16:17:20.341] [68.880s] [INFO] Action 1 executed successfully
+[16:17:20.408] [69.400s] [INFO] Action 2 executed successfully
+[16:17:20.410] [69.420s] [INFO] Action 2 executed successfully
+[16:17:20.411] [69.440s] [INFO] Action 2 executed successfully
+[16:17:20.411] [69.460s] [INFO] Action 2 executed successfully
+[16:17:20.412] [69.480s] [INFO] Action 2 executed successfully
+[16:17:20.933] [74.680s] [INFO] Action 1 executed successfully
+[16:17:20.945] [74.800s] [INFO] Action 1 executed successfully
+[16:17:20.945] [74.820s] [INFO] Action 1 executed successfully
+[16:17:20.946] [74.840s] [INFO] Action 1 executed successfully
+[16:17:20.946] [74.860s] [INFO] Action 1 executed successfully
+[16:17:20.947] [74.880s] [INFO] Action 1 executed successfully
+[16:17:21.046] [75.900s] [INFO] Action 1 executed successfully
+[16:17:21.046] [75.920s] [INFO] Action 1 executed successfully
+[16:17:21.047] [75.940s] [INFO] Action 1 executed successfully
+[16:17:21.048] [75.960s] [INFO] Action 1 executed successfully
+[16:17:21.048] [75.980s] [INFO] Action 1 executed successfully
+[16:17:21.109] [76.500s] [INFO] Action 1 executed successfully
+[16:17:21.109] [76.520s] [INFO] Action 1 executed successfully
+[16:17:21.109] [76.540s] [INFO] Action 1 executed successfully
+[16:17:21.109] [76.560s] [INFO] Action 1 executed successfully
+[16:17:21.109] [76.580s] [INFO] Action 1 executed successfully
+[16:17:21.139] [76.800s] [INFO] Action 2 executed successfully
+[16:17:21.139] [76.820s] [INFO] Action 2 executed successfully
+[16:17:21.139] [76.840s] [INFO] Action 2 executed successfully
+[16:17:21.141] [76.860s] [INFO] Action 2 executed successfully
+[16:17:21.142] [76.880s] [INFO] Action 2 executed successfully
+[16:17:21.232] [77.700s] [INFO] Action 1 executed successfully
+[16:17:21.232] [77.720s] [INFO] Action 1 executed successfully
+[16:17:21.233] [77.740s] [INFO] Action 1 executed successfully
+[16:17:21.233] [77.760s] [INFO] Action 1 executed successfully
+[16:17:21.233] [77.780s] [INFO] Action 1 executed successfully
+[16:17:21.317] [78.600s] [INFO] Action 2 executed successfully
+[16:17:21.317] [78.620s] [INFO] Action 2 executed successfully
+[16:17:21.318] [78.640s] [INFO] Action 2 executed successfully
+[16:17:21.318] [78.660s] [INFO] Action 2 executed successfully
+[16:17:21.376] [79.020s] [INFO] Action 1 executed successfully
+[16:17:21.377] [79.040s] [INFO] Action 1 executed successfully
+[16:17:21.377] [79.060s] [INFO] Action 1 executed successfully
+[16:17:21.377] [79.080s] [INFO] Action 1 executed successfully
+[16:17:21.449] [79.680s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:21.455] [79.700s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:21.464] [79.800s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:21.469] [79.900s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:21.473] [79.900s] [INFO] Action 2 executed successfully
+[16:17:21.475] [79.920s] [INFO] Action 2 executed successfully
+[16:17:21.475] [79.940s] [INFO] Action 2 executed successfully
+[16:17:21.475] [79.960s] [INFO] Action 2 executed successfully
+[16:17:21.476] [79.980s] [INFO] Action 2 executed successfully
+[16:17:21.477] [80.000s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:21.505] [80.200s] [INFO] Action 1 executed successfully
+[16:17:21.506] [80.220s] [INFO] Action 1 executed successfully
+[16:17:21.506] [80.240s] [INFO] Action 1 executed successfully
+[16:17:21.507] [80.260s] [INFO] Action 1 executed successfully
+[16:17:21.507] [80.280s] [INFO] Action 1 executed successfully
+[16:17:21.533] [80.400s] [INFO] Action 2 executed successfully
+[16:17:21.534] [80.420s] [INFO] Action 2 executed successfully
+[16:17:21.535] [80.440s] [INFO] Action 2 executed successfully
+[16:17:21.535] [80.460s] [INFO] Action 2 executed successfully
+[16:17:21.536] [80.480s] [INFO] Action 2 executed successfully
+[16:17:21.697] [82.100s] [INFO] Action 2 executed successfully
+[16:17:21.698] [82.120s] [INFO] Action 2 executed successfully
+[16:17:21.698] [82.140s] [INFO] Action 2 executed successfully
+[16:17:21.698] [82.160s] [INFO] Action 2 executed successfully
+[16:17:21.698] [82.180s] [INFO] Action 2 executed successfully
+[16:17:22.139] [86.400s] [INFO] Action 2 executed successfully
+[16:17:22.140] [86.420s] [INFO] Action 2 executed successfully
+[16:17:22.141] [86.440s] [INFO] Action 2 executed successfully
+[16:17:22.141] [86.460s] [INFO] Action 2 executed successfully
+[16:17:22.142] [86.480s] [INFO] Action 2 executed successfully
+[16:17:22.261] [87.600s] [INFO] Action 1 executed successfully
+[16:17:22.262] [87.620s] [INFO] Action 1 executed successfully
+[16:17:22.262] [87.640s] [INFO] Action 1 executed successfully
+[16:17:22.262] [87.660s] [INFO] Action 1 executed successfully
+[16:17:22.540] [90.200s] [INFO] Action 2 executed successfully
+[16:17:22.540] [90.220s] [INFO] Action 2 executed successfully
+[16:17:22.541] [90.240s] [INFO] Action 2 executed successfully
+[16:17:22.541] [90.260s] [INFO] Action 2 executed successfully
+[16:17:22.541] [90.280s] [INFO] Action 2 executed successfully
+[16:17:22.664] [91.400s] [INFO] Action 1 executed successfully
+[16:17:22.664] [91.420s] [INFO] Action 1 executed successfully
+[16:17:22.664] [91.440s] [INFO] Action 1 executed successfully
+[16:17:22.665] [91.460s] [INFO] Action 1 executed successfully
+[16:17:22.665] [91.480s] [INFO] Action 1 executed successfully
+[16:17:22.719] [92.000s] [INFO] Action 1 executed successfully
+[16:17:22.736] [92.100s] [INFO] Action 1 executed successfully
+[16:17:22.737] [92.120s] [INFO] Action 1 executed successfully
+[16:17:22.737] [92.140s] [INFO] Action 1 executed successfully
+[16:17:22.738] [92.160s] [INFO] Action 1 executed successfully
+[16:17:22.738] [92.180s] [INFO] Action 1 executed successfully
+[16:17:22.851] [93.300s] [INFO] Action 2 executed successfully
+[16:17:22.851] [93.320s] [INFO] Action 2 executed successfully
+[16:17:22.866] [93.400s] [INFO] Action 2 executed successfully
+[16:17:22.867] [93.420s] [INFO] Action 2 executed successfully
+[16:17:22.868] [93.440s] [INFO] Action 2 executed successfully
+[16:17:22.868] [93.460s] [INFO] Action 2 executed successfully
+[16:17:22.869] [93.480s] [INFO] Action 2 executed successfully
+[16:17:22.873] [93.500s] [INFO] Action 2 executed successfully
+[16:17:22.874] [93.520s] [INFO] Action 2 executed successfully
+[16:17:22.874] [93.540s] [INFO] Action 2 executed successfully
+[16:17:22.874] [93.560s] [INFO] Action 2 executed successfully
+[16:17:22.875] [93.580s] [INFO] Action 2 executed successfully
+[16:17:22.900] [93.800s] [INFO] Action 2 executed successfully
+[16:17:22.900] [93.820s] [INFO] Action 2 executed successfully
+[16:17:22.901] [93.840s] [INFO] Action 2 executed successfully
+[16:17:22.901] [93.860s] [INFO] Action 2 executed successfully
+[16:17:22.901] [93.880s] [INFO] Action 2 executed successfully
+[16:17:23.001] [94.800s] [INFO] Action 2 executed successfully
+[16:17:23.002] [94.820s] [INFO] Action 2 executed successfully
+[16:17:23.002] [94.840s] [INFO] Action 2 executed successfully
+[16:17:23.003] [94.860s] [INFO] Action 2 executed successfully
+[16:17:23.003] [94.880s] [INFO] Action 2 executed successfully
+[16:17:23.070] [95.500s] [INFO] Action 1 executed successfully
+[16:17:23.071] [95.520s] [INFO] Action 1 executed successfully
+[16:17:23.071] [95.540s] [INFO] Action 1 executed successfully
+[16:17:23.072] [95.560s] [INFO] Action 1 executed successfully
+[16:17:23.072] [95.580s] [INFO] Action 1 executed successfully
+[16:17:23.171] [96.500s] [INFO] Action 2 executed successfully
+[16:17:23.172] [96.520s] [INFO] Action 2 executed successfully
+[16:17:23.173] [96.540s] [INFO] Action 2 executed successfully
+[16:17:23.173] [96.560s] [INFO] Action 2 executed successfully
+[16:17:23.174] [96.580s] [INFO] Action 2 executed successfully
+[16:17:23.194] [96.680s] [INFO] Action 2 executed successfully
+[16:17:23.966] [99.680s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:23.972] [99.700s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:23.980] [99.800s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:23.987] [99.900s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:23.995] [100.000s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:24.060] [100.600s] [INFO] Action 1 executed successfully
+[16:17:24.061] [100.620s] [INFO] Action 1 executed successfully
+[16:17:24.061] [100.640s] [INFO] Action 1 executed successfully
+[16:17:24.061] [100.660s] [INFO] Action 1 executed successfully
+[16:17:24.371] [103.700s] [INFO] Action 1 executed successfully
+[16:17:24.371] [103.720s] [INFO] Action 1 executed successfully
+[16:17:24.372] [103.740s] [INFO] Action 1 executed successfully
+[16:17:24.372] [103.760s] [INFO] Action 1 executed successfully
+[16:17:24.372] [103.780s] [INFO] Action 1 executed successfully
+[16:17:24.426] [104.300s] [INFO] Action 2 executed successfully
+[16:17:24.426] [104.320s] [INFO] Action 2 executed successfully
+[16:17:24.515] [105.200s] [INFO] Action 2 executed successfully
+[16:17:24.515] [105.220s] [INFO] Action 2 executed successfully
+[16:17:24.516] [105.240s] [INFO] Action 2 executed successfully
+[16:17:24.516] [105.260s] [INFO] Action 2 executed successfully
+[16:17:24.516] [105.280s] [INFO] Action 2 executed successfully
+[16:17:25.027] [110.400s] [INFO] Action 1 executed successfully
+[16:17:25.029] [110.420s] [INFO] Action 1 executed successfully
+[16:17:25.029] [110.440s] [INFO] Action 1 executed successfully
+[16:17:25.029] [110.460s] [INFO] Action 1 executed successfully
+[16:17:25.030] [110.480s] [INFO] Action 1 executed successfully
+[16:17:25.079] [111.000s] [INFO] Action 1 executed successfully
+[16:17:25.179] [112.000s] [INFO] Action 2 executed successfully
+[16:17:25.277] [112.900s] [INFO] Action 1 executed successfully
+[16:17:25.278] [112.920s] [INFO] Action 1 executed successfully
+[16:17:25.278] [112.940s] [INFO] Action 1 executed successfully
+[16:17:25.279] [112.960s] [INFO] Action 1 executed successfully
+[16:17:25.279] [112.980s] [INFO] Action 1 executed successfully
+[16:17:25.380] [113.800s] [INFO] Action 1 executed successfully
+[16:17:25.381] [113.820s] [INFO] Action 1 executed successfully
+[16:17:25.382] [113.840s] [INFO] Action 1 executed successfully
+[16:17:25.382] [113.860s] [INFO] Action 1 executed successfully
+[16:17:25.383] [113.880s] [INFO] Action 1 executed successfully
+[16:17:25.479] [114.800s] [INFO] Action 1 executed successfully
+[16:17:25.479] [114.820s] [INFO] Action 1 executed successfully
+[16:17:25.479] [114.840s] [INFO] Action 1 executed successfully
+[16:17:25.481] [114.860s] [INFO] Action 1 executed successfully
+[16:17:25.481] [114.880s] [INFO] Action 1 executed successfully
+[16:17:25.701] [117.020s] [INFO] Action 1 executed successfully
+[16:17:25.701] [117.040s] [INFO] Action 1 executed successfully
+[16:17:25.701] [117.060s] [INFO] Action 1 executed successfully
+[16:17:25.701] [117.080s] [INFO] Action 1 executed successfully
+[16:17:25.867] [118.600s] [INFO] Action 2 executed successfully
+[16:17:25.867] [118.620s] [INFO] Action 2 executed successfully
+[16:17:25.869] [118.640s] [INFO] Action 2 executed successfully
+[16:17:25.869] [118.660s] [INFO] Action 2 executed successfully
+[16:17:25.882] [118.700s] [INFO] Action 1 executed successfully
+[16:17:25.883] [118.720s] [INFO] Action 1 executed successfully
+[16:17:25.883] [118.740s] [INFO] Action 1 executed successfully
+[16:17:25.884] [118.760s] [INFO] Action 1 executed successfully
+[16:17:25.884] [118.780s] [INFO] Action 1 executed successfully
+[16:17:25.976] [119.680s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:25.982] [119.700s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:25.990] [119.800s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:25.998] [119.900s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:26.003] [120.000s] [INFO] Observations - Money: 38, Lives: 20, Wave: 0, Enemies: 4
+[16:17:26.043] [120.300s] [INFO] Action 1 executed successfully
+[16:17:26.044] [120.320s] [INFO] Action 1 executed successfully
+[16:17:26.173] [121.500s] [INFO] Action 2 executed successfully
+[16:17:26.174] [121.520s] [INFO] Action 2 executed successfully
+[16:17:26.174] [121.540s] [INFO] Action 2 executed successfully
+[16:17:26.174] [121.560s] [INFO] Action 2 executed successfully
+[16:17:26.175] [121.580s] [INFO] Action 2 executed successfully
+
+=== LOG SESSION ENDED: 7/13/2025 4:17:26 PM ===

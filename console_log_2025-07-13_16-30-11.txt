@@ -1,0 +1,610 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/13/2025 4:30:11 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[16:30:12.347] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[16:30:14.453] [0.000s] [INFO] Building MachineGunTowerData at position (4.68, -1.55, 0.00)
+[16:30:14.455] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized at (4.68, -1.55, 0.00)
+[16:30:14.456] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:30:14.457] [0.000s] [INFO] Tower built! Money left: 50, Tower active: True
+[16:30:14.478] [0.200s] [INFO] Building MachineGunTowerData at position (0.00, 2.52, 0.00)
+[16:30:14.481] [0.200s] [INFO] Tower MachineGunTower(Clone) initialized at (0.00, 2.52, 0.00)
+[16:30:14.481] [0.200s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:30:14.481] [0.200s] [INFO] Tower built! Money left: 0, Tower active: True
+[16:30:15.560] [2.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:15.561] [2.333s] [INFO] Enemies alive: 1
+[16:30:15.561] [2.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:15.562] [2.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:15.604] [2.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:15.701] [3.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:15.702] [3.333s] [INFO] Enemies alive: 2
+[16:30:15.703] [3.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:15.703] [3.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:15.756] [3.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:15.800] [4.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:15.847] [4.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:15.847] [4.333s] [INFO] Enemies alive: 3
+[16:30:15.848] [4.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:15.848] [4.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:15.889] [4.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:15.934] [5.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:15.980] [5.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:15.981] [5.333s] [INFO] Enemies alive: 4
+[16:30:15.982] [5.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:15.982] [5.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:16.020] [5.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:16.063] [6.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:16.065] [6.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:16.098] [6.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:16.099] [6.333s] [INFO] Enemies alive: 5
+[16:30:16.100] [6.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:16.100] [6.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:16.123] [6.400s] [INFO] Building MachineGunTowerData at position (2.57, -1.55, 0.00)
+[16:30:16.124] [6.400s] [INFO] Tower MachineGunTower(Clone) initialized at (2.57, -1.55, 0.00)
+[16:30:16.124] [6.400s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:30:16.124] [6.400s] [INFO] Tower built! Money left: 26, Tower active: True
+[16:30:16.126] [6.400s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.82
+[16:30:16.148] [6.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:16.151] [6.667s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:30:16.151] [6.667s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:30:16.208] [6.920s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.70
+[16:30:16.218] [7.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:16.219] [7.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:16.219] [7.000s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:30:16.221] [7.000s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:30:16.221] [7.000s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 50/50
+[16:30:16.222] [7.000s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 40/50
+[16:30:16.263] [7.333s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:30:16.265] [7.333s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:30:16.288] [7.420s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.82
+[16:30:16.363] [7.920s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.70
+[16:30:16.376] [8.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:16.377] [8.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:16.377] [8.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 20
+[16:30:16.378] [8.000s] [INFO] Life lost! Current lives: 19
+[16:30:16.378] [8.000s] [INFO] Lives after enemy reached end: 19
+[16:30:16.379] [8.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:16.380] [8.000s] [INFO] Enemy destroyed! Enemies alive: 4
+[16:30:16.380] [8.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:16.381] [8.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:16.381] [8.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:16.381] [8.000s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:30:16.383] [8.000s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:30:16.489] [8.667s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:30:16.490] [8.667s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:30:16.490] [8.667s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 50/50
+[16:30:16.490] [8.667s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 40/50
+[16:30:16.539] [9.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:16.541] [9.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:16.541] [9.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 19
+[16:30:16.542] [9.000s] [INFO] Life lost! Current lives: 18
+[16:30:16.542] [9.000s] [INFO] Lives after enemy reached end: 18
+[16:30:16.543] [9.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:16.543] [9.000s] [INFO] Enemy destroyed! Enemies alive: 3
+[16:30:16.543] [9.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:16.544] [9.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:16.555] [9.020s] [INFO] Building MachineGunTowerData at position (4.68, 2.52, 0.00)
+[16:30:16.556] [9.020s] [INFO] Tower MachineGunTower(Clone) initialized at (4.68, 2.52, 0.00)
+[16:30:16.556] [9.020s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:30:16.558] [9.020s] [INFO] Tower built! Money left: 14, Tower active: True
+[16:30:16.559] [9.020s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.53
+[16:30:16.585] [9.300s] [INFO] Building MachineGunTowerData at position (2.57, -1.55, 0.00)
+[16:30:16.585] [9.300s] [INFO] Tower MachineGunTower(Clone) initialized at (2.57, -1.55, 0.00)
+[16:30:16.585] [9.300s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:30:16.586] [9.300s] [INFO] Tower built! Money left: 2, Tower active: True
+[16:30:16.586] [9.300s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.83
+[16:30:16.588] [9.333s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:30:16.590] [9.333s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:30:16.686] [9.820s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.70
+[16:30:16.730] [10.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:16.730] [10.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:16.730] [10.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 18
+[16:30:16.731] [10.000s] [INFO] Life lost! Current lives: 17
+[16:30:16.731] [10.000s] [INFO] Lives after enemy reached end: 17
+[16:30:16.732] [10.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:16.732] [10.000s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:16.733] [10.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:16.733] [10.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:16.734] [10.000s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:30:16.735] [10.000s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:30:16.781] [10.320s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.83
+[16:30:16.834] [10.667s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[16:30:16.835] [10.667s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[16:30:16.836] [10.667s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[16:30:16.837] [10.667s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[16:30:16.838] [10.667s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 50/50
+[16:30:16.838] [10.667s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 40/50
+[16:30:16.880] [10.820s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 1.70
+[16:30:16.898] [11.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:16.898] [11.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:16.899] [11.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 17
+[16:30:16.899] [11.000s] [INFO] Life lost! Current lives: 16
+[16:30:16.900] [11.000s] [INFO] Lives after enemy reached end: 16
+[16:30:16.900] [11.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:16.901] [11.000s] [INFO] Enemy destroyed! Enemies alive: 1
+[16:30:16.901] [11.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:17.046] [12.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:17.047] [12.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:17.047] [12.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 16
+[16:30:17.047] [12.000s] [INFO] Life lost! Current lives: 15
+[16:30:17.048] [12.000s] [INFO] Lives after enemy reached end: 15
+[16:30:17.048] [12.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:17.049] [12.000s] [INFO] Enemy destroyed! Enemies alive: 0
+[16:30:17.049] [12.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:17.051] [12.000s] [INFO] NextWave called! Current wave index: 1, Total waves: 3
+[16:30:17.051] [12.000s] [INFO] Wave 1 completed!
+[16:30:17.716] [17.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:17.717] [17.333s] [INFO] Enemies alive: 1
+[16:30:17.717] [17.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:17.718] [17.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:17.755] [17.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:17.936] [19.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:17.971] [19.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:17.972] [19.333s] [INFO] Enemies alive: 2
+[16:30:17.972] [19.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:17.972] [19.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:18.008] [19.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:18.012] [19.680s] [INFO] Observations - Money: 40, Lives: 15, Wave: 1, Enemies: 2
+[16:30:18.018] [19.700s] [INFO] Observations - Money: 40, Lives: 15, Wave: 1, Enemies: 2
+[16:30:18.035] [19.800s] [INFO] Observations - Money: 40, Lives: 15, Wave: 1, Enemies: 2
+[16:30:18.044] [19.900s] [INFO] Observations - Money: 40, Lives: 15, Wave: 1, Enemies: 2
+[16:30:18.055] [20.000s] [INFO] Observations - Money: 40, Lives: 15, Wave: 1, Enemies: 2
+[16:30:18.181] [21.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:18.181] [21.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:18.223] [21.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:18.223] [21.333s] [INFO] Enemies alive: 3
+[16:30:18.223] [21.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:18.224] [21.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:18.260] [21.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:18.431] [23.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:18.431] [23.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:18.432] [23.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 15
+[16:30:18.432] [23.000s] [INFO] Life lost! Current lives: 14
+[16:30:18.432] [23.000s] [INFO] Lives after enemy reached end: 14
+[16:30:18.434] [23.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:18.434] [23.000s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:18.435] [23.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:18.435] [23.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:18.435] [23.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:18.474] [23.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:18.475] [23.333s] [INFO] Enemies alive: 3
+[16:30:18.475] [23.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:18.477] [23.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:18.518] [23.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:18.693] [25.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:18.693] [25.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:18.693] [25.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 14
+[16:30:18.694] [25.000s] [INFO] Life lost! Current lives: 13
+[16:30:18.694] [25.000s] [INFO] Lives after enemy reached end: 13
+[16:30:18.695] [25.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:18.695] [25.000s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:18.695] [25.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:18.697] [25.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:18.697] [25.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:18.731] [25.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:18.732] [25.333s] [INFO] Enemies alive: 3
+[16:30:18.732] [25.333s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:18.733] [25.333s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:18.772] [25.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:18.960] [27.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:18.960] [27.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:18.961] [27.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 13
+[16:30:18.962] [27.000s] [INFO] Life lost! Current lives: 12
+[16:30:18.962] [27.000s] [INFO] Lives after enemy reached end: 12
+[16:30:18.963] [27.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:18.963] [27.000s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:18.964] [27.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:18.964] [27.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:18.965] [27.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:19.004] [27.333s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:19.005] [27.333s] [INFO] Enemies alive: 3
+[16:30:19.005] [27.333s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:19.006] [27.333s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 2, target: Waypoint (0)
+[16:30:19.055] [27.667s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:19.149] [28.333s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:19.149] [28.333s] [INFO] Enemies alive: 4
+[16:30:19.151] [28.333s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:19.151] [28.333s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 2, target: Waypoint (0)
+[16:30:19.188] [28.667s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:19.226] [29.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:19.226] [29.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:19.228] [29.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 12
+[16:30:19.228] [29.000s] [INFO] Life lost! Current lives: 11
+[16:30:19.228] [29.000s] [INFO] Lives after enemy reached end: 11
+[16:30:19.229] [29.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:19.229] [29.000s] [INFO] Enemy destroyed! Enemies alive: 3
+[16:30:19.229] [29.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:19.229] [29.000s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:19.277] [29.333s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:19.277] [29.333s] [INFO] Enemies alive: 4
+[16:30:19.278] [29.333s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:19.278] [29.333s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 2, target: Waypoint (0)
+[16:30:19.330] [29.667s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:19.455] [30.667s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:19.504] [31.000s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:19.504] [31.000s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:19.506] [31.000s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 11
+[16:30:19.506] [31.000s] [INFO] Life lost! Current lives: 10
+[16:30:19.506] [31.000s] [INFO] Lives after enemy reached end: 10
+[16:30:19.506] [31.000s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:19.506] [31.000s] [INFO] Enemy destroyed! Enemies alive: 3
+[16:30:19.508] [31.000s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:19.594] [31.667s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:19.733] [32.667s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:20.091] [35.667s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:20.217] [36.667s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:20.336] [37.667s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:20.601] [39.680s] [INFO] Observations - Money: 40, Lives: 10, Wave: 1, Enemies: 3
+[16:30:20.611] [39.700s] [INFO] Observations - Money: 40, Lives: 10, Wave: 1, Enemies: 3
+[16:30:20.623] [39.800s] [INFO] Observations - Money: 40, Lives: 10, Wave: 1, Enemies: 3
+[16:30:20.635] [39.900s] [INFO] Observations - Money: 40, Lives: 10, Wave: 1, Enemies: 3
+[16:30:20.644] [40.000s] [INFO] Observations - Money: 40, Lives: 10, Wave: 1, Enemies: 3
+[16:30:20.727] [40.667s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[16:30:20.727] [40.667s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[16:30:20.728] [40.667s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: 10
+[16:30:20.728] [40.667s] [INFO] Life lost! Current lives: 9
+[16:30:20.728] [40.667s] [INFO] Lives after enemy reached end: 9
+[16:30:20.728] [40.667s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[16:30:20.729] [40.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:20.729] [40.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:20.864] [41.667s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[16:30:20.864] [41.667s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[16:30:20.865] [41.667s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: 9
+[16:30:20.865] [41.667s] [INFO] Life lost! Current lives: 8
+[16:30:20.866] [41.667s] [INFO] Lives after enemy reached end: 8
+[16:30:20.866] [41.667s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[16:30:20.866] [41.667s] [INFO] Enemy destroyed! Enemies alive: 1
+[16:30:20.867] [41.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:20.999] [42.667s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[16:30:21.000] [42.667s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[16:30:21.000] [42.667s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: 8
+[16:30:21.001] [42.667s] [INFO] Life lost! Current lives: 7
+[16:30:21.002] [42.667s] [INFO] Lives after enemy reached end: 7
+[16:30:21.002] [42.667s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[16:30:21.002] [42.667s] [INFO] Enemy destroyed! Enemies alive: 0
+[16:30:21.004] [42.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:21.004] [42.667s] [INFO] NextWave called! Current wave index: 2, Total waves: 3
+[16:30:21.004] [42.667s] [INFO] Wave 2 completed!
+[16:30:21.588] [48.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:21.588] [48.000s] [INFO] Enemies alive: 1
+[16:30:21.589] [48.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:21.589] [48.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:21.625] [48.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:22.428] [49.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:22.471] [50.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:22.471] [50.000s] [INFO] Enemies alive: 2
+[16:30:22.471] [50.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:22.472] [50.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:22.505] [50.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:22.632] [51.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:22.632] [51.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:22.679] [52.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:22.680] [52.000s] [INFO] Enemies alive: 3
+[16:30:22.680] [52.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:22.681] [52.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:22.716] [52.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:22.852] [53.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:22.852] [53.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:22.853] [53.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 7
+[16:30:22.853] [53.667s] [INFO] Life lost! Current lives: 6
+[16:30:22.854] [53.667s] [INFO] Lives after enemy reached end: 6
+[16:30:22.854] [53.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:22.855] [53.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:22.855] [53.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:22.855] [53.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:22.856] [53.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:22.898] [54.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:22.898] [54.000s] [INFO] Enemies alive: 3
+[16:30:22.900] [54.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:22.900] [54.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:22.942] [54.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:23.091] [55.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:23.091] [55.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:23.092] [55.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 6
+[16:30:23.092] [55.667s] [INFO] Life lost! Current lives: 5
+[16:30:23.093] [55.667s] [INFO] Lives after enemy reached end: 5
+[16:30:23.093] [55.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:23.094] [55.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:23.094] [55.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:23.094] [55.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:23.094] [55.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:23.132] [56.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:23.133] [56.000s] [INFO] Enemies alive: 3
+[16:30:23.133] [56.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:23.134] [56.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:23.173] [56.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:23.304] [57.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:23.305] [57.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:23.305] [57.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 5
+[16:30:23.306] [57.667s] [INFO] Life lost! Current lives: 4
+[16:30:23.306] [57.667s] [INFO] Lives after enemy reached end: 4
+[16:30:23.306] [57.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:23.307] [57.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:23.308] [57.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:23.308] [57.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:23.308] [57.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:23.346] [58.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:23.346] [58.000s] [INFO] Enemies alive: 3
+[16:30:23.347] [58.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:23.348] [58.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:23.385] [58.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:23.533] [59.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:23.533] [59.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:23.533] [59.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 4
+[16:30:23.534] [59.667s] [INFO] Life lost! Current lives: 3
+[16:30:23.534] [59.667s] [INFO] Lives after enemy reached end: 3
+[16:30:23.535] [59.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:23.536] [59.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:23.536] [59.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:23.537] [59.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:23.537] [59.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:23.540] [59.680s] [INFO] Observations - Money: 40, Lives: 3, Wave: 2, Enemies: 2
+[16:30:23.546] [59.700s] [INFO] Observations - Money: 40, Lives: 3, Wave: 2, Enemies: 2
+[16:30:23.553] [59.800s] [INFO] Observations - Money: 40, Lives: 3, Wave: 2, Enemies: 2
+[16:30:23.561] [59.900s] [INFO] Observations - Money: 40, Lives: 3, Wave: 2, Enemies: 2
+[16:30:23.568] [60.000s] [INFO] Observations - Money: 40, Lives: 3, Wave: 2, Enemies: 2
+[16:30:23.575] [60.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:23.575] [60.000s] [INFO] Enemies alive: 3
+[16:30:23.576] [60.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:23.576] [60.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:23.613] [60.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:23.769] [61.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:23.769] [61.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:23.770] [61.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 3
+[16:30:23.771] [61.667s] [INFO] Life lost! Current lives: 2
+[16:30:23.771] [61.667s] [INFO] Lives after enemy reached end: 2
+[16:30:23.772] [61.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:23.772] [61.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:23.773] [61.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:23.773] [61.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:23.773] [61.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:23.810] [62.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:23.812] [62.000s] [INFO] Enemies alive: 3
+[16:30:23.812] [62.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:23.813] [62.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:23.845] [62.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:23.986] [63.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:23.986] [63.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:23.986] [63.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 2
+[16:30:23.986] [63.667s] [INFO] Life lost! Current lives: 1
+[16:30:23.986] [63.667s] [INFO] Lives after enemy reached end: 1
+[16:30:23.988] [63.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:23.988] [63.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:23.989] [63.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:23.989] [63.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:23.989] [63.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:24.028] [64.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:24.028] [64.000s] [INFO] Enemies alive: 3
+[16:30:24.030] [64.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:24.030] [64.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:24.065] [64.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:24.212] [65.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:24.213] [65.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:24.213] [65.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 1
+[16:30:24.213] [65.667s] [INFO] Life lost! Current lives: 0
+[16:30:24.213] [65.667s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:24.214] [65.667s] [INFO] GameOver() called! Player lost the game!
+[16:30:24.214] [65.667s] [INFO] Lives after enemy reached end: 0
+[16:30:24.215] [65.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:24.215] [65.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:24.216] [65.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:24.216] [65.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:24.216] [65.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:24.243] [66.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:24.244] [66.000s] [INFO] Enemies alive: 3
+[16:30:24.245] [66.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:24.245] [66.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:24.270] [66.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:24.344] [67.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:24.344] [67.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:24.345] [67.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 0
+[16:30:24.345] [67.667s] [INFO] Life lost! Current lives: -1
+[16:30:24.347] [67.667s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:24.347] [67.667s] [INFO] GameOver() called! Player lost the game!
+[16:30:24.348] [67.667s] [INFO] Lives after enemy reached end: -1
+[16:30:24.348] [67.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:24.349] [67.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:24.349] [67.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:24.349] [67.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:24.349] [67.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:24.370] [68.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:24.372] [68.000s] [INFO] Enemies alive: 3
+[16:30:24.373] [68.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:24.373] [68.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:24.398] [68.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:24.478] [69.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:24.479] [69.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:24.480] [69.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: -1
+[16:30:24.480] [69.667s] [INFO] Life lost! Current lives: -2
+[16:30:24.480] [69.667s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:24.480] [69.667s] [INFO] GameOver() called! Player lost the game!
+[16:30:24.481] [69.667s] [INFO] Lives after enemy reached end: -2
+[16:30:24.481] [69.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:24.482] [69.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:24.482] [69.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:24.482] [69.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:24.484] [69.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:24.509] [70.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:24.509] [70.000s] [INFO] Enemies alive: 3
+[16:30:24.510] [70.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:24.510] [70.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:24.532] [70.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:24.612] [71.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:24.612] [71.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:24.613] [71.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: -2
+[16:30:24.613] [71.667s] [INFO] Life lost! Current lives: -3
+[16:30:24.613] [71.667s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:24.614] [71.667s] [INFO] GameOver() called! Player lost the game!
+[16:30:24.614] [71.667s] [INFO] Lives after enemy reached end: -3
+[16:30:24.614] [71.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:24.614] [71.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:24.616] [71.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:24.616] [71.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:24.617] [71.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:24.638] [72.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:24.639] [72.000s] [INFO] Enemies alive: 3
+[16:30:24.639] [72.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:24.640] [72.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:24.662] [72.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:24.763] [73.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:24.763] [73.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:24.763] [73.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: -3
+[16:30:24.764] [73.667s] [INFO] Life lost! Current lives: -4
+[16:30:24.764] [73.667s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:24.765] [73.667s] [INFO] GameOver() called! Player lost the game!
+[16:30:24.765] [73.667s] [INFO] Lives after enemy reached end: -4
+[16:30:24.766] [73.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:24.766] [73.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:24.766] [73.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:24.768] [73.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:24.768] [73.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:24.798] [74.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:24.799] [74.000s] [INFO] Enemies alive: 3
+[16:30:24.799] [74.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:24.800] [74.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:24.834] [74.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:24.913] [75.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:24.913] [75.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:24.913] [75.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: -4
+[16:30:24.914] [75.667s] [INFO] Life lost! Current lives: -5
+[16:30:24.914] [75.667s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:24.915] [75.667s] [INFO] GameOver() called! Player lost the game!
+[16:30:24.915] [75.667s] [INFO] Lives after enemy reached end: -5
+[16:30:24.916] [75.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:24.917] [75.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:24.917] [75.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:24.918] [75.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:24.918] [75.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:24.948] [76.000s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:24.948] [76.000s] [INFO] Enemies alive: 3
+[16:30:24.950] [76.000s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:24.950] [76.000s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 5, target: Waypoint (0)
+[16:30:24.973] [76.333s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:25.062] [77.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:25.062] [77.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:25.062] [77.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: -5
+[16:30:25.063] [77.667s] [INFO] Life lost! Current lives: -6
+[16:30:25.063] [77.667s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:25.063] [77.667s] [INFO] GameOver() called! Player lost the game!
+[16:30:25.065] [77.667s] [INFO] Lives after enemy reached end: -6
+[16:30:25.065] [77.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:25.066] [77.667s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:25.066] [77.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:25.067] [77.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:25.067] [77.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:25.093] [78.000s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:25.093] [78.000s] [INFO] Enemies alive: 3
+[16:30:25.094] [78.000s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:25.095] [78.000s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 2, target: Waypoint (0)
+[16:30:25.116] [78.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:25.154] [79.000s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:25.154] [79.000s] [INFO] Enemies alive: 4
+[16:30:25.156] [79.000s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:25.156] [79.000s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 2, target: Waypoint (0)
+[16:30:25.171] [79.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:25.188] [79.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:25.188] [79.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:25.189] [79.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: -6
+[16:30:25.189] [79.667s] [INFO] Life lost! Current lives: -7
+[16:30:25.189] [79.667s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:25.191] [79.667s] [INFO] GameOver() called! Player lost the game!
+[16:30:25.191] [79.667s] [INFO] Lives after enemy reached end: -7
+[16:30:25.191] [79.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:25.192] [79.667s] [INFO] Enemy destroyed! Enemies alive: 3
+[16:30:25.192] [79.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:25.193] [79.667s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:25.197] [79.700s] [INFO] Observations - Money: 40, Lives: -7, Wave: 2, Enemies: 3
+[16:30:25.203] [79.800s] [INFO] Observations - Money: 40, Lives: -7, Wave: 2, Enemies: 3
+[16:30:25.208] [79.900s] [INFO] Observations - Money: 40, Lives: -7, Wave: 2, Enemies: 3
+[16:30:25.212] [80.000s] [INFO] Observations - Money: 40, Lives: -7, Wave: 2, Enemies: 3
+[16:30:25.217] [80.000s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:25.218] [80.000s] [INFO] Enemies alive: 4
+[16:30:25.218] [80.000s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:25.218] [80.000s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 2, target: Waypoint (0)
+[16:30:25.248] [80.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:25.288] [81.000s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:25.288] [81.000s] [INFO] Enemies alive: 5
+[16:30:25.290] [81.000s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:25.290] [81.000s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 2, target: Waypoint (0)
+[16:30:25.308] [81.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:25.309] [81.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:25.325] [81.667s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[16:30:25.326] [81.667s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[16:30:25.326] [81.667s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: -7
+[16:30:25.326] [81.667s] [INFO] Life lost! Current lives: -8
+[16:30:25.327] [81.667s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:25.327] [81.667s] [INFO] GameOver() called! Player lost the game!
+[16:30:25.328] [81.667s] [INFO] Lives after enemy reached end: -8
+[16:30:25.328] [81.667s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[16:30:25.328] [81.667s] [INFO] Enemy destroyed! Enemies alive: 4
+[16:30:25.328] [81.667s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:25.352] [82.000s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:30:25.353] [82.000s] [INFO] Enemies alive: 5
+[16:30:25.353] [82.000s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[16:30:25.355] [82.000s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 2, target: Waypoint (0)
+[16:30:25.375] [82.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:25.376] [82.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[16:30:25.458] [83.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:25.516] [84.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:25.570] [85.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[16:30:25.624] [86.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:25.685] [87.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:25.748] [88.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:25.798] [89.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:25.854] [90.333s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[16:30:25.906] [91.333s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[16:30:25.908] [91.333s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[16:30:25.908] [91.333s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: -8
+[16:30:25.909] [91.333s] [INFO] Life lost! Current lives: -9
+[16:30:25.910] [91.333s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:25.910] [91.333s] [INFO] GameOver() called! Player lost the game!
+[16:30:25.910] [91.333s] [INFO] Lives after enemy reached end: -9
+[16:30:25.910] [91.333s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[16:30:25.911] [91.333s] [INFO] Enemy destroyed! Enemies alive: 4
+[16:30:25.911] [91.333s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:25.972] [92.333s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[16:30:25.972] [92.333s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[16:30:25.974] [92.333s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: -9
+[16:30:25.974] [92.333s] [INFO] Life lost! Current lives: -10
+[16:30:25.974] [92.333s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:25.975] [92.333s] [INFO] GameOver() called! Player lost the game!
+[16:30:25.975] [92.333s] [INFO] Lives after enemy reached end: -10
+[16:30:25.975] [92.333s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[16:30:25.976] [92.333s] [INFO] Enemy destroyed! Enemies alive: 3
+[16:30:25.976] [92.333s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:26.044] [93.333s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[16:30:26.045] [93.333s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[16:30:26.045] [93.333s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: -10
+[16:30:26.046] [93.333s] [INFO] Life lost! Current lives: -11
+[16:30:26.046] [93.333s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:26.046] [93.333s] [INFO] GameOver() called! Player lost the game!
+[16:30:26.047] [93.333s] [INFO] Lives after enemy reached end: -11
+[16:30:26.047] [93.333s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[16:30:26.048] [93.333s] [INFO] Enemy destroyed! Enemies alive: 2
+[16:30:26.048] [93.333s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:26.113] [94.333s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[16:30:26.114] [94.333s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[16:30:26.114] [94.333s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: -11
+[16:30:26.115] [94.333s] [INFO] Life lost! Current lives: -12
+[16:30:26.115] [94.333s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:26.115] [94.333s] [INFO] GameOver() called! Player lost the game!
+[16:30:26.115] [94.333s] [INFO] Lives after enemy reached end: -12
+[16:30:26.117] [94.333s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[16:30:26.117] [94.333s] [INFO] Enemy destroyed! Enemies alive: 1
+[16:30:26.118] [94.333s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:26.182] [95.333s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[16:30:26.183] [95.333s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[16:30:26.183] [95.333s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: -12
+[16:30:26.184] [95.333s] [INFO] Life lost! Current lives: -13
+[16:30:26.184] [95.333s] [INFO] Lives reached 0 or below! Calling GameOver()
+[16:30:26.185] [95.333s] [INFO] GameOver() called! Player lost the game!
+[16:30:26.185] [95.333s] [INFO] Lives after enemy reached end: -13
+[16:30:26.185] [95.333s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[16:30:26.186] [95.333s] [INFO] Enemy destroyed! Enemies alive: 0
+[16:30:26.186] [95.333s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[16:30:26.455] [99.700s] [INFO] Observations - Money: 40, Lives: -13, Wave: 2, Enemies: 0
+[16:30:26.462] [99.800s] [INFO] Observations - Money: 40, Lives: -13, Wave: 2, Enemies: 0
+[16:30:26.467] [99.900s] [INFO] Observations - Money: 40, Lives: -13, Wave: 2, Enemies: 0
+
+=== LOG SESSION ENDED: 7/13/2025 4:30:31 PM ===

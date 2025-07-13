@@ -1,0 +1,382 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/13/2025 4:00:09 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[16:00:09.927] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[16:00:11.881] [0.000s] [INFO] Building MachineGunTowerData at position (6.73, 2.37, 0.00)
+[16:00:11.883] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized at (6.73, 2.37, 0.00)
+[16:00:11.885] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:00:11.885] [0.000s] [INFO] Tower built! Money left: 50, Tower active: True
+[16:00:11.886] [0.000s] [INFO] Action 5 executed successfully
+[16:00:11.888] [0.020s] [INFO] Action 5 failed to execute
+[16:00:11.889] [0.040s] [INFO] Action 5 failed to execute
+[16:00:11.889] [0.060s] [INFO] Action 5 failed to execute
+[16:00:11.890] [0.080s] [INFO] Action 5 failed to execute
+[16:00:11.899] [0.100s] [INFO] Action 23 failed to execute
+[16:00:11.900] [0.120s] [INFO] Action 23 failed to execute
+[16:00:11.900] [0.140s] [INFO] Action 23 failed to execute
+[16:00:11.901] [0.160s] [INFO] Action 23 failed to execute
+[16:00:11.901] [0.180s] [INFO] Action 23 failed to execute
+[16:00:11.907] [0.200s] [INFO] Action 27 failed to execute
+[16:00:11.907] [0.220s] [INFO] Action 27 failed to execute
+[16:00:11.908] [0.240s] [INFO] Action 27 failed to execute
+[16:00:11.908] [0.260s] [INFO] Action 27 failed to execute
+[16:00:11.909] [0.280s] [INFO] Action 27 failed to execute
+[16:00:11.915] [0.300s] [INFO] Building MachineGunTowerData at position (4.68, 2.52, 0.00)
+[16:00:11.917] [0.300s] [INFO] Tower MachineGunTower(Clone) initialized at (4.68, 2.52, 0.00)
+[16:00:11.917] [0.300s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:00:11.918] [0.300s] [INFO] Tower built! Money left: 0, Tower active: True
+[16:00:11.918] [0.300s] [INFO] Action 10 executed successfully
+[16:00:11.919] [0.320s] [INFO] Action 10 failed to execute
+[16:00:12.604] [0.340s] [INFO] Action 16 failed to execute
+[16:00:12.604] [0.360s] [INFO] Action 16 failed to execute
+[16:00:12.605] [0.380s] [INFO] Action 16 failed to execute
+[16:00:12.611] [0.400s] [INFO] Not enough money to build that!
+[16:00:12.612] [0.400s] [INFO] Action 11 failed to execute
+[16:00:12.612] [0.420s] [INFO] Not enough money to build that!
+[16:00:12.612] [0.420s] [INFO] Action 11 failed to execute
+[16:00:12.613] [0.440s] [INFO] Not enough money to build that!
+[16:00:12.614] [0.440s] [INFO] Action 11 failed to execute
+[16:00:12.614] [0.460s] [INFO] Not enough money to build that!
+[16:00:12.614] [0.460s] [INFO] Action 11 failed to execute
+[16:00:12.614] [0.480s] [INFO] Not enough money to build that!
+[16:00:12.616] [0.480s] [INFO] Action 11 failed to execute
+[16:00:12.625] [0.600s] [INFO] Action 26 failed to execute
+[16:00:12.625] [0.620s] [INFO] Action 26 failed to execute
+[16:00:12.626] [0.640s] [INFO] Action 26 failed to execute
+[16:00:12.626] [0.660s] [INFO] Action 26 failed to execute
+[16:00:12.676] [0.680s] [INFO] Not enough money to build that!
+[16:00:12.677] [0.680s] [INFO] Action 8 failed to execute
+[16:00:12.686] [0.800s] [INFO] Action 1 executed successfully
+[16:00:12.687] [0.820s] [INFO] Action 1 executed successfully
+[16:00:12.687] [0.840s] [INFO] Action 1 executed successfully
+[16:00:12.688] [0.860s] [INFO] Action 1 executed successfully
+[16:00:12.689] [0.880s] [INFO] Action 1 executed successfully
+[16:00:12.694] [0.900s] [INFO] Not enough money to build that!
+[16:00:12.694] [0.900s] [INFO] Action 12 failed to execute
+[16:00:12.695] [0.920s] [INFO] Not enough money to build that!
+[16:00:12.695] [0.920s] [INFO] Action 12 failed to execute
+[16:00:12.696] [0.940s] [INFO] Not enough money to build that!
+[16:00:12.696] [0.940s] [INFO] Action 12 failed to execute
+[16:00:12.697] [0.960s] [INFO] Not enough money to build that!
+[16:00:12.697] [0.960s] [INFO] Action 12 failed to execute
+[16:00:12.697] [0.980s] [INFO] Not enough money to build that!
+[16:00:12.699] [0.980s] [INFO] Action 12 failed to execute
+[16:00:12.705] [1.000s] [INFO] Action 26 failed to execute
+[16:00:12.716] [1.020s] [INFO] Not enough money to build that!
+[16:00:12.717] [1.020s] [INFO] Action 6 failed to execute
+[16:00:12.717] [1.040s] [INFO] Not enough money to build that!
+[16:00:12.719] [1.040s] [INFO] Action 6 failed to execute
+[16:00:12.719] [1.060s] [INFO] Not enough money to build that!
+[16:00:12.720] [1.060s] [INFO] Action 6 failed to execute
+[16:00:12.720] [1.080s] [INFO] Not enough money to build that!
+[16:00:12.720] [1.080s] [INFO] Action 6 failed to execute
+[16:00:12.727] [1.100s] [INFO] Action 18 failed to execute
+[16:00:12.727] [1.120s] [INFO] Action 18 failed to execute
+[16:00:12.727] [1.140s] [INFO] Action 18 failed to execute
+[16:00:12.728] [1.160s] [INFO] Action 18 failed to execute
+[16:00:12.728] [1.180s] [INFO] Action 18 failed to execute
+[16:00:12.734] [1.200s] [INFO] Not enough money to build that!
+[16:00:12.734] [1.200s] [INFO] Action 12 failed to execute
+[16:00:12.734] [1.220s] [INFO] Not enough money to build that!
+[16:00:12.735] [1.220s] [INFO] Action 12 failed to execute
+[16:00:12.735] [1.240s] [INFO] Not enough money to build that!
+[16:00:12.735] [1.240s] [INFO] Action 12 failed to execute
+[16:00:12.737] [1.260s] [INFO] Not enough money to build that!
+[16:00:12.737] [1.260s] [INFO] Action 12 failed to execute
+[16:00:12.737] [1.280s] [INFO] Not enough money to build that!
+[16:00:12.738] [1.280s] [INFO] Action 12 failed to execute
+[16:00:12.742] [1.300s] [INFO] Action 10 failed to execute
+[16:00:12.744] [1.320s] [INFO] Action 10 failed to execute
+[16:00:12.752] [1.340s] [INFO] Not enough money to build that!
+[16:00:12.752] [1.340s] [INFO] Action 11 failed to execute
+[16:00:12.753] [1.360s] [INFO] Not enough money to build that!
+[16:00:12.753] [1.360s] [INFO] Action 11 failed to execute
+[16:00:12.754] [1.380s] [INFO] Not enough money to build that!
+[16:00:12.754] [1.380s] [INFO] Action 11 failed to execute
+[16:00:12.760] [1.400s] [INFO] Action 22 failed to execute
+[16:00:12.761] [1.420s] [INFO] Action 22 failed to execute
+[16:00:12.761] [1.440s] [INFO] Action 22 failed to execute
+[16:00:12.762] [1.460s] [INFO] Action 22 failed to execute
+[16:00:12.762] [1.480s] [INFO] Action 22 failed to execute
+[16:00:12.768] [1.500s] [INFO] Action 27 failed to execute
+[16:00:12.770] [1.520s] [INFO] Action 27 failed to execute
+[16:00:12.770] [1.540s] [INFO] Action 27 failed to execute
+[16:00:12.771] [1.560s] [INFO] Action 27 failed to execute
+[16:00:12.771] [1.580s] [INFO] Action 27 failed to execute
+[16:00:12.779] [1.600s] [INFO] Action 15 executed successfully
+[16:00:12.781] [1.620s] [INFO] Action 15 executed successfully
+[16:00:12.781] [1.640s] [INFO] Action 15 executed successfully
+[16:00:12.782] [1.660s] [INFO] Action 15 executed successfully
+[16:00:12.791] [1.680s] [INFO] Action 19 failed to execute
+[16:00:12.796] [1.700s] [INFO] Action 26 failed to execute
+[16:00:12.797] [1.720s] [INFO] Action 26 failed to execute
+[16:00:12.798] [1.740s] [INFO] Action 26 failed to execute
+[16:00:12.798] [1.760s] [INFO] Action 26 failed to execute
+[16:00:12.799] [1.780s] [INFO] Action 26 failed to execute
+[16:00:12.806] [1.800s] [INFO] Action 26 failed to execute
+[16:00:12.806] [1.820s] [INFO] Action 26 failed to execute
+[16:00:12.807] [1.840s] [INFO] Action 26 failed to execute
+[16:00:12.808] [1.860s] [INFO] Action 26 failed to execute
+[16:00:12.809] [1.880s] [INFO] Action 26 failed to execute
+[16:00:12.814] [1.900s] [INFO] Action 24 failed to execute
+[16:00:12.815] [1.920s] [INFO] Action 24 failed to execute
+[16:00:12.815] [1.940s] [INFO] Action 24 failed to execute
+[16:00:12.815] [1.960s] [INFO] Action 24 failed to execute
+[16:00:12.817] [1.980s] [INFO] Action 24 failed to execute
+[16:00:12.821] [2.000s] [INFO] Action 10 failed to execute
+[16:00:12.833] [2.020s] [INFO] Action 18 failed to execute
+[16:00:12.834] [2.040s] [INFO] Action 18 failed to execute
+[16:00:12.835] [2.060s] [INFO] Action 18 failed to execute
+[16:00:12.835] [2.080s] [INFO] Action 18 failed to execute
+[16:00:12.840] [2.100s] [INFO] Action 31 failed to execute
+[16:00:12.840] [2.120s] [INFO] Action 31 failed to execute
+[16:00:12.841] [2.140s] [INFO] Action 31 failed to execute
+[16:00:12.841] [2.160s] [INFO] Action 31 failed to execute
+[16:00:12.843] [2.180s] [INFO] Action 31 failed to execute
+[16:00:12.847] [2.200s] [INFO] Action 13 failed to execute
+[16:00:12.848] [2.220s] [INFO] Action 13 failed to execute
+[16:00:12.848] [2.240s] [INFO] Action 13 failed to execute
+[16:00:12.849] [2.260s] [INFO] Action 13 failed to execute
+[16:00:12.849] [2.280s] [INFO] Action 13 failed to execute
+[16:00:12.854] [2.300s] [INFO] Action 14 failed to execute
+[16:00:12.855] [2.320s] [INFO] Action 14 failed to execute
+[16:00:12.876] [2.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:00:12.878] [2.333s] [INFO] Enemies alive: 1
+[16:00:12.886] [2.340s] [INFO] Not enough money to build that!
+[16:00:12.887] [2.340s] [INFO] Action 11 failed to execute
+[16:00:12.888] [2.360s] [INFO] Not enough money to build that!
+[16:00:12.888] [2.360s] [INFO] Action 11 failed to execute
+[16:00:12.889] [2.380s] [INFO] Not enough money to build that!
+[16:00:12.889] [2.380s] [INFO] Action 11 failed to execute
+[16:00:12.894] [2.400s] [INFO] Action 13 failed to execute
+[16:00:12.894] [2.420s] [INFO] Action 13 failed to execute
+[16:00:12.895] [2.440s] [INFO] Action 13 failed to execute
+[16:00:12.896] [2.460s] [INFO] Action 13 failed to execute
+[16:00:12.896] [2.480s] [INFO] Action 13 failed to execute
+[16:00:12.901] [2.500s] [INFO] Action 32 failed to execute
+[16:00:12.901] [2.520s] [INFO] Action 32 failed to execute
+[16:00:12.901] [2.540s] [INFO] Action 32 failed to execute
+[16:00:12.902] [2.560s] [INFO] Action 32 failed to execute
+[16:00:12.902] [2.580s] [INFO] Action 32 failed to execute
+[16:00:12.908] [2.600s] [INFO] Not enough money to build that!
+[16:00:12.908] [2.600s] [INFO] Action 6 failed to execute
+[16:00:12.909] [2.620s] [INFO] Not enough money to build that!
+[16:00:12.909] [2.620s] [INFO] Action 6 failed to execute
+[16:00:12.909] [2.640s] [INFO] Not enough money to build that!
+[16:00:12.910] [2.640s] [INFO] Action 6 failed to execute
+[16:00:12.910] [2.660s] [INFO] Not enough money to build that!
+[16:00:12.910] [2.660s] [INFO] Action 6 failed to execute
+[16:00:12.921] [2.680s] [INFO] Action 23 failed to execute
+[16:00:12.926] [2.700s] [INFO] Not enough money to build that!
+[16:00:12.926] [2.700s] [INFO] Action 4 failed to execute
+[16:00:12.927] [2.720s] [INFO] Not enough money to build that!
+[16:00:12.927] [2.720s] [INFO] Action 4 failed to execute
+[16:00:12.928] [2.740s] [INFO] Not enough money to build that!
+[16:00:12.928] [2.740s] [INFO] Action 4 failed to execute
+[16:00:12.929] [2.760s] [INFO] Not enough money to build that!
+[16:00:12.929] [2.760s] [INFO] Action 4 failed to execute
+[16:00:12.930] [2.780s] [INFO] Not enough money to build that!
+[16:00:12.931] [2.780s] [INFO] Action 4 failed to execute
+[16:00:12.935] [2.800s] [INFO] Action 25 executed successfully
+[16:00:12.936] [2.820s] [INFO] Action 25 failed to execute
+[16:00:12.936] [2.840s] [INFO] Action 25 failed to execute
+[16:00:12.937] [2.860s] [INFO] Action 25 failed to execute
+[16:00:12.937] [2.880s] [INFO] Action 25 failed to execute
+[16:00:12.942] [2.900s] [INFO] Action 10 failed to execute
+[16:00:12.942] [2.920s] [INFO] Action 10 failed to execute
+[16:00:12.942] [2.940s] [INFO] Action 10 failed to execute
+[16:00:12.943] [2.960s] [INFO] Action 10 failed to execute
+[16:00:12.944] [2.980s] [INFO] Action 10 failed to execute
+[16:00:12.948] [3.000s] [INFO] Action 29 failed to execute
+[16:00:12.958] [3.020s] [INFO] Not enough money to build that!
+[16:00:12.958] [3.020s] [INFO] Action 8 failed to execute
+[16:00:12.960] [3.040s] [INFO] Not enough money to build that!
+[16:00:12.960] [3.040s] [INFO] Action 8 failed to execute
+[16:00:12.961] [3.060s] [INFO] Not enough money to build that!
+[16:00:12.961] [3.060s] [INFO] Action 8 failed to execute
+[16:00:12.962] [3.080s] [INFO] Not enough money to build that!
+[16:00:12.962] [3.080s] [INFO] Action 8 failed to execute
+[16:00:12.967] [3.100s] [INFO] Action 1 executed successfully
+[16:00:12.968] [3.120s] [INFO] Action 1 executed successfully
+[16:00:12.968] [3.140s] [INFO] Action 1 executed successfully
+[16:00:12.968] [3.160s] [INFO] Action 1 executed successfully
+[16:00:12.970] [3.180s] [INFO] Action 1 executed successfully
+[16:00:12.973] [3.200s] [INFO] Action 23 failed to execute
+[16:00:12.974] [3.220s] [INFO] Action 23 failed to execute
+[16:00:12.975] [3.240s] [INFO] Action 23 failed to execute
+[16:00:12.975] [3.260s] [INFO] Action 23 failed to execute
+[16:00:12.976] [3.280s] [INFO] Action 23 failed to execute
+[16:00:12.979] [3.300s] [INFO] Action 21 failed to execute
+[16:00:12.980] [3.320s] [INFO] Action 21 failed to execute
+[16:00:12.985] [3.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:00:12.985] [3.333s] [INFO] Enemies alive: 2
+[16:00:12.999] [3.340s] [INFO] Action 24 failed to execute
+[16:00:13.000] [3.360s] [INFO] Action 24 failed to execute
+[16:00:13.000] [3.380s] [INFO] Action 24 failed to execute
+[16:00:13.006] [3.400s] [INFO] Action 24 failed to execute
+[16:00:13.007] [3.420s] [INFO] Action 24 failed to execute
+[16:00:13.007] [3.440s] [INFO] Action 24 failed to execute
+[16:00:13.007] [3.460s] [INFO] Action 24 failed to execute
+[16:00:13.009] [3.480s] [INFO] Action 24 failed to execute
+[16:00:13.016] [3.500s] [INFO] Not enough money to build that!
+[16:00:13.017] [3.500s] [INFO] Action 4 failed to execute
+[16:00:13.017] [3.520s] [INFO] Not enough money to build that!
+[16:00:13.017] [3.520s] [INFO] Action 4 failed to execute
+[16:00:13.018] [3.540s] [INFO] Not enough money to build that!
+[16:00:13.018] [3.540s] [INFO] Action 4 failed to execute
+[16:00:13.018] [3.560s] [INFO] Not enough money to build that!
+[16:00:13.019] [3.560s] [INFO] Action 4 failed to execute
+[16:00:13.019] [3.580s] [INFO] Not enough money to build that!
+[16:00:13.020] [3.580s] [INFO] Action 4 failed to execute
+[16:00:13.025] [3.600s] [INFO] Action 22 failed to execute
+[16:00:13.025] [3.620s] [INFO] Action 22 failed to execute
+[16:00:13.026] [3.640s] [INFO] Action 22 failed to execute
+[16:00:13.026] [3.660s] [INFO] Action 22 failed to execute
+[16:00:13.041] [3.680s] [INFO] Action 20 executed successfully
+[16:00:13.046] [3.700s] [INFO] Not enough money to build that!
+[16:00:13.047] [3.700s] [INFO] Action 7 failed to execute
+[16:00:13.047] [3.720s] [INFO] Not enough money to build that!
+[16:00:13.048] [3.720s] [INFO] Action 7 failed to execute
+[16:00:13.049] [3.740s] [INFO] Not enough money to build that!
+[16:00:13.049] [3.740s] [INFO] Action 7 failed to execute
+[16:00:13.049] [3.760s] [INFO] Not enough money to build that!
+[16:00:13.050] [3.760s] [INFO] Action 7 failed to execute
+[16:00:13.050] [3.780s] [INFO] Not enough money to build that!
+[16:00:13.051] [3.780s] [INFO] Action 7 failed to execute
+[16:00:13.056] [3.800s] [INFO] Action 2 executed successfully
+[16:00:13.056] [3.820s] [INFO] Action 2 executed successfully
+[16:00:13.057] [3.840s] [INFO] Action 2 executed successfully
+[16:00:13.057] [3.860s] [INFO] Action 2 executed successfully
+[16:00:13.057] [3.880s] [INFO] Action 2 executed successfully
+[16:00:13.061] [3.900s] [INFO] Not enough money to build that!
+[16:00:13.062] [3.900s] [INFO] Action 9 failed to execute
+[16:00:13.062] [3.920s] [INFO] Not enough money to build that!
+[16:00:13.062] [3.920s] [INFO] Action 9 failed to execute
+[16:00:13.063] [3.940s] [INFO] Not enough money to build that!
+[16:00:13.064] [3.940s] [INFO] Action 9 failed to execute
+[16:00:13.064] [3.960s] [INFO] Not enough money to build that!
+[16:00:13.064] [3.960s] [INFO] Action 9 failed to execute
+[16:00:13.065] [3.980s] [INFO] Not enough money to build that!
+[16:00:13.065] [3.980s] [INFO] Action 9 failed to execute
+[16:00:13.069] [4.000s] [INFO] Action 15 failed to execute
+[16:00:13.078] [4.020s] [INFO] Action 23 failed to execute
+[16:00:13.079] [4.040s] [INFO] Action 23 failed to execute
+[16:00:13.079] [4.060s] [INFO] Action 23 failed to execute
+[16:00:13.079] [4.080s] [INFO] Action 23 failed to execute
+[16:00:13.084] [4.100s] [INFO] Not enough money to build that!
+[16:00:13.084] [4.100s] [INFO] Action 6 failed to execute
+[16:00:13.086] [4.120s] [INFO] Not enough money to build that!
+[16:00:13.086] [4.120s] [INFO] Action 6 failed to execute
+[16:00:13.087] [4.140s] [INFO] Not enough money to build that!
+[16:00:13.087] [4.140s] [INFO] Action 6 failed to execute
+[16:00:13.088] [4.160s] [INFO] Not enough money to build that!
+[16:00:13.088] [4.160s] [INFO] Action 6 failed to execute
+[16:00:13.089] [4.180s] [INFO] Not enough money to build that!
+[16:00:13.089] [4.180s] [INFO] Action 6 failed to execute
+[16:00:13.093] [4.200s] [INFO] Not enough money to build that!
+[16:00:13.093] [4.200s] [INFO] Action 12 failed to execute
+[16:00:13.094] [4.220s] [INFO] Not enough money to build that!
+[16:00:13.094] [4.220s] [INFO] Action 12 failed to execute
+[16:00:13.095] [4.240s] [INFO] Not enough money to build that!
+[16:00:13.096] [4.240s] [INFO] Action 12 failed to execute
+[16:00:13.096] [4.260s] [INFO] Not enough money to build that!
+[16:00:13.097] [4.260s] [INFO] Action 12 failed to execute
+[16:00:13.097] [4.280s] [INFO] Not enough money to build that!
+[16:00:13.097] [4.280s] [INFO] Action 12 failed to execute
+[16:00:13.101] [4.300s] [INFO] Not enough money to build that!
+[16:00:13.102] [4.300s] [INFO] Action 8 failed to execute
+[16:00:13.102] [4.320s] [INFO] Not enough money to build that!
+[16:00:13.103] [4.320s] [INFO] Action 8 failed to execute
+[16:00:13.104] [4.333s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-9.95, 6.36, 0.00)
+[16:00:13.105] [4.333s] [INFO] Enemies alive: 3
+[16:00:13.119] [4.340s] [INFO] Not enough money to build that!
+[16:00:13.119] [4.340s] [INFO] Action 4 failed to execute
+[16:00:13.120] [4.360s] [INFO] Not enough money to build that!
+[16:00:13.120] [4.360s] [INFO] Action 4 failed to execute
+[16:00:13.121] [4.380s] [INFO] Not enough money to build that!
+[16:00:13.121] [4.380s] [INFO] Action 4 failed to execute
+[16:00:13.126] [4.400s] [INFO] Action 19 failed to execute
+[16:00:13.127] [4.420s] [INFO] Action 19 failed to execute
+[16:00:13.127] [4.440s] [INFO] Action 19 failed to execute
+[16:00:13.128] [4.460s] [INFO] Action 19 failed to execute
+[16:00:13.128] [4.480s] [INFO] Action 19 failed to execute
+[16:00:13.135] [4.600s] [INFO] Action 2 executed successfully
+[16:00:13.136] [4.620s] [INFO] Action 2 executed successfully
+[16:00:13.137] [4.640s] [INFO] Action 2 executed successfully
+[16:00:13.137] [4.660s] [INFO] Action 2 executed successfully
+[16:00:13.147] [4.680s] [INFO] Action 31 failed to execute
+[16:00:13.152] [4.700s] [INFO] Action 20 executed successfully
+[16:00:13.152] [4.720s] [INFO] Action 20 executed successfully
+[16:00:13.153] [4.740s] [INFO] Action 20 executed successfullycute
+[16:00:14.633] [18.820s] [INFO] Not enough money to build that!
+[16:00:14.635] [18.820s] [INFO] Action 4 failed to execute
+[16:00:14.635] [18.840s] [INFO] Not enough money to build that!
+[16:00:14.635] [18.840s] [INFO] Action 4 failed to execute
+[16:00:14.636] [18.860s] [INFO] Not enough money to build that!
+[16:00:14.637] [18.860s] [INFO] Action 4 failed to execute
+[16:00:14.638] [18.880s] [INFO] Not enough money to build that!
+[16:00:14.638] [18.880s] [INFO] Action 4 failed to execute
+[16:00:14.643] [18.900s] [INFO] Action 31 failed to execute
+[16:00:14.643] [18.920s] [INFO] Action 31 failed to execute
+[16:00:14.644] [18.940s] [INFO] Action 31 failed to execute
+[16:00:14.645] [18.960s] [INFO] Action 31 failed to execute
+[16:00:14.645] [18.980s] [INFO] Action 31 failed to execute
+[16:00:14.658] [19.020s] [INFO] Action 23 failed to execute
+[16:00:14.658] [19.040s] [INFO] Action 23 failed to execute
+[16:00:14.660] [19.060s] [INFO] Action 23 failed to execute
+[16:00:14.660] [19.080s] [INFO] Action 23 failed to execute
+[16:00:14.665] [19.100s] [INFO] Not enough money to build that!
+[16:00:14.665] [19.100s] [INFO] Action 6 failed to execute
+[16:00:14.665] [19.120s] [INFO] Not enough money to build that!
+[16:00:14.666] [19.120s] [INFO] Action 6 failed to execute
+[16:00:14.666] [19.140s] [INFO] Not enough money to build that!
+[16:00:14.667] [19.140s] [INFO] Action 6 failed to execute
+[16:00:14.667] [19.160s] [INFO] Not enough money to build that!
+[16:00:14.668] [19.160s] [INFO] Action 6 failed to execute
+[16:00:14.668] [19.180s] [INFO] Not enough money to build that!
+[16:00:14.668] [19.180s] [INFO] Action 6 failed to execute
+[16:00:14.679] [19.300s] [INFO] Action 13 failed to execute
+[16:00:14.680] [19.320s] [INFO] Action 13 failed to execute
+[16:00:14.692] [19.400s] [INFO] Action 13 failed to execute
+[16:00:14.693] [19.420s] [INFO] Action 13 failed to execute
+[16:00:14.693] [19.440s] [INFO] Action 13 failed to execute
+[16:00:14.693] [19.460s] [INFO] Action 13 failed to execute
+[16:00:14.695] [19.480s] [INFO] Action 13 failed to execute
+[16:00:14.700] [19.500s] [INFO] Not enough money to build that!
+[16:00:14.700] [19.500s] [INFO] Action 5 failed to execute
+[16:00:14.701] [19.520s] [INFO] Not enough money to build that!
+[16:00:14.701] [19.520s] [INFO] Action 5 failed to execute
+[16:00:14.702] [19.540s] [INFO] Not enough money to build that!
+[16:00:14.702] [19.540s] [INFO] Action 5 failed to execute
+[16:00:14.703] [19.560s] [INFO] Not enough money to build that!
+[16:00:14.703] [19.560s] [INFO] Action 5 failed to execute
+[16:00:14.703] [19.580s] [INFO] Not enough money to build that!
+[16:00:14.703] [19.580s] [INFO] Action 5 failed to execute
+[16:00:14.708] [19.600s] [INFO] Action 1 executed successfully
+[16:00:14.709] [19.620s] [INFO] Action 1 executed successfully
+[16:00:14.709] [19.640s] [INFO] Action 1 executed successfully
+[16:00:14.710] [19.660s] [INFO] Action 1 executed successfully
+[16:00:14.713] [19.680s] [INFO] Observations - Money: 74, Lives: 20, Wave: 0, Enemies: 4
+[16:00:14.718] [19.680s] [INFO] Building MachineGunTowerData at position (4.68, -1.55, 0.00)
+[16:00:14.719] [19.680s] [INFO] Tower MachineGunTower(Clone) initialized at (4.68, -1.55, 0.00)
+[16:00:14.720] [19.680s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:00:14.720] [19.680s] [INFO] Tower built! Money left: 24, Tower active: True
+[16:00:14.720] [19.680s] [INFO] Action 9 executed successfully
+[16:00:14.721] [19.680s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.47
+[16:00:14.721] [19.700s] [INFO] Observations - Money: 24, Lives: 20, Wave: 0, Enemies: 4
+[16:00:14.734] [19.700s] [INFO] Not enough money to build that!
+[16:00:14.735] [19.700s] [INFO] Action 6 failed to execute
+[16:00:14.735] [19.720s] [INFO] Not enough money to build that!
+[16:00:14.736] [19.720s] [INFO] Action 6 failed to execute
+[16:00:14.736] [19.740s] [INFO] Not enough money to build that!
+[16:00:14.736] [19.740s] [INFO] Action 6 failed to execute
+[16:00:14.737] [19.760s] [INFO] Not enough money to build that!
+[16:00:14.737] [19.760s] [INFO] Action 6 failed to execute
+[16:00:14.738] [19.780s] [INFO] Not enough money to build that!
+[16:00:14.739] [19.780s] [INFO] Action 6 failed to execute
+[16:00:14.739] [19.800s] [INFO] Observations - Money: 24, Lives: 20, Wave: 0, Enemies: 4
+[16:00:14.744] [19.800s] [INFO] Not enough money to build that!
+[16:00:14.744] [19.800s] [INFO] Action 10 failed to execute
+=== LOG SESSION ENDED: 7/13/2025 4:00:20 PM ===

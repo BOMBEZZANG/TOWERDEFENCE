@@ -12,6 +12,7 @@ public class EnemyMovement : MonoBehaviour
     private void Start()
     {
         SetInitialTarget();
+        Debug.Log($"Enemy {gameObject.name} starting movement with speed {speed}, target: {target?.name}");
     }
     
     private void Update()
@@ -38,12 +39,14 @@ public class EnemyMovement : MonoBehaviour
     {
         if (waypointIndex >= Waypoints.points.Length - 1)
         {
+            Debug.Log($"Enemy {gameObject.name} reached end of path");
             EndPath();
             return;
         }
         
         waypointIndex++;
         target = Waypoints.points[waypointIndex];
+        Debug.Log($"Enemy {gameObject.name} moving to waypoint {waypointIndex}: {target.name}");
     }
     
     private void SetInitialTarget()
@@ -51,11 +54,17 @@ public class EnemyMovement : MonoBehaviour
         if (Waypoints.points != null && Waypoints.points.Length > 0)
         {
             target = Waypoints.points[0];
+            Debug.Log($"Set initial target for {gameObject.name}: {target.name}, total waypoints: {Waypoints.points.Length}");
+        }
+        else
+        {
+            Debug.LogError($"No waypoints found! Enemy {gameObject.name} cannot move.");
         }
     }
     
     private void EndPath()
     {
+        Debug.Log($"Enemy {gameObject.name} reached the end!");
         Enemy enemy = GetComponent<Enemy>();
         if (enemy != null)
         {

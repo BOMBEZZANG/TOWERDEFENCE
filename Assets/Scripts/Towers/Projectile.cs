@@ -11,6 +11,7 @@ public class Projectile : MonoBehaviour
         target = _target;
         damage = _damage;
         speed = _speed;
+        Debug.Log($"Projectile created targeting {target.name} with {damage} damage at {speed} speed");
     }
     
     private void Update()
@@ -36,10 +37,17 @@ public class Projectile : MonoBehaviour
     
     private void HitTarget()
     {
+        Debug.Log($"Projectile hit target {target.name}");
+        
         Enemy enemy = target.GetComponent<Enemy>();
         if (enemy != null)
         {
+            Debug.Log($"Dealing {damage} damage to {enemy.name}");
             enemy.TakeDamage(damage);
+        }
+        else
+        {
+            Debug.LogWarning($"Target {target.name} has no Enemy component!");
         }
         
         Destroy(gameObject);

@@ -1,0 +1,29 @@
+{
+    "SimpleTowerDefenseAgent": {
+        "checkpoints": [
+            {
+                "steps": 151231,
+                "file_path": "results\\SimpleTest_29\\SimpleTowerDefenseAgent\\SimpleTowerDefenseAgent-151231.onnx",
+                "reward": null,
+                "creation_time": 1752401459.7162912,
+                "auxillary_file_paths": [
+                    "results\\SimpleTest_29\\SimpleTowerDefenseAgent\\SimpleTowerDefenseAgent-151231.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 151231,
+            "file_path": "results\\SimpleTest_29\\SimpleTowerDefenseAgent.onnx",
+            "reward": null,
+            "creation_time": 1752401459.7162912,
+            "auxillary_file_paths": [
+                "results\\SimpleTest_29\\SimpleTowerDefenseAgent\\SimpleTowerDefenseAgent-151231.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.7.1+cu118"
+    }
+}

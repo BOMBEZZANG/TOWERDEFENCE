@@ -19,41 +19,78 @@ public class GameManager : MonoBehaviour
     public int currentWaveIndex = 0;
     public bool gameOver = false;
     public bool gameWon = false;
+
+    // 생성된 오브젝트를 추적하기 위한 리스트
+    private List<GameObject> activeEnemies = new List<GameObject>();
+    private List<GameObject> activeTowers = new List<GameObject>();
     
     public static bool GameIsOver { get { return Instance.gameOver; } }
     
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
     }
     
     private void Start()
     {
         currentMoney = startingMoney;
         currentLives = startingLives;
-        
         if (UIManager.Instance != null)
         {
             UIManager.Instance.UpdateMoney(currentMoney);
             UIManager.Instance.UpdateLives(currentLives);
         }
     }
-    
-    public void AddMoney(int amount)
+
+    // AI 훈련을 위한 최적화된 수동 리셋 메서드
+    public void ManualReset()
     {
-        currentMoney += amount;
+        // 리스트를 순회하며 즉시 파괴 (훨씬 빠름)
+        for (int i = activeTowers.Count - 1; i >= 0; i--)
+        {
+            if(activeTowers[i] != null) Destroy(activeTowers[i]);
+        }
+        activeTowers.Clear();
+
+        for (int i = activeEnemies.Count - 1; i >= 0; i--)
+        {
+            if(activeEnemies[i] != null) Destroy(activeEnemies[i]);
+        }
+        activeEnemies.Clear();
+        
+        foreach (var projectile in FindObjectsByType<Projectile>(FindObjectsSortMode.None)) Destroy(projectile.gameObject);
+        foreach (var node in FindObjectsByType<Node>(FindObjectsSortMode.None)) node.tower = null;
+
+        currentMoney = startingMoney;
+        currentLives = startingLives;
+        currentWaveIndex = 0;
+        gameOver = false;
+        gameWon = false;
+        
+        if (WaveSpawner.Instance != null) WaveSpawner.Instance.ResetSpawner();
+        if (BuildManager.Instance != null) BuildManager.Instance.DeselectNode();
+        
         if (UIManager.Instance != null)
         {
             UIManager.Instance.UpdateMoney(currentMoney);
+            UIManager.Instance.UpdateLives(currentLives);
+            UIManager.Instance.UpdateWaveNumber(1);
+            UIManager.Instance.gameOverUI.SetActive(false);
+            UIManager.Instance.winUI.SetActive(false);
         }
+    }
+
+    // 외부에서 적과 타워를 리스트에 추가/제거할 수 있도록 메서드 추가
+    public void RegisterEnemy(GameObject enemy) { activeEnemies.Add(enemy); }
+    public void UnregisterEnemy(GameObject enemy) { activeEnemies.Remove(enemy); }
+    public void RegisterTower(GameObject tower) { activeTowers.Add(tower); }
+    public void UnregisterTower(GameObject tower) { activeTowers.Remove(tower); }
+
+    public void AddMoney(int amount)
+    {
+        currentMoney += amount;
+        if (UIManager.Instance != null) UIManager.Instance.UpdateMoney(currentMoney);
     }
     
     public bool SpendMoney(int amount)
@@ -61,10 +98,7 @@ public class GameManager : MonoBehaviour
         if (currentMoney >= amount)
         {
             currentMoney -= amount;
-            if (UIManager.Instance != null)
-            {
-                UIManager.Instance.UpdateMoney(currentMoney);
-            }
+            if (UIManager.Instance != null) UIManager.Instance.UpdateMoney(currentMoney);
             return true;
         }
         return false;
@@ -73,13 +107,11 @@ public class GameManager : MonoBehaviour
     public void LoseLife()
     {
         currentLives--;
-        if (UIManager.Instance != null)
+        Debug.Log($"Life lost! Current lives: {currentLives}");
+        if (UIManager.Instance != null) UIManager.Instance.UpdateLives(currentLives);
+        if (currentLives <= 0) 
         {
-            UIManager.Instance.UpdateLives(currentLives);
-        }
-        
-        if (currentLives <= 0)
-        {
+            Debug.Log("Lives reached 0 or below! Calling GameOver()");
             GameOver();
         }
     }
@@ -87,23 +119,15 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         gameOver = true;
-        Debug.Log("Game Over!");
-        
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.ShowGameOverScreen();
-        }
+        Debug.Log("GameOver() called! Player lost the game!");
+        if (UIManager.Instance != null) UIManager.Instance.ShowGameOverScreen();
     }
     
     public void GameWin()
     {
         gameWon = true;
-        Debug.Log("You Win!");
-        
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.ShowWinScreen();
-        }
+        Debug.Log("GameWin() called! Player won the game!");
+        if (UIManager.Instance != null) UIManager.Instance.ShowWinScreen();
     }
     
     public void RestartGame()
@@ -111,64 +135,21 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
-    public void ManualReset()
-    {
-        currentMoney = startingMoney;
-        currentLives = startingLives;
-        currentWaveIndex = 0;
-        gameOver = false;
-        gameWon = false;
-        
-        // Clear all existing towers
-        Node[] nodes = FindObjectsByType<Node>(FindObjectsSortMode.None);
-        foreach (Node node in nodes)
-        {
-            if (node.tower != null)
-            {
-                Destroy(node.tower);
-                node.tower = null;
-            }
-        }
-        
-        // Clear all existing enemies
-        Enemy[] enemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
-        foreach (Enemy enemy in enemies)
-        {
-            if (enemy != null)
-            {
-                Destroy(enemy.gameObject);
-            }
-        }
-        
-        // Reset wave spawner
-        if (WaveSpawner.Instance != null)
-        {
-            WaveSpawner.Instance.ResetWaveSpawner();
-        }
-        
-        // Update UI
-        if (UIManager.Instance != null)
-        {
-            UIManager.Instance.UpdateMoney(currentMoney);
-            UIManager.Instance.UpdateLives(currentLives);
-        }
-    }
-    
     public void NextWave()
     {
         currentWaveIndex++;
-        if (currentWaveIndex >= waves.Count)
+        Debug.Log($"NextWave called! Current wave index: {currentWaveIndex}, Total waves: {waves.Count}");
+        
+        if (currentWaveIndex >= waves.Count) 
         {
+            Debug.Log("All waves completed! Calling GameWin()");
             GameWin();
         }
     }
     
     public WaveData GetCurrentWave()
     {
-        if (currentWaveIndex < waves.Count)
-        {
-            return waves[currentWaveIndex];
-        }
+        if (currentWaveIndex < waves.Count) return waves[currentWaveIndex];
         return null;
     }
 }

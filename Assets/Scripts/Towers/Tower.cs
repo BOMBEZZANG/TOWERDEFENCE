@@ -33,12 +33,20 @@ public class Tower : MonoBehaviour
             rangeDisplay.localScale = Vector3.one * towerData.range * 2f;
         }
 
+        Debug.Log($"Tower {gameObject.name} initialized at {transform.position}");
         InvokeRepeating("UpdateTarget", 0f, 0.5f); 
     }
 
     private void UpdateTarget()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        
+        if (enemies.Length == 0)
+        {
+            target = null;
+            return;
+        }
+        
         float shortestDistance = Mathf.Infinity;
         GameObject nearestEnemy = null;
         
@@ -55,9 +63,14 @@ public class Tower : MonoBehaviour
         if (nearestEnemy != null && shortestDistance <= towerData.range)
         {
             target = nearestEnemy.transform;
+            Debug.Log($"Tower {gameObject.name} targeting enemy {nearestEnemy.name} at distance {shortestDistance:F2}");
         }
         else
         {
+            if (target != null) // Only log when losing target
+            {
+                Debug.Log($"Tower {gameObject.name} lost target - no enemies in range {towerData.range}");
+            }
             target = null;
         }
     }
@@ -89,6 +102,8 @@ public class Tower : MonoBehaviour
     
     private void Shoot()
     {
+        Debug.Log($"Tower {gameObject.name} shooting at {target.name}");
+        
         if (towerData.projectilePrefab != null)
         {
             GameObject projectileGO = Instantiate(towerData.projectilePrefab, firePoint.position, firePoint.rotation);
