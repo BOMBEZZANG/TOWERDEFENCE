@@ -1,0 +1,12 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 4:17:16 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[16:17:16.693] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[16:17:16.704] [0.000s] [WARN] Fewer observations (63) made than vector observation size (65). The observations will be padded.
+[16:17:19.942] [0.100s] [WARN] Fewer observations (63) made than vector observation size (65). The observations will be padded.
+[16:17:19.953] [0.200s] [WARN] Fewer observations (63) made than vector observation size (65). The observations will be padded.
+[16:17:19.963] [0.300s] [WARN] Fewer observations (63) made than vector observation size (65). The observations will be padded.
+
+=== LOG SESSION ENDED: 7/14/2025 4:17:20 PM ===

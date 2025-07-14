@@ -1,0 +1,13 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 4:34:39 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[16:34:39.861] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[16:34:39.867] [0.000s] [INFO] Building MachineGunTowerData at position (2.42, -2.02, 0.00)
+[16:34:39.870] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized at (2.42, -2.02, 0.00)
+[16:34:39.871] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[16:34:39.871] [0.000s] [INFO] Tower built! Money left: 0, Tower active: True
+[16:34:39.872] [0.000s] [INFO] Attempting to build MachineGunTowerData at node 0: True
+
+=== LOG SESSION ENDED: 7/14/2025 4:34:40 PM ===

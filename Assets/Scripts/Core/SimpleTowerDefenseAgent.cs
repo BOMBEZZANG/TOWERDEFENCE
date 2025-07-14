@@ -220,24 +220,62 @@ public class SimpleTowerDefenseAgent : Agent
     {
         var discreteActionsOut = actionsOut.DiscreteActions;
         
-        // Simple heuristic: Try to build towers when possible
-        if (GameManager.Instance != null && buildableNodes.Count > 0)
-        {
-            var emptyNodes = buildableNodes.Where(n => n.tower == null).ToList();
-            if (emptyNodes.Count > 0 && GameManager.Instance.currentMoney >= availableTowers[0].cost)
-            {
-                // Build first available tower type on first empty node
-                discreteActionsOut[0] = availableTowers.Length + 1; // First build action
-            }
-            else
-            {
-                discreteActionsOut[0] = 0; // Do nothing
-            }
-        }
-        else
+        if (GameManager.Instance == null || buildableNodes == null || availableTowers == null || availableTowers.Length == 0)
         {
             discreteActionsOut[0] = 0; // Do nothing
+            return;
         }
+        
+        // Strategy: Build towers on empty nodes, then upgrade existing ones
+        var emptyNodes = buildableNodes.Where(n => n != null && n.tower == null).ToList();
+        var occupiedNodes = buildableNodes.Where(n => n != null && n.tower != null).ToList();
+        
+        // Priority 1: Build towers on empty nodes
+        if (emptyNodes.Count > 0 && GameManager.Instance.currentMoney >= availableTowers[0].cost)
+        {
+            // Find next empty node to build on
+            int targetNodeIndex = -1;
+            for (int i = 0; i < buildableNodes.Count; i++)
+            {
+                if (buildableNodes[i] != null && buildableNodes[i].tower == null)
+                {
+                    targetNodeIndex = i;
+                    break;
+                }
+            }
+            
+            if (targetNodeIndex >= 0)
+            {
+                selectedTowerType = 0; // Use first tower type
+                discreteActionsOut[0] = availableTowers.Length + 1 + targetNodeIndex; // Build action
+                if (debugMode) Debug.Log($"Heuristic: Building tower on node {targetNodeIndex}");
+                return;
+            }
+        }
+        
+        // Priority 2: Upgrade existing towers if we have enough money
+        if (occupiedNodes.Count > 0 && GameManager.Instance.currentMoney >= 50) // Assume upgrade cost ~50
+        {
+            // Find first upgradeable tower
+            for (int i = 0; i < buildableNodes.Count; i++)
+            {
+                if (buildableNodes[i] != null && buildableNodes[i].tower != null)
+                {
+                    Tower towerScript = buildableNodes[i].tower.GetComponent<Tower>();
+                    if (towerScript != null && towerScript.CanUpgrade() && 
+                        GameManager.Instance.currentMoney >= towerScript.towerData.upgradeCost)
+                    {
+                        discreteActionsOut[0] = availableTowers.Length + maxObservableNodes + 1 + i; // Upgrade action
+                        if (debugMode) Debug.Log($"Heuristic: Upgrading tower on node {i}");
+                        return;
+                    }
+                }
+            }
+        }
+        
+        // Priority 3: Do nothing if no actions are possible
+        discreteActionsOut[0] = 0;
+        if (debugMode) Debug.Log("Heuristic: No actions available");
     }
     
     private bool CanAffordTowerAt(Node node)
@@ -250,12 +288,22 @@ public class SimpleTowerDefenseAgent : Agent
     {
         if (nodeIndex >= buildableNodes.Count || buildableNodes[nodeIndex] == null) return false;
         if (buildableNodes[nodeIndex].tower != null) return false;
-        if (selectedTowerType >= availableTowers.Length) return false;
+        if (availableTowers == null || availableTowers.Length == 0) return false;
+        
+        // Auto-select first available tower if none selected
+        if (selectedTowerType >= availableTowers.Length) selectedTowerType = 0;
         
         if (BuildManager.Instance != null)
         {
             BuildManager.Instance.SelectTowerToBuild(availableTowers[selectedTowerType]);
-            return BuildManager.Instance.BuildTowerOn(buildableNodes[nodeIndex]);
+            bool result = BuildManager.Instance.BuildTowerOn(buildableNodes[nodeIndex]);
+            
+            if (debugMode)
+            {
+                Debug.Log($"Attempting to build {availableTowers[selectedTowerType].name} at node {nodeIndex}: {result}");
+            }
+            
+            return result;
         }
         return false;
     }

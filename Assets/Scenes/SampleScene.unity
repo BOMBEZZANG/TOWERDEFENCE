@@ -4029,8 +4029,8 @@ MonoBehaviour:
   availableTowers:
   - {fileID: 11400000, guid: 0249609cbb9c8d84d8c7d31e0624125a, type: 2}
   - {fileID: 11400000, guid: e8345ead76d479f418566c704ffd18a2, type: 2}
-  maxObservableEnemies: 5
-  maxObservableNodes: 10
+  maxObservableEnemies: 15
+  maxObservableNodes: 2
 --- !u!114 &2083985152
 MonoBehaviour:
   m_ObjectHideFlags: 0
