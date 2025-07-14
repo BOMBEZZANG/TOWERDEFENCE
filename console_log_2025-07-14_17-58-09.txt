@@ -1,0 +1,35 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 5:58:09 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[17:58:10.137] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[17:58:10.152] [0.000s] [INFO] Building MachineGunTowerData at position (2.42, -2.02, 0.00)
+[17:58:10.153] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized at (2.42, -2.02, 0.00)
+[17:58:10.155] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[17:58:10.155] [0.000s] [INFO] Tower built! Money left: 0, Tower active: True
+[17:58:10.156] [0.000s] [INFO] Built a new type of tower: MachineGun. Rewarding diversity!
+[17:58:12.880] [1.983s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[17:58:12.881] [1.983s] [INFO] Enemies alive: 1
+[17:58:12.882] [1.983s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[17:58:12.882] [1.983s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[17:58:12.887] [1.995s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[17:58:14.376] [3.483s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[17:58:14.376] [3.483s] [INFO] Enemies alive: 2
+[17:58:14.376] [3.483s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[17:58:14.376] [3.483s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[17:58:14.380] [3.488s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[17:58:15.877] [4.985s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[17:58:15.878] [4.985s] [INFO] Enemies alive: 3
+[17:58:15.879] [4.985s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[17:58:15.879] [4.985s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[17:58:15.882] [4.990s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[17:58:16.202] [5.310s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[17:58:17.379] [6.487s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[17:58:17.379] [6.487s] [INFO] Enemies alive: 4
+[17:58:17.380] [6.487s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[17:58:17.380] [6.487s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[17:58:17.386] [6.494s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[17:58:17.693] [6.801s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+
+=== LOG SESSION ENDED: 7/14/2025 5:58:18 PM ===

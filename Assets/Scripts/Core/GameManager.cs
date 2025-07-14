@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
     public Transform enemyTarget;
     public List<WaveData> waves = new List<WaveData>();
     
+    [Header("Speed Control")]
+    [Range(0.1f, 10f)]
+    public float gameSpeed = 1f;
+    
     [Header("Current Game State")]
     public int currentMoney;
     public int currentLives;
@@ -36,11 +40,22 @@ public class GameManager : MonoBehaviour
     {
         currentMoney = startingMoney;
         currentLives = startingLives;
+        UpdateGameSpeed();
         if (UIManager.Instance != null)
         {
             UIManager.Instance.UpdateMoney(currentMoney);
             UIManager.Instance.UpdateLives(currentLives);
         }
+    }
+    
+    private void Update()
+    {
+        UpdateGameSpeed();
+    }
+    
+    private void UpdateGameSpeed()
+    {
+        Time.timeScale = gameSpeed;
     }
 
     // AI 훈련을 위한 최적화된 수동 리셋 메서드
