@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: MachineGunTowerData
   m_EditorClassIdentifier: 
   towerName: Machine Gun
-  cost: 10
+  cost: 50
   prefab: {fileID: 5219407297504306523, guid: 432781580277cf14ca44a6e55a378a78, type: 3}
   icon: {fileID: 0}
-  damage: 15.373051
+  damage: 10
   range: 5
-  fireRate: 1.6839898
+  fireRate: 2
   turnSpeed: 10
   upgradeTo: {fileID: 11400000, guid: 008caa6b3756ab84e8b215b798cb69a5, type: 2}
   upgradeCost: 10
