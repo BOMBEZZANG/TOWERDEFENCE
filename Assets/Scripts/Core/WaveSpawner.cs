@@ -15,6 +15,11 @@ public class WaveSpawner : MonoBehaviour
     private bool waveInProgress = false;
     private int enemiesAlive = 0;
     
+    // Wave timing tracking
+    private int currentWaveEnemyCount = 0;
+    private int currentWaveKills = 0;
+    private int currentWaveLeaks = 0;
+    
     private void Awake()
     {
         if (Instance == null) Instance = this;
@@ -61,6 +66,24 @@ public class WaveSpawner : MonoBehaviour
             yield break;
         }
         waveInProgress = true;
+        
+        // Reset wave tracking
+        currentWaveEnemyCount = 0;
+        currentWaveKills = 0;
+        currentWaveLeaks = 0;
+        
+        // Count total enemies in this wave
+        foreach (EnemySpawn enemySpawn in currentWave.enemies)
+        {
+            currentWaveEnemyCount += enemySpawn.count;
+        }
+        
+        // Record wave start
+        if (GameMetricsCollector.Instance != null)
+        {
+            GameMetricsCollector.Instance.RecordWaveStarted(waveIndex + 1);
+        }
+        
         if (UIManager.Instance != null) UIManager.Instance.UpdateWaveNumber(waveIndex + 1);
         foreach (EnemySpawn enemySpawn in currentWave.enemies)
         {
@@ -89,17 +112,28 @@ public class WaveSpawner : MonoBehaviour
     public void EnemyDestroyed() 
     { 
         enemiesAlive--;
+        currentWaveKills++;
         Debug.Log($"Enemy destroyed! Enemies alive: {enemiesAlive}");
+    }
+    
+    public void EnemyReachedTarget()
+    {
+        currentWaveLeaks++;
     }
     
     private void WaveCompleted()
     {
         waveInProgress = false;
+        
+        // Record wave completion
+        if (GameMetricsCollector.Instance != null)
+        {
+            GameMetricsCollector.Instance.RecordWaveCompleted(waveIndex + 1, currentWaveKills, currentWaveLeaks);
+        }
+        
         waveIndex++;
         GameManager.Instance.NextWave();
         Debug.Log("Wave " + waveIndex + " completed!");
-
-        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.RecordWaveStarted(waveIndex);
 
         // AI 에이전트를 찾아 웨이브 완료 신호를 보냅니다.
         SimpleTowerDefenseAgent agent = FindFirstObjectByType<SimpleTowerDefenseAgent>();

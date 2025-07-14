@@ -1,0 +1,28 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 8:04:04 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[20:04:04.987] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[20:04:05.868] [0.200s] [INFO] Building MachineGunTowerData at position (2.42, -2.02, 0.00)
+[20:04:05.870] [0.200s] [INFO] Tower MachineGunTower(Clone) initialized at (2.42, -2.02, 0.00)
+[20:04:05.871] [0.200s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[20:04:05.872] [0.200s] [INFO] Tower built! Money left: 0, Tower active: True
+[20:04:05.872] [0.200s] [INFO] Built a new type of tower: MachineGun. Rewarding diversity!
+[20:04:07.651] [1.983s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:04:07.652] [1.983s] [INFO] Enemies alive: 1
+[20:04:07.654] [1.983s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:04:07.654] [1.983s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:04:07.659] [1.993s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:04:09.148] [3.483s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:04:09.148] [3.483s] [INFO] Enemies alive: 2
+[20:04:09.149] [3.483s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:04:09.149] [3.483s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:04:09.152] [3.488s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:04:10.651] [4.986s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:04:10.651] [4.986s] [INFO] Enemies alive: 3
+[20:04:10.652] [4.986s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:04:10.652] [4.986s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:04:10.655] [4.990s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+
+=== LOG SESSION ENDED: 7/14/2025 8:04:10 PM ===

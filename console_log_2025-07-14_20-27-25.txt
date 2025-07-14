@@ -1,0 +1,908 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 8:27:25 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[20:27:29.056] [1.982s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:29.058] [1.982s] [INFO] Enemies alive: 1
+[20:27:29.059] [1.982s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:29.059] [1.982s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:29.064] [1.994s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:30.552] [3.483s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:30.553] [3.483s] [INFO] Enemies alive: 2
+[20:27:30.554] [3.483s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:30.554] [3.483s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:30.557] [3.488s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:31.644] [4.574s] [INFO] Building MachineGunTowerData at position (2.71, 2.41, 0.00)
+[20:27:31.645] [4.574s] [INFO] Tower MachineGunTower(Clone) initialized at (2.71, 2.41, 0.00)
+[20:27:31.646] [4.574s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[20:27:31.646] [4.574s] [INFO] Tower built! Money left: 0, Tower active: True
+[20:27:31.648] [4.574s] [INFO] Tower built successfully!
+[20:27:32.053] [4.984s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:32.054] [4.984s] [INFO] Enemies alive: 3
+[20:27:32.054] [4.984s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:32.054] [4.984s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:32.058] [4.989s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:32.376] [5.307s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:33.554] [6.484s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:33.555] [6.484s] [INFO] Enemies alive: 4
+[20:27:33.555] [6.484s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:33.556] [6.484s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:33.558] [6.489s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:33.869] [6.801s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:35.054] [7.985s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:35.055] [7.985s] [INFO] Enemies alive: 5
+[20:27:35.055] [7.985s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:35.057] [7.985s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:35.059] [7.991s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:35.372] [8.303s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:36.130] [9.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.80
+[20:27:36.134] [9.064s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:36.134] [9.064s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:36.553] [9.484s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:36.554] [9.484s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:36.555] [9.484s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 30/30
+[20:27:36.556] [9.484s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 20/30
+[20:27:36.630] [9.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.06
+[20:27:36.633] [9.564s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:36.633] [9.564s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:36.737] [9.669s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:27:36.871] [9.803s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:36.993] [9.925s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:36.994] [9.925s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:36.995] [9.925s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 20/30
+[20:27:36.996] [9.925s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 10/30
+[20:27:37.130] [10.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.38
+[20:27:37.133] [10.065s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:37.135] [10.065s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:37.439] [10.370s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:37.440] [10.370s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:37.440] [10.370s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 10/30
+[20:27:37.441] [10.370s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:27:37.441] [10.370s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:27:37.442] [10.370s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:27:37.442] [10.370s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:27:37.444] [10.370s] [INFO] Enemy destroyed! Enemies alive: 4
+[20:27:37.444] [10.370s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:27:37.630] [10.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.79
+[20:27:37.825] [10.756s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:37.826] [10.756s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:38.129] [11.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.05
+[20:27:38.221] [11.153s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:38.221] [11.153s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:38.223] [11.153s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 30/30
+[20:27:38.223] [11.153s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 20/30
+[20:27:38.230] [11.161s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:27:38.326] [11.257s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:38.326] [11.257s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:38.373] [11.304s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:38.629] [11.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.38
+[20:27:38.662] [11.593s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:38.663] [11.593s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:38.663] [11.593s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 20/30
+[20:27:38.663] [11.593s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 10/30
+[20:27:38.827] [11.758s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:38.827] [11.758s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:39.114] [12.045s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:39.115] [12.045s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:39.116] [12.045s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 10/30
+[20:27:39.116] [12.045s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:27:39.116] [12.045s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:27:39.117] [12.045s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:27:39.117] [12.045s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:27:39.118] [12.045s] [INFO] Enemy destroyed! Enemies alive: 3
+[20:27:39.118] [12.045s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:27:39.129] [12.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.79
+[20:27:39.342] [12.273s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:39.343] [12.273s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:39.629] [12.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.06
+[20:27:39.733] [12.664s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:27:39.735] [12.667s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:39.736] [12.667s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:39.737] [12.667s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 30/30
+[20:27:39.737] [12.667s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 20/30
+[20:27:39.843] [12.774s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:39.843] [12.774s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:40.129] [13.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.38
+[20:27:40.177] [13.109s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:40.178] [13.109s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:40.178] [13.109s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 20/30
+[20:27:40.178] [13.109s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 10/30
+[20:27:40.344] [13.275s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:40.344] [13.275s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:40.629] [13.561s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:40.630] [13.561s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:40.630] [13.561s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 10/30
+[20:27:40.631] [13.561s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:27:40.631] [13.561s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:27:40.631] [13.561s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:27:40.633] [13.561s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:27:40.633] [13.561s] [INFO] Enemy destroyed! Enemies alive: 2
+[20:27:40.633] [13.561s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:27:40.635] [13.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.79
+[20:27:40.844] [13.775s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:40.845] [13.775s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:41.131] [14.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.06
+[20:27:41.233] [14.164s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:27:41.238] [14.169s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:41.239] [14.169s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:41.239] [14.169s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 30/30
+[20:27:41.240] [14.169s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 20/30
+[20:27:41.345] [14.276s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:41.345] [14.276s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:41.629] [14.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.38
+[20:27:41.681] [14.612s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:41.681] [14.612s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:41.682] [14.612s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 20/30
+[20:27:41.682] [14.612s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 10/30
+[20:27:41.846] [14.778s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:41.847] [14.778s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:42.129] [15.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.82
+[20:27:42.132] [15.063s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:42.132] [15.063s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:42.132] [15.063s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 10/30
+[20:27:42.133] [15.063s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:27:42.133] [15.063s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:27:42.134] [15.063s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:27:42.134] [15.063s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:27:42.135] [15.063s] [INFO] Enemy destroyed! Enemies alive: 1
+[20:27:42.135] [15.063s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:27:42.630] [15.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.06
+[20:27:42.734] [15.665s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:27:42.844] [15.776s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:42.845] [15.776s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:43.129] [16.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.38
+[20:27:43.180] [16.111s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:43.180] [16.111s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:43.181] [16.111s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 30/30
+[20:27:43.182] [16.111s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 20/30
+[20:27:43.344] [16.276s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:43.346] [16.276s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:43.630] [16.561s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:43.630] [16.561s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:43.631] [16.561s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 20/30
+[20:27:43.631] [16.561s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 10/30
+[20:27:43.632] [16.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.82
+[20:27:43.845] [16.776s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:43.846] [16.776s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 10 damage at 10 speed
+[20:27:44.097] [17.028s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:44.098] [17.028s] [INFO] Dealing 10 damage to RunnerEnemy(Clone)
+[20:27:44.099] [17.028s] [INFO] Enemy RunnerEnemy(Clone) taking 10 damage. Health: 10/30
+[20:27:44.099] [17.028s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:27:44.099] [17.028s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:27:44.100] [17.028s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:27:44.100] [17.028s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:27:44.100] [17.028s] [INFO] Enemy destroyed! Enemies alive: 0
+[20:27:44.100] [17.028s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:27:44.102] [17.028s] [INFO] NextWave called! Current wave index: 1, Total waves: 3
+[20:27:44.103] [17.028s] [INFO] Wave 1 completed!
+[20:27:49.098] [22.029s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:49.099] [22.029s] [INFO] Enemies alive: 1
+[20:27:49.099] [22.029s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:49.100] [22.029s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:49.103] [22.034s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:50.098] [23.029s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:50.098] [23.029s] [INFO] Enemies alive: 2
+[20:27:50.099] [23.029s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:50.100] [23.029s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:50.101] [23.033s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:51.098] [24.029s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:51.099] [24.029s] [INFO] Enemies alive: 3
+[20:27:51.100] [24.029s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:51.100] [24.029s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:51.102] [24.033s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:52.098] [25.030s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:52.100] [25.030s] [INFO] Enemies alive: 4
+[20:27:52.100] [25.030s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:52.100] [25.030s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:52.104] [25.035s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:52.416] [25.347s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:53.099] [26.030s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:53.100] [26.030s] [INFO] Enemies alive: 5
+[20:27:53.100] [26.030s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:53.101] [26.030s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:53.102] [26.035s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:53.416] [26.347s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:54.100] [27.031s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:54.101] [27.031s] [INFO] Enemies alive: 6
+[20:27:54.101] [27.031s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:54.102] [27.031s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:54.105] [27.036s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:54.416] [27.347s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:55.102] [28.032s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:55.102] [28.032s] [INFO] Enemies alive: 7
+[20:27:55.103] [28.032s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:55.103] [28.032s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:55.105] [28.037s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:55.417] [28.348s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:56.102] [29.033s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:56.103] [29.033s] [INFO] Enemies alive: 8
+[20:27:56.104] [29.033s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:56.104] [29.033s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:56.106] [29.037s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:56.129] [29.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.86
+[20:27:56.378] [29.309s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:56.378] [29.309s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:27:56.417] [29.348s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:56.630] [29.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.12
+[20:27:56.772] [29.704s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:56.773] [29.704s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:27:56.774] [29.704s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:27:56.774] [29.704s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:27:56.777] [29.708s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:27:56.878] [29.809s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:56.878] [29.809s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:27:57.101] [30.033s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:57.103] [30.033s] [INFO] Enemies alive: 9
+[20:27:57.103] [30.033s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:57.104] [30.033s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:57.107] [30.038s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:57.130] [30.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.43
+[20:27:57.214] [30.146s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:57.215] [30.146s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:27:57.215] [30.146s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:27:57.216] [30.146s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:27:57.217] [30.146s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:27:57.217] [30.146s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:27:57.218] [30.146s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:27:57.218] [30.146s] [INFO] Enemy destroyed! Enemies alive: 8
+[20:27:57.219] [30.146s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:27:57.418] [30.349s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:57.630] [30.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.12
+[20:27:57.777] [30.708s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:27:57.793] [30.724s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:57.794] [30.724s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:27:58.103] [31.034s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:27:58.103] [31.034s] [INFO] Enemies alive: 9
+[20:27:58.105] [31.034s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:27:58.105] [31.034s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:27:58.108] [31.039s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:27:58.130] [31.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.43
+[20:27:58.139] [31.071s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:58.140] [31.071s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:27:58.141] [31.071s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:27:58.141] [31.071s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:27:58.294] [31.225s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:58.295] [31.225s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:27:58.419] [31.350s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:58.588] [31.520s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:58.588] [31.520s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:27:58.590] [31.520s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:27:58.590] [31.520s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:27:58.590] [31.520s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:27:58.591] [31.520s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:27:58.591] [31.520s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:27:58.592] [31.520s] [INFO] Enemy destroyed! Enemies alive: 8
+[20:27:58.593] [31.520s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:27:58.630] [31.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.12
+[20:27:58.776] [31.707s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:27:58.837] [31.768s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:58.838] [31.768s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:27:59.128] [32.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.43
+[20:27:59.177] [32.108s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:59.178] [32.108s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:27:59.178] [32.108s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:27:59.178] [32.108s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:27:59.337] [32.269s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:59.339] [32.269s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:27:59.421] [32.352s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:27:59.628] [32.559s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:27:59.628] [32.559s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:27:59.629] [32.559s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:27:59.629] [32.559s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:27:59.630] [32.559s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:27:59.631] [32.559s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:27:59.631] [32.559s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:27:59.632] [32.559s] [INFO] Enemy destroyed! Enemies alive: 7
+[20:27:59.632] [32.559s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:27:59.636] [32.566s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.11
+[20:27:59.778] [32.709s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:27:59.846] [32.777s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:27:59.847] [32.777s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:00.131] [33.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.43
+[20:28:00.185] [33.117s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:00.186] [33.117s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:00.186] [33.117s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:00.187] [33.117s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:00.347] [33.277s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:00.347] [33.277s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:00.420] [33.352s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:00.630] [33.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.86
+[20:28:00.635] [33.566s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:00.636] [33.566s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:00.636] [33.566s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:00.637] [33.566s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:00.638] [33.566s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:00.638] [33.566s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:00.638] [33.566s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:00.639] [33.566s] [INFO] Enemy destroyed! Enemies alive: 6
+[20:28:00.639] [33.566s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:00.778] [33.709s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:01.128] [34.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.44
+[20:28:01.342] [34.273s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:01.343] [34.273s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:01.421] [34.352s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:01.631] [34.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.86
+[20:28:01.633] [34.564s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:01.634] [34.564s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:01.634] [34.564s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:01.634] [34.564s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:01.779] [34.710s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:01.843] [34.774s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:01.843] [34.774s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:02.097] [35.029s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:02.098] [35.029s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:02.098] [35.029s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:02.099] [35.029s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:02.099] [35.029s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:02.100] [35.029s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:02.100] [35.029s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:02.100] [35.029s] [INFO] Enemy destroyed! Enemies alive: 5
+[20:28:02.102] [35.029s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:02.129] [35.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.44
+[20:28:02.375] [35.306s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:02.375] [35.306s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:02.629] [35.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.86
+[20:28:02.661] [35.593s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:02.662] [35.593s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:02.662] [35.593s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:02.663] [35.593s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:02.780] [35.711s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:02.876] [35.808s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:02.878] [35.808s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:03.128] [36.060s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:03.130] [36.060s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:03.131] [36.060s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:03.131] [36.060s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:03.131] [36.060s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:03.132] [36.060s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:03.132] [36.060s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:03.133] [36.060s] [INFO] Enemy destroyed! Enemies alive: 4
+[20:28:03.133] [36.060s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:03.133] [36.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.44
+[20:28:03.377] [36.308s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:03.378] [36.308s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:03.629] [36.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.86
+[20:28:03.664] [36.595s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:03.665] [36.595s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:03.665] [36.595s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:03.666] [36.595s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:03.782] [36.713s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:03.880] [36.811s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:03.880] [36.811s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:04.129] [37.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.49
+[20:28:04.134] [37.064s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:04.134] [37.064s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:04.134] [37.064s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:04.135] [37.064s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:04.135] [37.064s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:04.136] [37.064s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:04.136] [37.064s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:04.137] [37.064s] [INFO] Enemy destroyed! Enemies alive: 3
+[20:28:04.137] [37.064s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:04.370] [37.301s] [INFO] Building CannonTowerData at position (2.42, -2.02, 0.00)
+[20:28:04.370] [37.301s] [INFO] Tower CannonTower(Clone) initialized at (2.42, -2.02, 0.00)
+[20:28:04.370] [37.301s] [INFO] Tower CannonTower(Clone) initialized successfully
+[20:28:04.372] [37.301s] [INFO] Tower built! Money left: 15, Tower active: True
+[20:28:04.373] [37.301s] [INFO] Tower built successfully!
+[20:28:04.374] [37.301s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.68
+[20:28:04.376] [37.307s] [INFO] Tower CannonTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:04.377] [37.307s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 35 damage at 5 speed
+[20:28:04.630] [37.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.86
+[20:28:04.781] [37.712s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:04.847] [37.779s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:04.848] [37.779s] [INFO] Dealing 35 damage to RunnerEnemy(Clone)
+[20:28:04.849] [37.779s] [INFO] Enemy RunnerEnemy(Clone) taking 35 damage. Health: 30/30
+[20:28:04.849] [37.779s] [INFO] Enemy RunnerEnemy(Clone) health after damage: -5/30
+[20:28:04.849] [37.779s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:04.850] [37.779s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:04.850] [37.779s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:04.851] [37.779s] [INFO] Enemy destroyed! Enemies alive: 2
+[20:28:04.851] [37.779s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:04.869] [37.800s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.34
+[20:28:05.129] [38.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.44
+[20:28:05.159] [38.090s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:05.159] [38.090s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:05.370] [38.301s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.68
+[20:28:05.467] [38.398s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:05.467] [38.398s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:05.467] [38.398s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:05.468] [38.398s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:05.630] [38.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.86
+[20:28:05.660] [38.591s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:05.661] [38.591s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:05.782] [38.713s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:05.869] [38.800s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.21
+[20:28:05.925] [38.856s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:05.926] [38.856s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:05.926] [38.856s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:05.926] [38.856s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:05.927] [38.856s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:05.927] [38.856s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:05.928] [38.856s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:05.928] [38.856s] [INFO] Enemy destroyed! Enemies alive: 1
+[20:28:05.928] [38.856s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:06.129] [39.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.44
+[20:28:06.365] [39.296s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:06.365] [39.296s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:06.370] [39.301s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.69
+[20:28:06.630] [39.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.86
+[20:28:06.654] [39.585s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:06.655] [39.585s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:06.655] [39.585s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:06.656] [39.585s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:06.838] [39.769s] [INFO] Tower CannonTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:06.839] [39.769s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 35 damage at 5 speed
+[20:28:06.867] [39.798s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:06.868] [39.798s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:06.870] [39.802s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.20
+[20:28:07.121] [40.052s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:07.121] [40.052s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:07.122] [40.052s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:07.122] [40.052s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:07.122] [40.052s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:07.124] [40.052s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:07.124] [40.052s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:07.124] [40.052s] [INFO] Enemy destroyed! Enemies alive: 0
+[20:28:07.125] [40.052s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:07.126] [40.052s] [INFO] NextWave called! Current wave index: 2, Total waves: 3
+[20:28:07.126] [40.052s] [INFO] Wave 2 completed!
+[20:28:12.121] [45.052s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:12.123] [45.052s] [INFO] Enemies alive: 1
+[20:28:12.123] [45.052s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:12.124] [45.052s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:12.126] [45.058s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:13.122] [46.053s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:13.122] [46.053s] [INFO] Enemies alive: 2
+[20:28:13.123] [46.053s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:13.123] [46.053s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:13.126] [46.057s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:14.123] [47.053s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:14.123] [47.053s] [INFO] Enemies alive: 3
+[20:28:14.123] [47.053s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:14.124] [47.053s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:14.126] [47.058s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:15.124] [48.054s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:15.124] [48.054s] [INFO] Enemies alive: 4
+[20:28:15.125] [48.054s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:15.125] [48.054s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:15.127] [48.059s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:15.440] [48.371s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:16.124] [49.055s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:16.125] [49.055s] [INFO] Enemies alive: 5
+[20:28:16.126] [49.055s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:16.127] [49.055s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:16.129] [49.060s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:16.440] [49.371s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:17.125] [50.056s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:17.125] [50.056s] [INFO] Enemies alive: 6
+[20:28:17.127] [50.056s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:17.127] [50.056s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 1.2, target: Waypoint (0)
+[20:28:17.129] [50.061s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:17.440] [50.371s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:18.126] [51.057s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:18.127] [51.057s] [INFO] Enemies alive: 7
+[20:28:18.127] [51.057s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:18.128] [51.057s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 1.2, target: Waypoint (0)
+[20:28:18.131] [51.062s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:18.442] [51.373s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:19.127] [52.058s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:19.128] [52.058s] [INFO] Enemies alive: 8
+[20:28:19.129] [52.058s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:19.129] [52.058s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 1.2, target: Waypoint (0)
+[20:28:19.131] [52.062s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:19.131] [52.062s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.89
+[20:28:19.377] [52.308s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:19.378] [52.308s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:19.442] [52.373s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:19.630] [52.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.15
+[20:28:19.775] [52.707s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:19.776] [52.707s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:19.776] [52.707s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:19.777] [52.707s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:19.801] [52.732s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:19.869] [52.800s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.37
+[20:28:19.877] [52.809s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:19.879] [52.809s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:20.128] [53.059s] [INFO] Spawned enemy: TankerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:20.129] [53.059s] [INFO] Enemies alive: 9
+[20:28:20.130] [53.059s] [INFO] Set initial target for TankerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:20.130] [53.059s] [INFO] Enemy TankerEnemy(Clone) starting movement with speed 1.2, target: Waypoint (0)
+[20:28:20.133] [53.064s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:20.134] [53.064s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.46
+[20:28:20.218] [53.149s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:20.218] [53.149s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:20.219] [53.149s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:20.219] [53.149s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:20.219] [53.149s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:20.220] [53.149s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:20.221] [53.149s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:20.222] [53.149s] [INFO] Enemy destroyed! Enemies alive: 8
+[20:28:20.222] [53.149s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:20.629] [53.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.15
+[20:28:20.790] [53.722s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:20.790] [53.722s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:20.801] [53.732s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:20.870] [53.801s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.37
+[20:28:21.128] [54.060s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:21.130] [54.060s] [INFO] Enemies alive: 9
+[20:28:21.130] [54.060s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:21.131] [54.060s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:21.133] [54.064s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:21.134] [54.064s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.46
+[20:28:21.140] [54.071s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:21.141] [54.071s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:21.141] [54.071s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:21.141] [54.071s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:21.290] [54.221s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:21.291] [54.221s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:21.371] [54.301s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.71
+[20:28:21.586] [54.518s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:21.588] [54.518s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:21.589] [54.518s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:21.589] [54.518s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:21.589] [54.518s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:21.589] [54.518s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:21.590] [54.518s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:21.591] [54.518s] [INFO] Enemy destroyed! Enemies alive: 8
+[20:28:21.591] [54.518s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:21.629] [54.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.15
+[20:28:21.801] [54.732s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:21.833] [54.764s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:21.834] [54.764s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:21.869] [54.801s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.37
+[20:28:22.099] [55.031s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:22.130] [55.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.47
+[20:28:22.176] [55.108s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:22.178] [55.108s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:22.178] [55.108s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:22.178] [55.108s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:22.335] [55.265s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:22.335] [55.265s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:22.369] [55.300s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.71
+[20:28:22.520] [55.451s] [INFO] Tower CannonTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:22.521] [55.451s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 45 damage at 10 speed
+[20:28:22.628] [55.559s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:22.628] [55.559s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:22.629] [55.559s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:22.629] [55.559s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:22.630] [55.559s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:22.630] [55.559s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:22.630] [55.559s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:22.631] [55.559s] [INFO] Enemy destroyed! Enemies alive: 7
+[20:28:22.631] [55.559s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:22.635] [55.566s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 4.15
+[20:28:22.803] [55.734s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:22.841] [55.773s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:22.843] [55.773s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:22.871] [55.801s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.37
+[20:28:23.100] [56.031s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:23.130] [56.061s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:23.131] [56.061s] [INFO] Enemies alive: 8
+[20:28:23.131] [56.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.47
+[20:28:23.131] [56.061s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:23.133] [56.061s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:23.135] [56.066s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:23.184] [56.116s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:23.185] [56.116s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:23.185] [56.116s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:23.185] [56.116s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:23.341] [56.273s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:23.343] [56.273s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:23.370] [56.301s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.71
+[20:28:23.630] [56.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.89
+[20:28:23.633] [56.565s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:23.635] [56.565s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:23.635] [56.565s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:23.636] [56.565s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:23.636] [56.565s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:23.637] [56.565s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:23.637] [56.565s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:23.637] [56.565s] [INFO] Enemy destroyed! Enemies alive: 7
+[20:28:23.638] [56.565s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:23.803] [56.735s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:23.870] [56.801s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.37
+[20:28:24.102] [57.032s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:24.130] [57.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.47
+[20:28:24.338] [57.269s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:24.338] [57.269s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:24.369] [57.300s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.71
+[20:28:24.447] [57.378s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:24.630] [57.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.89
+[20:28:24.632] [57.563s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:24.633] [57.563s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:24.633] [57.563s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:24.634] [57.563s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:24.819] [57.750s] [INFO] Tower CannonTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:24.819] [57.750s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 45 damage at 10 speed
+[20:28:24.838] [57.769s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:24.839] [57.769s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:24.868] [57.800s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.22
+[20:28:25.034] [57.965s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:25.035] [57.965s] [INFO] Dealing 45 damage to RunnerEnemy(Clone)
+[20:28:25.035] [57.965s] [INFO] Enemy RunnerEnemy(Clone) taking 45 damage. Health: 15/30
+[20:28:25.036] [57.965s] [INFO] Enemy RunnerEnemy(Clone) health after damage: -30/30
+[20:28:25.036] [57.965s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:25.036] [57.965s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:25.037] [57.965s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:25.037] [57.965s] [INFO] Enemy destroyed! Enemies alive: 6
+[20:28:25.038] [57.965s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:25.102] [58.033s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:25.131] [58.061s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:25.131] [58.061s] [INFO] Enemies alive: 7
+[20:28:25.132] [58.061s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:25.132] [58.061s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:25.134] [58.066s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:26.370] [59.301s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 5.94
+[20:28:26.448] [59.380s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:26.870] [59.801s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 5.38
+[20:28:27.132] [60.062s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:27.132] [60.062s] [INFO] Enemies alive: 8
+[20:28:27.133] [60.062s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:27.133] [60.062s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:27.135] [60.067s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:27.369] [60.300s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 4.82
+[20:28:27.630] [60.562s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 4.90
+[20:28:27.869] [60.800s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 4.28
+[20:28:27.935] [60.866s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:27.935] [60.866s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:27.973] [60.904s] [INFO] Tower CannonTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:27.973] [60.904s] [INFO] Projectile created targeting TankerEnemy(Clone) with 45 damage at 10 speed
+[20:28:28.131] [61.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 4.40
+[20:28:28.351] [61.282s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:28.351] [61.282s] [INFO] Dealing 45 damage to TankerEnemy(Clone)
+[20:28:28.352] [61.282s] [INFO] Enemy TankerEnemy(Clone) taking 45 damage. Health: 100/100
+[20:28:28.353] [61.282s] [INFO] Enemy TankerEnemy(Clone) health after damage: 55/100
+[20:28:28.356] [61.286s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:28.356] [61.286s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:28.357] [61.286s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 55/100
+[20:28:28.357] [61.286s] [INFO] Enemy TankerEnemy(Clone) health after damage: 40/100
+[20:28:28.369] [61.301s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 3.75
+[20:28:28.437] [61.367s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:28.437] [61.367s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:28.449] [61.380s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:28.630] [61.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 3.92
+[20:28:28.640] [61.571s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:28.808] [61.739s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:28.813] [61.744s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:28.814] [61.744s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:28.814] [61.744s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 40/100
+[20:28:28.814] [61.744s] [INFO] Enemy TankerEnemy(Clone) health after damage: 25/100
+[20:28:28.870] [61.801s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 3.25
+[20:28:28.936] [61.868s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:28.937] [61.868s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:29.129] [62.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 3.47
+[20:28:29.132] [62.063s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[20:28:29.133] [62.063s] [INFO] Enemies alive: 9
+[20:28:29.134] [62.063s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[20:28:29.134] [62.063s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[20:28:29.137] [62.068s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[20:28:29.272] [62.204s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:29.274] [62.204s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:29.274] [62.204s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 25/100
+[20:28:29.275] [62.204s] [INFO] Enemy TankerEnemy(Clone) health after damage: 10/100
+[20:28:29.371] [62.302s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.71
+[20:28:29.437] [62.369s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:29.438] [62.369s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:29.630] [62.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.89
+[20:28:29.640] [62.571s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:29.738] [62.670s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:29.740] [62.670s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:29.740] [62.670s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 10/100
+[20:28:29.740] [62.670s] [INFO] Enemy TankerEnemy(Clone) health after damage: -5/100
+[20:28:29.741] [62.670s] [INFO] Enemy TankerEnemy(Clone) dying!
+[20:28:29.741] [62.670s] [INFO] Enemy TankerEnemy(Clone) died! Giving 30 money reward.
+[20:28:29.741] [62.670s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[20:28:29.743] [62.670s] [INFO] Enemy destroyed! Enemies alive: 8
+[20:28:29.743] [62.670s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:29.790] [62.722s] [INFO] Tower CannonTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:29.791] [62.722s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 45 damage at 10 speed
+[20:28:29.870] [62.801s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.22
+[20:28:29.938] [62.869s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:29.939] [62.869s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:30.009] [62.940s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:30.009] [62.940s] [INFO] Dealing 45 damage to RunnerEnemy(Clone)
+[20:28:30.009] [62.940s] [INFO] Enemy RunnerEnemy(Clone) taking 45 damage. Health: 30/30
+[20:28:30.010] [62.940s] [INFO] Enemy RunnerEnemy(Clone) health after damage: -15/30
+[20:28:30.011] [62.940s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:30.011] [62.940s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:30.012] [62.940s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:30.012] [62.940s] [INFO] Enemy destroyed! Enemies alive: 7
+[20:28:30.012] [62.940s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:30.131] [63.062s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 3.47
+[20:28:30.369] [63.300s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.81
+[20:28:30.448] [63.380s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:30.561] [63.492s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:30.562] [63.492s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:30.630] [63.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 3.06
+[20:28:30.642] [63.573s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:30.810] [63.741s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:30.854] [63.785s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:30.854] [63.785s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:30.855] [63.785s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 100/100
+[20:28:30.856] [63.785s] [INFO] Enemy TankerEnemy(Clone) health after damage: 85/100
+[20:28:30.871] [63.802s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.43
+[20:28:31.061] [63.992s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:31.062] [63.992s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:31.130] [64.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.73
+[20:28:31.326] [64.257s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:31.327] [64.257s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:31.327] [64.257s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 85/100
+[20:28:31.328] [64.257s] [INFO] Enemy TankerEnemy(Clone) health after damage: 70/100
+[20:28:31.368] [64.300s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.16
+[20:28:31.562] [64.493s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:31.563] [64.493s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:31.630] [64.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.50
+[20:28:31.643] [64.574s] [INFO] Enemy TankerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:31.808] [64.740s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:31.808] [64.740s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:31.810] [64.740s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 70/100
+[20:28:31.810] [64.740s] [INFO] Enemy TankerEnemy(Clone) health after damage: 55/100
+[20:28:31.870] [64.801s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.04
+[20:28:31.971] [64.902s] [INFO] Tower CannonTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:31.971] [64.902s] [INFO] Projectile created targeting TankerEnemy(Clone) with 45 damage at 10 speed
+[20:28:32.062] [64.993s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:32.062] [64.993s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:32.130] [65.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.40
+[20:28:32.177] [65.109s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:32.178] [65.109s] [INFO] Dealing 45 damage to TankerEnemy(Clone)
+[20:28:32.179] [65.109s] [INFO] Enemy TankerEnemy(Clone) taking 45 damage. Health: 55/100
+[20:28:32.179] [65.109s] [INFO] Enemy TankerEnemy(Clone) health after damage: 10/100
+[20:28:32.304] [65.235s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:32.304] [65.235s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:32.304] [65.235s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 10/100
+[20:28:32.306] [65.235s] [INFO] Enemy TankerEnemy(Clone) health after damage: -5/100
+[20:28:32.306] [65.235s] [INFO] Enemy TankerEnemy(Clone) dying!
+[20:28:32.307] [65.235s] [INFO] Enemy TankerEnemy(Clone) died! Giving 30 money reward.
+[20:28:32.307] [65.235s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[20:28:32.308] [65.235s] [INFO] Enemy destroyed! Enemies alive: 6
+[20:28:32.308] [65.235s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:32.369] [65.301s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.03
+[20:28:32.451] [65.382s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[20:28:32.630] [65.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.41
+[20:28:32.809] [65.741s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:32.870] [65.801s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.04
+[20:28:32.890] [65.821s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:32.890] [65.821s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:33.130] [66.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.40
+[20:28:33.159] [66.090s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:33.159] [66.090s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:33.160] [66.090s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:33.160] [66.090s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:33.369] [66.301s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.08
+[20:28:33.391] [66.322s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:33.391] [66.322s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:33.629] [66.560s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.45
+[20:28:33.638] [66.570s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:33.639] [66.570s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:33.640] [66.570s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 100/100
+[20:28:33.641] [66.570s] [INFO] Enemy TankerEnemy(Clone) health after damage: 85/100
+[20:28:33.855] [66.786s] [INFO] Tower CannonTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:33.856] [66.786s] [INFO] Projectile created targeting TankerEnemy(Clone) with 45 damage at 10 speed
+[20:28:33.869] [66.801s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.04
+[20:28:33.892] [66.823s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:33.892] [66.823s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:34.101] [67.032s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:34.102] [67.032s] [INFO] Dealing 45 damage to TankerEnemy(Clone)
+[20:28:34.102] [67.032s] [INFO] Enemy TankerEnemy(Clone) taking 45 damage. Health: 85/100
+[20:28:34.103] [67.032s] [INFO] Enemy TankerEnemy(Clone) health after damage: 40/100
+[20:28:34.130] [67.062s] [INFO] Tower MachineGunTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.40
+[20:28:34.159] [67.090s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:34.159] [67.090s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:34.160] [67.090s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 40/100
+[20:28:34.161] [67.090s] [INFO] Enemy TankerEnemy(Clone) health after damage: 25/100
+[20:28:34.370] [67.301s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.03
+[20:28:34.392] [67.324s] [INFO] Tower MachineGunTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:34.392] [67.324s] [INFO] Projectile created targeting TankerEnemy(Clone) with 15 damage at 10 speed
+[20:28:34.630] [67.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.40
+[20:28:34.640] [67.571s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:34.640] [67.571s] [INFO] Dealing 15 damage to TankerEnemy(Clone)
+[20:28:34.641] [67.571s] [INFO] Enemy TankerEnemy(Clone) taking 15 damage. Health: 100/100
+[20:28:34.641] [67.571s] [INFO] Enemy TankerEnemy(Clone) health after damage: 85/100
+[20:28:34.809] [67.741s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:34.870] [67.801s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.22
+[20:28:34.893] [67.824s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:34.894] [67.824s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:35.130] [68.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.63
+[20:28:35.143] [68.074s] [INFO] Enemy RunnerEnemy(Clone) reached end of path
+[20:28:35.144] [68.074s] [INFO] Enemy RunnerEnemy(Clone) reached the end!
+[20:28:35.145] [68.074s] [INFO] Enemy RunnerEnemy(Clone) reached target! Losing 1 life. Lives before: 15
+[20:28:35.146] [68.074s] [INFO] Life lost! Current lives: 14
+[20:28:35.146] [68.074s] [INFO] Lives after enemy reached end: 14
+[20:28:35.146] [68.074s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:35.147] [68.074s] [INFO] Enemy destroyed! Enemies alive: 5
+[20:28:35.147] [68.074s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:35.163] [68.095s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:35.163] [68.095s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:35.165] [68.095s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:35.165] [68.095s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:35.371] [68.301s] [INFO] Tower CannonTower(Clone) targeting enemy TankerEnemy(Clone) at distance 2.62
+[20:28:35.393] [68.324s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:35.394] [68.324s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:35.630] [68.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.89
+[20:28:35.676] [68.607s] [INFO] Tower CannonTower(Clone) shooting at TankerEnemy(Clone)
+[20:28:35.676] [68.607s] [INFO] Projectile created targeting TankerEnemy(Clone) with 45 damage at 10 speed
+[20:28:35.717] [68.649s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:35.719] [68.649s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:35.719] [68.649s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:35.720] [68.649s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:35.720] [68.649s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:35.720] [68.649s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:35.722] [68.649s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:35.722] [68.649s] [INFO] Enemy destroyed! Enemies alive: 4
+[20:28:35.723] [68.649s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:35.870] [68.801s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.22
+[20:28:35.893] [68.825s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:35.894] [68.825s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:35.993] [68.924s] [INFO] Projectile hit target TankerEnemy(Clone)
+[20:28:35.994] [68.924s] [INFO] Dealing 45 damage to TankerEnemy(Clone)
+[20:28:35.994] [68.924s] [INFO] Enemy TankerEnemy(Clone) taking 45 damage. Health: 85/100
+[20:28:35.995] [68.924s] [INFO] Enemy TankerEnemy(Clone) health after damage: 40/100
+[20:28:36.131] [69.061s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.50
+[20:28:36.148] [69.079s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:36.148] [69.079s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:36.149] [69.079s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:36.149] [69.079s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:36.370] [69.301s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.03
+[20:28:36.395] [69.326s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:36.396] [69.326s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:36.630] [69.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.41
+[20:28:36.640] [69.571s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:36.641] [69.571s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:36.641] [69.571s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 15/30
+[20:28:36.641] [69.571s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 0/30
+[20:28:36.642] [69.571s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:36.643] [69.571s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:36.643] [69.571s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:36.643] [69.571s] [INFO] Enemy destroyed! Enemies alive: 3
+[20:28:36.644] [69.571s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:36.811] [69.742s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 3: Waypoint (3)
+[20:28:36.869] [69.801s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.39
+[20:28:37.129] [70.060s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 3.48
+[20:28:37.143] [70.074s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[20:28:37.144] [70.074s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[20:28:37.145] [70.074s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: 14
+[20:28:37.145] [70.074s] [INFO] Life lost! Current lives: 13
+[20:28:37.145] [70.074s] [INFO] Lives after enemy reached end: 13
+[20:28:37.146] [70.074s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[20:28:37.147] [70.074s] [INFO] Enemy destroyed! Enemies alive: 2
+[20:28:37.147] [70.074s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:37.369] [70.300s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.72
+[20:28:37.384] [70.315s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:37.385] [70.315s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:37.630] [70.561s] [INFO] Tower MachineGunTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.89
+[20:28:37.674] [70.605s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:37.674] [70.605s] [INFO] Dealing 15 damage to RunnerEnemy(Clone)
+[20:28:37.675] [70.605s] [INFO] Enemy RunnerEnemy(Clone) taking 15 damage. Health: 30/30
+[20:28:37.675] [70.605s] [INFO] Enemy RunnerEnemy(Clone) health after damage: 15/30
+[20:28:37.725] [70.655s] [INFO] Tower CannonTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:37.725] [70.655s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 45 damage at 10 speed
+[20:28:37.869] [70.800s] [INFO] Tower CannonTower(Clone) targeting enemy RunnerEnemy(Clone) at distance 2.23
+[20:28:37.885] [70.816s] [INFO] Tower MachineGunTower(Clone) shooting at RunnerEnemy(Clone)
+[20:28:37.885] [70.816s] [INFO] Projectile created targeting RunnerEnemy(Clone) with 15 damage at 10 speed
+[20:28:37.945] [70.876s] [INFO] Projectile hit target RunnerEnemy(Clone)
+[20:28:37.945] [70.876s] [INFO] Dealing 45 damage to RunnerEnemy(Clone)
+[20:28:37.945] [70.876s] [INFO] Enemy RunnerEnemy(Clone) taking 45 damage. Health: 15/30
+[20:28:37.946] [70.876s] [INFO] Enemy RunnerEnemy(Clone) health after damage: -30/30
+[20:28:37.946] [70.876s] [INFO] Enemy RunnerEnemy(Clone) dying!
+[20:28:37.947] [70.876s] [INFO] Enemy RunnerEnemy(Clone) died! Giving 10 money reward.
+[20:28:37.947] [70.876s] [INFO] Enemy RunnerEnemy(Clone) cleaning up and destroying
+[20:28:37.948] [70.876s] [INFO] Enemy destroyed! Enemies alive: 1
+[20:28:37.948] [70.876s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:38.142] [71.074s] [INFO] Enemy TankerEnemy(Clone) reached end of path
+[20:28:38.143] [71.074s] [INFO] Enemy TankerEnemy(Clone) reached the end!
+[20:28:38.143] [71.074s] [INFO] Enemy TankerEnemy(Clone) reached target! Losing 1 life. Lives before: 13
+[20:28:38.144] [71.074s] [INFO] Life lost! Current lives: 12
+[20:28:38.144] [71.074s] [INFO] Lives after enemy reached end: 12
+[20:28:38.145] [71.074s] [INFO] Enemy TankerEnemy(Clone) cleaning up and destroying
+[20:28:38.145] [71.074s] [INFO] Enemy destroyed! Enemies alive: 0
+[20:28:38.145] [71.074s] [INFO] Called EnemyDestroyed() on WaveSpawner
+[20:28:38.147] [71.074s] [INFO] NextWave called! Current wave index: 3, Total waves: 3
+[20:28:38.147] [71.074s] [INFO] All waves completed! Calling GameWin()
+[20:28:38.148] [71.074s] [INFO] GameWin() called! Player won the game!
+[20:28:38.150] [71.074s] [INFO] [MetricsCollector] Session ended - Won: True, Time: 72.3s, Wave: 4
+[20:28:38.150] [71.074s] [INFO] Wave 3 completed!
+[20:28:43.142] [76.074s] [INFO] GameWin() called! Player won the game!
+[20:28:43.144] [76.074s] [INFO] [MetricsCollector] Session ended - Won: True, Time: 77.3s, Wave: 4
+
+=== LOG SESSION ENDED: 7/14/2025 8:28:46 PM ===

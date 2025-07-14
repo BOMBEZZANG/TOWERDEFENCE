@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour
     private float currentHealth;
     private bool isDead = false;
     
+    
     private void Start()
     {
         if (healthBarUI != null) healthBarUI.gameObject.SetActive(false);
@@ -28,7 +29,9 @@ public class Enemy : MonoBehaviour
         if (renderer != null) renderer.material.color = enemyData.enemyColor;
         EnemyMovement movement = GetComponent<EnemyMovement>();
         if (movement != null) movement.speed = enemyData.speed;
+        
     }
+    
     
     public void TakeDamage(float damage)
     {
@@ -60,7 +63,10 @@ public class Enemy : MonoBehaviour
         Debug.Log($"Enemy {gameObject.name} died! Giving {enemyData.reward} money reward.");
         
         GameManager.Instance.AddMoney(enemyData.reward);
-        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.RecordEnemyKilled();
+        if (GameMetricsCollector.Instance != null) 
+        {
+            GameMetricsCollector.Instance.RecordEnemyKilled();
+        }
         
         // Notify AI agent of enemy kill
         SimpleTowerDefenseAgent agent = FindFirstObjectByType<SimpleTowerDefenseAgent>();
@@ -76,9 +82,16 @@ public class Enemy : MonoBehaviour
 
         Debug.Log($"Enemy {gameObject.name} reached target! Losing 1 life. Lives before: {GameManager.Instance.currentLives}");
         
+        
         GameManager.Instance.LoseLife();
 
         Debug.Log($"Lives after enemy reached end: {GameManager.Instance.currentLives}");
+
+        // Notify WaveSpawner of enemy reaching target
+        if (WaveSpawner.Instance != null)
+        {
+            WaveSpawner.Instance.EnemyReachedTarget();
+        }
 
             // << 이 부분을 추가하세요 >>
     SimpleTowerDefenseAgent agent = FindFirstObjectByType<SimpleTowerDefenseAgent>();

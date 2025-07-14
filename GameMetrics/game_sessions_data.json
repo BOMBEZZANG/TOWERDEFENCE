@@ -2,133 +2,19 @@
     "sessions": [
         {
             "game_won": true,
-            "play_time_seconds": 5.400146007537842,
+            "play_time_seconds": 77.32229614257813,
             "final_wave_reached": 4,
-            "money_spent": 160,
+            "money_spent": 205,
             "towers_built": 2,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.017453499138355256,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.564449667930603,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.7333717346191407,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.91306471824646,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 3.188077211380005,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 3.31032657623291,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 5.340806484222412,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 5.4033589363098148,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.720231056213379,
-            "final_wave_reached": 4,
-            "money_spent": 220,
-            "towers_built": 2,
-            "enemies_killed": 24,
-            "lives_lost": 5,
+            "enemies_killed": 26,
+            "lives_lost": 3,
             "towers_used": [
                 "MachineGunTowerData",
                 "CannonTowerData"
             ],
             "player_actions": [
                 {
-                    "timestamp": 0.003281000070273876,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.8988224267959595,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.0706725120544434,
+                    "timestamp": 3.230848789215088,
                     "action_type": "start_wave",
                     "action_details": "wave_1",
                     "position": {
@@ -138,9 +24,9 @@
                     }
                 },
                 {
-                    "timestamp": 2.3857967853546144,
+                    "timestamp": 5.826108932495117,
                     "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
+                    "action_details": "MachineGunTowerData:$50",
                     "position": {
                         "x": 2.7100000381469728,
                         "y": 2.4099998474121095,
@@ -148,7 +34,7 @@
                     }
                 },
                 {
-                    "timestamp": 2.6319580078125,
+                    "timestamp": 23.275917053222658,
                     "action_type": "start_wave",
                     "action_details": "wave_2",
                     "position": {
@@ -158,9 +44,9 @@
                     }
                 },
                 {
-                    "timestamp": 4.1933913230896,
+                    "timestamp": 23.638668060302736,
                     "action_type": "upgrade_tower",
-                    "action_details": "CannonTowerData:$60",
+                    "action_details": "MachineGunTowerData:$35",
                     "position": {
                         "x": 2.7100000381469728,
                         "y": 1.909999966621399,
@@ -168,7 +54,17 @@
                     }
                 },
                 {
-                    "timestamp": 4.721765041351318,
+                    "timestamp": 38.551849365234378,
+                    "action_type": "build_tower",
+                    "action_details": "CannonTowerData:$70",
+                    "position": {
+                        "x": 2.4200000762939455,
+                        "y": -2.0199999809265138,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "timestamp": 46.30006790161133,
                     "action_type": "start_wave",
                     "action_details": "wave_3",
                     "position": {
@@ -176,15 +72,52 @@
                         "y": 0.0,
                         "z": 0.0
                     }
+                },
+                {
+                    "timestamp": 54.83746337890625,
+                    "action_type": "upgrade_tower",
+                    "action_details": "CannonTowerData:$50",
+                    "position": {
+                        "x": 2.4200000762939455,
+                        "y": -2.5199999809265138,
+                        "z": 0.0
+                    }
                 }
-            ]
+            ],
+            "wave_timings": [
+                {
+                    "wave_number": 1,
+                    "wave_start_time": 3.2313547134399416,
+                    "wave_clear_time": 15.050360679626465,
+                    "enemies_in_wave": 5,
+                    "enemies_killed": 5,
+                    "enemies_leaked": 0
+                },
+                {
+                    "wave_number": 2,
+                    "wave_start_time": 23.275917053222658,
+                    "wave_clear_time": 18.029220581054689,
+                    "enemies_in_wave": 10,
+                    "enemies_killed": 10,
+                    "enemies_leaked": 0
+                },
+                {
+                    "wave_number": 3,
+                    "wave_start_time": 46.30006790161133,
+                    "wave_clear_time": 26.026233673095704,
+                    "enemies_in_wave": 17,
+                    "enemies_killed": 14,
+                    "enemies_leaked": 3
+                }
+            ],
+            "total_wave_clear_time": 59.10581588745117
         },
         {
             "game_won": true,
-            "play_time_seconds": 4.759965896606445,
+            "play_time_seconds": 77.32229614257813,
             "final_wave_reached": 4,
-            "money_spent": 370,
-            "towers_built": 5,
+            "money_spent": 205,
+            "towers_built": 2,
             "enemies_killed": 26,
             "lives_lost": 3,
             "towers_used": [
@@ -193,27 +126,7 @@
             ],
             "player_actions": [
                 {
-                    "timestamp": 0.009015499614179135,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9467436075210571,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.1089948415756226,
+                    "timestamp": 3.230848789215088,
                     "action_type": "start_wave",
                     "action_details": "wave_1",
                     "position": {
@@ -223,7 +136,7 @@
                     }
                 },
                 {
-                    "timestamp": 2.2131712436676027,
+                    "timestamp": 5.826108932495117,
                     "action_type": "build_tower",
                     "action_details": "MachineGunTowerData:$50",
                     "position": {
@@ -233,17 +146,7 @@
                     }
                 },
                 {
-                    "timestamp": 2.554155111312866,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.6597509384155275,
+                    "timestamp": 23.275917053222658,
                     "action_type": "start_wave",
                     "action_details": "wave_2",
                     "position": {
@@ -253,49 +156,9 @@
                     }
                 },
                 {
-                    "timestamp": 4.4242658615112309,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.4340338706970219,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.445879936218262,
-                    "action_type": "sell_tower",
-                    "action_details": "MachineGunTowerData:$38",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.466506481170654,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.473586559295654,
+                    "timestamp": 23.638668060302736,
                     "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
+                    "action_details": "MachineGunTowerData:$35",
                     "position": {
                         "x": 2.7100000381469728,
                         "y": 1.909999966621399,
@@ -303,27 +166,17 @@
                     }
                 },
                 {
-                    "timestamp": 4.6671295166015629,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.690840244293213,
+                    "timestamp": 38.551849365234378,
                     "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
+                    "action_details": "CannonTowerData:$70",
                     "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
+                        "x": 2.4200000762939455,
+                        "y": -2.0199999809265138,
                         "z": 0.0
                     }
                 },
                 {
-                    "timestamp": 4.763064384460449,
+                    "timestamp": 46.30006790161133,
                     "action_type": "start_wave",
                     "action_details": "wave_3",
                     "position": {
@@ -331,44 +184,109 @@
                         "y": 0.0,
                         "z": 0.0
                     }
+                },
+                {
+                    "timestamp": 54.83746337890625,
+                    "action_type": "upgrade_tower",
+                    "action_details": "CannonTowerData:$50",
+                    "position": {
+                        "x": 2.4200000762939455,
+                        "y": -2.5199999809265138,
+                        "z": 0.0
+                    }
                 }
-            ]
+            ],
+            "wave_timings": [
+                {
+                    "wave_number": 1,
+                    "wave_start_time": 3.2313547134399416,
+                    "wave_clear_time": 15.050360679626465,
+                    "enemies_in_wave": 5,
+                    "enemies_killed": 5,
+                    "enemies_leaked": 0
+                },
+                {
+                    "wave_number": 2,
+                    "wave_start_time": 23.275917053222658,
+                    "wave_clear_time": 18.029220581054689,
+                    "enemies_in_wave": 10,
+                    "enemies_killed": 10,
+                    "enemies_leaked": 0
+                },
+                {
+                    "wave_number": 3,
+                    "wave_start_time": 46.30006790161133,
+                    "wave_clear_time": 26.026233673095704,
+                    "enemies_in_wave": 17,
+                    "enemies_killed": 14,
+                    "enemies_leaked": 3
+                }
+            ],
+            "total_wave_clear_time": 59.10581588745117
+        },
+        {
+            "game_won": false,
+            "play_time_seconds": 47.39301681518555,
+            "final_wave_reached": 2,
+            "money_spent": 0,
+            "towers_built": 0,
+            "enemies_killed": 0,
+            "lives_lost": 15,
+            "towers_used": [],
+            "player_actions": [
+                {
+                    "timestamp": 3.301948308944702,
+                    "action_type": "start_wave",
+                    "action_details": "wave_1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "timestamp": 26.335508346557618,
+                    "action_type": "start_wave",
+                    "action_details": "wave_2",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "wave_timings": [
+                {
+                    "wave_number": 1,
+                    "wave_start_time": 3.301948308944702,
+                    "wave_clear_time": 18.037456512451173,
+                    "enemies_in_wave": 10,
+                    "enemies_killed": 5,
+                    "enemies_leaked": 5
+                },
+                {
+                    "wave_number": 2,
+                    "wave_start_time": 26.335508346557618,
+                    "wave_clear_time": 0.0,
+                    "enemies_in_wave": 0,
+                    "enemies_killed": 0,
+                    "enemies_leaked": 0
+                }
+            ],
+            "total_wave_clear_time": 18.037456512451173
         },
         {
             "game_won": true,
-            "play_time_seconds": 4.783567428588867,
+            "play_time_seconds": 81.46224212646485,
             "final_wave_reached": 4,
-            "money_spent": 300,
-            "towers_built": 3,
-            "enemies_killed": 26,
-            "lives_lost": 3,
-            "towers_used": [
-                "MachineGunTowerData",
-                "CannonTowerData"
-            ],
+            "money_spent": 0,
+            "towers_built": 0,
+            "enemies_killed": 0,
+            "lives_lost": 29,
+            "towers_used": [],
             "player_actions": [
                 {
-                    "timestamp": 0.00613120011985302,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9484428763389587,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.1492449045181275,
+                    "timestamp": 3.299421787261963,
                     "action_type": "start_wave",
                     "action_details": "wave_1",
                     "position": {
@@ -378,27 +296,7 @@
                     }
                 },
                 {
-                    "timestamp": 2.244297504425049,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.5850162506103517,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.687561511993408,
+                    "timestamp": 26.331592559814454,
                     "action_type": "start_wave",
                     "action_details": "wave_2",
                     "position": {
@@ -408,37 +306,7 @@
                     }
                 },
                 {
-                    "timestamp": 4.571317672729492,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.6305389404296879,
-                    "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.641403675079346,
-                    "action_type": "upgrade_tower",
-                    "action_details": "CannonTowerData:$60",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.7855634689331059,
+                    "timestamp": 52.386505126953128,
                     "action_type": "start_wave",
                     "action_details": "wave_3",
                     "position": {
@@ -447,1732 +315,34 @@
                         "z": 0.0
                     }
                 }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 5.0238871574401859,
-            "final_wave_reached": 4,
-            "money_spent": 290,
-            "towers_built": 4,
-            "enemies_killed": 23,
-            "lives_lost": 6,
-            "towers_used": [
-                "MachineGunTowerData"
             ],
-            "player_actions": [
+            "wave_timings": [
                 {
-                    "timestamp": 1.1924996376037598,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
+                    "wave_number": 1,
+                    "wave_start_time": 3.300935983657837,
+                    "wave_clear_time": 18.03502655029297,
+                    "enemies_in_wave": 10,
+                    "enemies_killed": 5,
+                    "enemies_leaked": 5
                 },
                 {
-                    "timestamp": 1.295878291130066,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
+                    "wave_number": 2,
+                    "wave_start_time": 26.331592559814454,
+                    "wave_clear_time": 21.05777359008789,
+                    "enemies_in_wave": 20,
+                    "enemies_killed": 10,
+                    "enemies_leaked": 10
                 },
                 {
-                    "timestamp": 2.3213915824890138,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.7197110652923586,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.9245824813842775,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.043116569519043,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.6783952713012699,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.694860935211182,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.698919296264648,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.707322120666504,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.709857940673828,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 5.025906562805176,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
+                    "wave_number": 3,
+                    "wave_start_time": 52.386505126953128,
+                    "wave_clear_time": 29.07373046875,
+                    "enemies_in_wave": 28,
+                    "enemies_killed": 14,
+                    "enemies_leaked": 14
                 }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.726933479309082,
-            "final_wave_reached": 4,
-            "money_spent": 350,
-            "towers_built": 4,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData",
-                "CannonTowerData"
             ],
-            "player_actions": [
-                {
-                    "timestamp": 0.003070099977776408,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9369097948074341,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.1011945009231568,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.2026166915893556,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.5420637130737306,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.6321916580200197,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.444886207580566,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.470852375030518,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.487136363983154,
-                    "action_type": "sell_tower",
-                    "action_details": "MachineGunTowerData:$38",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.499487400054932,
-                    "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.58425235748291,
-                    "action_type": "upgrade_tower",
-                    "action_details": "CannonTowerData:$60",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.727940559387207,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.757083415985107,
-            "final_wave_reached": 4,
-            "money_spent": 300,
-            "towers_built": 3,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData",
-                "CannonTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.003851999994367361,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9062108993530273,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.1015989780426026,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.242568016052246,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.556636095046997,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.6618282794952394,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.584301471710205,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.5961713790893559,
-                    "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.6028242111206059,
-                    "action_type": "upgrade_tower",
-                    "action_details": "CannonTowerData:$60",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.757623672485352,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.819301605224609,
-            "final_wave_reached": 4,
-            "money_spent": 160,
-            "towers_built": 2,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.004079900216311216,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9067193865776062,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.106412649154663,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.2190372943878176,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.661229372024536,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.7321956157684328,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.821445465087891,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.795158386230469,
-            "final_wave_reached": 4,
-            "money_spent": 220,
-            "towers_built": 2,
-            "enemies_killed": 24,
-            "lives_lost": 5,
-            "towers_used": [
-                "MachineGunTowerData",
-                "CannonTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.0025412000250071289,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9753381013870239,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.1395756006240845,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.4372637271881105,
-                    "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.697232484817505,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.250988483428955,
-                    "action_type": "upgrade_tower",
-                    "action_details": "CannonTowerData:$60",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.796708106994629,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.716873645782471,
-            "final_wave_reached": 4,
-            "money_spent": 160,
-            "towers_built": 2,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.009216600097715855,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.937908411026001,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.1076842546463013,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.183748722076416,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.5032432079315187,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.626046657562256,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.719003200531006,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 5.660102367401123,
-            "final_wave_reached": 4,
-            "money_spent": 160,
-            "towers_built": 2,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.019905200228095056,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.7707338333129883,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.9669623374938965,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 3.124376058578491,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 3.4731671810150148,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 3.5606532096862795,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 5.6627278327941898,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.6846232414245609,
-            "final_wave_reached": 4,
-            "money_spent": 160,
-            "towers_built": 2,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.003664799965918064,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9200078845024109,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.0648272037506104,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.266472578048706,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.4923853874206545,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.600064992904663,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.68775749206543,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.82858943939209,
-            "final_wave_reached": 4,
-            "money_spent": 240,
-            "towers_built": 3,
-            "enemies_killed": 26,
-            "lives_lost": 3,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.003671000013127923,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9363296031951904,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.1322963237762452,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.2361979484558107,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.6186842918395998,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.737823963165283,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.770893573760986,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.778473854064941,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.798722267150879,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.830634117126465,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.729494094848633,
-            "final_wave_reached": 4,
-            "money_spent": 160,
-            "towers_built": 2,
-            "enemies_killed": 26,
-            "lives_lost": 3,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.0031039000023156406,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9343748092651367,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.0957907438278199,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.2441060543060304,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.5522232055664064,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.6381354331970217,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.731569290161133,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 4.879181861877441,
-            "final_wave_reached": 4,
-            "money_spent": 320,
-            "towers_built": 4,
-            "enemies_killed": 25,
-            "lives_lost": 4,
-            "towers_used": [
-                "MachineGunTowerData",
-                "CannonTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.0031300000846385957,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 0.9395396113395691,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 1.1410175561904908,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.2185773849487306,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.61645770072937,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.6256558895111086,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 2.789201021194458,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.117566108703613,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.121182918548584,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.86692476272583,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.871994972229004,
-                    "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 4.880650520324707,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 125.64443969726563,
-            "final_wave_reached": 4,
-            "money_spent": 220,
-            "towers_built": 2,
-            "enemies_killed": 25,
-            "lives_lost": 4,
-            "towers_used": [
-                "MachineGunTowerData",
-                "CannonTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.018543299287557603,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 12.97765064239502,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 15.268314361572266,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 32.49477767944336,
-                    "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 36.13312530517578,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 116.97103881835938,
-                    "action_type": "upgrade_tower",
-                    "action_details": "CannonTowerData:$60",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 125.64695739746094,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 63.39937210083008,
-            "final_wave_reached": 4,
-            "money_spent": 160,
-            "towers_built": 2,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.007000199984759092,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 12.314533233642579,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 14.563920974731446,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 29.26434326171875,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 33.625667572021487,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 35.18879699707031,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 63.40188217163086,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 64.03128051757813,
-            "final_wave_reached": 4,
-            "money_spent": 320,
-            "towers_built": 4,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData",
-                "CannonTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.01857299916446209,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 12.295345306396485,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 14.577787399291993,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 28.928627014160158,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 34.25578308105469,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 35.8236198425293,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 61.41918182373047,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 61.63531494140625,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 61.656227111816409,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 61.727779388427737,
-                    "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 61.742835998535159,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 64.03289794921875,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 62.7837028503418,
-            "final_wave_reached": 4,
-            "money_spent": 160,
-            "towers_built": 2,
-            "enemies_killed": 28,
-            "lives_lost": 1,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.01661360077559948,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 12.325285911560059,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 14.574725151062012,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 29.14699363708496,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 33.471092224121097,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 35.056549072265628,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 62.78623580932617,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 64.22508239746094,
-            "final_wave_reached": 4,
-            "money_spent": 160,
-            "towers_built": 2,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.008966900408267975,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 12.286581993103028,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 14.567079544067383,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 31.462326049804689,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 34.64493942260742,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 36.012699127197269,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 64.22772979736328,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "game_won": true,
-            "play_time_seconds": 63.77412414550781,
-            "final_wave_reached": 4,
-            "money_spent": 300,
-            "towers_built": 3,
-            "enemies_killed": 27,
-            "lives_lost": 2,
-            "towers_used": [
-                "MachineGunTowerData",
-                "CannonTowerData"
-            ],
-            "player_actions": [
-                {
-                    "timestamp": 0.03125010058283806,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 12.307727813720704,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 14.589582443237305,
-                    "action_type": "start_wave",
-                    "action_details": "wave_1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 28.6865291595459,
-                    "action_type": "build_tower",
-                    "action_details": "MachineGunTowerData:$50",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 2.4099998474121095,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 33.8489990234375,
-                    "action_type": "upgrade_tower",
-                    "action_details": "MachineGunTowerData:$30",
-                    "position": {
-                        "x": 2.7100000381469728,
-                        "y": 1.909999966621399,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 35.56533432006836,
-                    "action_type": "start_wave",
-                    "action_details": "wave_2",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 62.813289642333987,
-                    "action_type": "sell_tower",
-                    "action_details": "UpgradedMachineGunTowerData:$0",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 62.85110092163086,
-                    "action_type": "build_tower",
-                    "action_details": "CannonTowerData:$80",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.0199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 62.89048385620117,
-                    "action_type": "upgrade_tower",
-                    "action_details": "CannonTowerData:$60",
-                    "position": {
-                        "x": 2.4200000762939455,
-                        "y": -2.5199999809265138,
-                        "z": 0.0
-                    }
-                },
-                {
-                    "timestamp": 63.77764129638672,
-                    "action_type": "start_wave",
-                    "action_details": "wave_3",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    }
-                }
-            ]
+            "total_wave_clear_time": 68.16653442382813
         }
     ]
 }

@@ -16,6 +16,10 @@ public class GameSessionData
     public int lives_lost;
     public List<string> towers_used = new List<string>();
     public List<PlayerAction> player_actions = new List<PlayerAction>();
+    
+    // Wave timing data
+    public List<WaveTimingData> wave_timings = new List<WaveTimingData>();
+    public float total_wave_clear_time = 0f;
 }
 
 [Serializable]
@@ -34,10 +38,23 @@ public class SessionDataWrapper
 }
 
 [Serializable]
+public class WaveTimingData
+{
+    public int wave_number;
+    public float wave_start_time;
+    public float wave_clear_time;
+    public int enemies_in_wave;
+    public int enemies_killed;
+    public int enemies_leaked;
+}
+
+
+[Serializable]
 public class GameStats
 {
     public float current_success_rate;
     public float current_avg_play_time;
     public int total_sessions;
     public int recent_sessions;
+    public float average_wave_clear_time;
 }

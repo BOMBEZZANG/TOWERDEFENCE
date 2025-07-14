@@ -59,7 +59,9 @@ public class GameMetricsCollector : MonoBehaviour
             enemies_killed = 0,
             lives_lost = 0,
             towers_used = new List<string>(),
-            player_actions = new List<PlayerAction>()
+            player_actions = new List<PlayerAction>(),
+            wave_timings = new List<WaveTimingData>(),
+            total_wave_clear_time = 0f
         };
         
         Debug.Log("[MetricsCollector] New game session started");
@@ -151,7 +153,42 @@ public class GameMetricsCollector : MonoBehaviour
         
         currentSession.final_wave_reached = Mathf.Max(currentSession.final_wave_reached, waveNumber);
         RecordPlayerAction("start_wave", $"wave_{waveNumber}");
+        
+        // Start tracking this wave
+        var waveData = new WaveTimingData
+        {
+            wave_number = waveNumber,
+            wave_start_time = (float)(DateTime.Now - currentSession.session_start).TotalSeconds,
+            wave_clear_time = 0f,
+            enemies_in_wave = 0,
+            enemies_killed = 0,
+            enemies_leaked = 0
+        };
+        currentSession.wave_timings.Add(waveData);
     }
+    
+    public void RecordWaveCompleted(int waveNumber, int enemiesKilled, int enemiesLeaked)
+    {
+        if (!enableDataCollection || currentSession == null) return;
+        
+        var currentTime = (float)(DateTime.Now - currentSession.session_start).TotalSeconds;
+        
+        // Find the wave data and update it
+        var waveData = currentSession.wave_timings.Find(w => w.wave_number == waveNumber);
+        if (waveData != null)
+        {
+            waveData.wave_clear_time = currentTime - waveData.wave_start_time;
+            waveData.enemies_killed = enemiesKilled;
+            waveData.enemies_leaked = enemiesLeaked;
+            waveData.enemies_in_wave = enemiesKilled + enemiesLeaked;
+            
+            currentSession.total_wave_clear_time += waveData.wave_clear_time;
+        }
+    }
+    
+    
+    
+    
     
     public List<GameSessionData> GetRecentSessions(int count = 10)
     {

@@ -1,0 +1,7 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 8:15:19 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+
+=== LOG SESSION ENDED: 7/14/2025 8:15:21 PM ===
