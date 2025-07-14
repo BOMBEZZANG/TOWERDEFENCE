@@ -1,8 +1,0 @@
-=== UNITY CONSOLE LOG ===
-Session started: 7/14/2025 4:25:25 PM
-Unity Version: 6000.0.45f1
-Platform: WindowsEditor
-
-[16:25:25.616] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
-
-=== LOG SESSION ENDED: 7/14/2025 4:25:26 PM ===

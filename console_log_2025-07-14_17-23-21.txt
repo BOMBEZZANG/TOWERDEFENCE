@@ -1,0 +1,302 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 5:23:21 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[17:23:22.067] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[17:23:22.073] [0.000s] [INFO] Heuristic: Building tower on node 0
+[17:23:22.076] [0.000s] [INFO] Agent received action: 3 (Money: 50)
+[17:23:22.076] [0.000s] [INFO] Building MachineGunTowerData at position (2.42, -2.02, 0.00)
+[17:23:22.078] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized at (2.42, -2.02, 0.00)
+[17:23:22.080] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[17:23:22.082] [0.000s] [INFO] Tower built! Money left: 0, Tower active: True
+[17:23:22.083] [0.000s] [INFO] Built a new type of tower: MachineGun. Rewarding diversity!
+[17:23:22.083] [0.000s] [INFO] Attempting to build MachineGunTowerData at node 0: True
+[17:23:22.804] [0.020s] [INFO] Heuristic: No actions available
+[17:23:22.860] [0.040s] [INFO] Heuristic: No actions available
+[17:23:22.866] [0.080s] [INFO] Heuristic: No actions available
+[17:23:22.885] [0.100s] [INFO] Heuristic: No actions available
+[17:23:22.906] [0.120s] [INFO] Heuristic: No actions available
+[17:23:22.924] [0.140s] [INFO] Heuristic: No actions available
+[17:23:22.945] [0.160s] [INFO] Heuristic: No actions available
+[17:23:22.967] [0.180s] [INFO] Heuristic: No actions available
+[17:23:22.985] [0.200s] [INFO] Heuristic: No actions available
+[17:23:23.004] [0.220s] [INFO] Heuristic: No actions available
+[17:23:23.024] [0.240s] [INFO] Heuristic: No actions available
+[17:23:23.044] [0.260s] [INFO] Heuristic: No actions available
+[17:23:23.064] [0.280s] [INFO] Heuristic: No actions available
+[17:23:23.085] [0.300s] [INFO] Heuristic: No actions available
+[17:23:23.104] [0.320s] [INFO] Heuristic: No actions available
+[17:23:23.125] [0.340s] [INFO] Heuristic: No actions available
+[17:23:23.144] [0.360s] [INFO] Heuristic: No actions available
+[17:23:23.164] [0.380s] [INFO] Heuristic: No actions available
+[17:23:23.185] [0.400s] [INFO] Heuristic: No actions available
+[17:23:23.205] [0.420s] [INFO] Heuristic: No actions available
+[17:23:23.225] [0.440s] [INFO] Heuristic: No actions available
+[17:23:23.244] [0.460s] [INFO] Heuristic: No actions available
+[17:23:23.265] [0.480s] [INFO] Heuristic: No actions available
+[17:23:23.284] [0.500s] [INFO] Heuristic: No actions available
+[17:23:23.305] [0.520s] [INFO] Heuristic: No actions available
+[17:23:23.325] [0.540s] [INFO] Heuristic: No actions available
+[17:23:23.345] [0.560s] [INFO] Heuristic: No actions available
+[17:23:23.365] [0.580s] [INFO] Heuristic: No actions available
+[17:23:23.384] [0.600s] [INFO] Heuristic: No actions available
+[17:23:23.404] [0.620s] [INFO] Heuristic: No actions available
+[17:23:23.424] [0.640s] [INFO] Heuristic: No actions available
+[17:23:23.445] [0.660s] [INFO] Heuristic: No actions available
+[17:23:23.466] [0.680s] [INFO] Heuristic: No actions available
+[17:23:23.484] [0.700s] [INFO] Heuristic: No actions available
+[17:23:23.505] [0.720s] [INFO] Heuristic: No actions available
+[17:23:23.526] [0.740s] [INFO] Heuristic: No actions available
+[17:23:23.544] [0.760s] [INFO] Heuristic: No actions available
+[17:23:23.564] [0.780s] [INFO] Heuristic: No actions available
+[17:23:23.585] [0.800s] [INFO] Heuristic: No actions available
+[17:23:23.604] [0.820s] [INFO] Heuristic: No actions available
+[17:23:23.625] [0.840s] [INFO] Heuristic: No actions available
+[17:23:23.644] [0.860s] [INFO] Heuristic: No actions available
+[17:23:23.664] [0.880s] [INFO] Heuristic: No actions available
+[17:23:23.685] [0.900s] [INFO] Heuristic: No actions available
+[17:23:23.705] [0.920s] [INFO] Heuristic: No actions available
+[17:23:23.724] [0.940s] [INFO] Heuristic: No actions available
+[17:23:23.745] [0.960s] [INFO] Heuristic: No actions available
+[17:23:23.765] [0.980s] [INFO] Heuristic: No actions available
+[17:23:23.784] [1.000s] [INFO] Heuristic: No actions available
+[17:23:23.804] [1.020s] [INFO] Heuristic: No actions available
+[17:23:23.826] [1.040s] [INFO] Heuristic: No actions available
+[17:23:23.844] [1.060s] [INFO] Heuristic: No actions available
+[17:23:23.865] [1.080s] [INFO] Heuristic: No actions available
+[17:23:23.884] [1.100s] [INFO] Heuristic: No actions available
+[17:23:23.904] [1.120s] [INFO] Heuristic: No actions available
+[17:23:23.924] [1.140s] [INFO] Heuristic: No actions available
+[17:23:23.944] [1.160s] [INFO] Heuristic: No actions available
+[17:23:23.963] [1.180s] [INFO] Heuristic: No actions available
+[17:23:23.984] [1.200s] [INFO] Heuristic: No actions available
+[17:23:24.003] [1.220s] [INFO] Heuristic: No actions available
+[17:23:24.024] [1.240s] [INFO] Heuristic: No actions available
+[17:23:24.044] [1.260s] [INFO] Heuristic: No actions available
+[17:23:24.065] [1.280s] [INFO] Observations - Money: 0, Lives: 20, Wave: 0, Enemies: 0
+[17:23:24.065] [1.280s] [INFO] Heuristic: No actions available
+[17:23:24.085] [1.300s] [INFO] Heuristic: No actions available
+[17:23:24.104] [1.320s] [INFO] Heuristic: No actions available
+[17:23:24.125] [1.340s] [INFO] Heuristic: No actions available
+[17:23:24.145] [1.360s] [INFO] Heuristic: No actions available
+[17:23:24.164] [1.380s] [INFO] Heuristic: No actions available
+[17:23:24.186] [1.400s] [INFO] Heuristic: No actions available
+[17:23:24.206] [1.420s] [INFO] Heuristic: No actions available
+[17:23:24.225] [1.440s] [INFO] Heuristic: No actions available
+[17:23:24.243] [1.460s] [INFO] Heuristic: No actions available
+[17:23:24.265] [1.480s] [INFO] Heuristic: No actions available
+[17:23:24.285] [1.500s] [INFO] Heuristic: No actions available
+[17:23:24.304] [1.520s] [INFO] Heuristic: No actions available
+[17:23:24.324] [1.540s] [INFO] Heuristic: No actions available
+[17:23:24.345] [1.560s] [INFO] Heuristic: No actions available
+[17:23:24.364] [1.580s] [INFO] Heuristic: No actions available
+[17:23:24.384] [1.600s] [INFO] Heuristic: No actions available
+[17:23:24.405] [1.620s] [INFO] Heuristic: No actions available
+[17:23:24.424] [1.640s] [INFO] Heuristic: No actions available
+[17:23:24.444] [1.660s] [INFO] Heuristic: No actions available
+[17:23:24.464] [1.680s] [INFO] Heuristic: No actions available
+[17:23:24.491] [1.700s] [INFO] Heuristic: No actions available
+[17:23:24.504] [1.720s] [INFO] Heuristic: No actions available
+[17:23:24.524] [1.740s] [INFO] Heuristic: No actions available
+[17:23:24.544] [1.760s] [INFO] Observations - Money: 0, Lives: 20, Wave: 0, Enemies: 0
+[17:23:24.544] [1.760s] [INFO] Heuristic: No actions available
+[17:23:24.564] [1.780s] [INFO] Heuristic: No actions available
+[17:23:24.585] [1.800s] [INFO] Heuristic: No actions available
+[17:23:24.605] [1.820s] [INFO] Heuristic: No actions available
+[17:23:24.625] [1.840s] [INFO] Heuristic: No actions available
+[17:23:24.645] [1.860s] [INFO] Heuristic: No actions available
+[17:23:24.664] [1.880s] [INFO] Heuristic: No actions available
+[17:23:24.684] [1.900s] [INFO] Heuristic: No actions available
+[17:23:24.704] [1.920s] [INFO] Heuristic: No actions available
+[17:23:24.724] [1.940s] [INFO] Heuristic: No actions available
+[17:23:24.744] [1.960s] [INFO] Heuristic: No actions available
+[17:23:24.764] [1.980s] [INFO] Heuristic: No actions available
+[17:23:24.769] [1.982s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[17:23:24.770] [1.982s] [INFO] Enemies alive: 1
+[17:23:24.772] [1.982s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[17:23:24.772] [1.982s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[17:23:24.776] [1.992s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[17:23:24.784] [2.000s] [INFO] Heuristic: No actions available
+[17:23:24.804] [2.020s] [INFO] Heuristic: No actions available
+[17:23:24.824] [2.040s] [INFO] Heuristic: No actions available
+[17:23:24.845] [2.060s] [INFO] Heuristic: No actions available
+[17:23:24.864] [2.080s] [INFO] Heuristic: No actions available
+[17:23:24.884] [2.100s] [INFO] Heuristic: No actions available
+[17:23:24.904] [2.120s] [INFO] Heuristic: No actions available
+[17:23:24.923] [2.140s] [INFO] Heuristic: No actions available
+[17:23:24.944] [2.160s] [INFO] Heuristic: No actions available
+[17:23:24.964] [2.180s] [INFO] Heuristic: No actions available
+[17:23:24.984] [2.200s] [INFO] Heuristic: No actions available
+[17:23:25.004] [2.220s] [INFO] Heuristic: No actions available
+[17:23:25.025] [2.240s] [INFO] Heuristic: No actions available
+[17:23:25.045] [2.260s] [INFO] Heuristic: No actions available
+[17:23:25.064] [2.280s] [INFO] Heuristic: No actions available
+[17:23:25.084] [2.300s] [INFO] Heuristic: No actions available
+[17:23:25.104] [2.320s] [INFO] Heuristic: No actions available
+[17:23:25.125] [2.340s] [INFO] Heuristic: No actions available
+[17:23:25.145] [2.360s] [INFO] Heuristic: No actions available
+[17:23:25.165] [2.380s] [INFO] Heuristic: No actions available
+[17:23:25.185] [2.400s] [INFO] Heuristic: No actions available
+[17:23:25.204] [2.420s] [INFO] Heuristic: No actions available
+[17:23:25.225] [2.440s] [INFO] Heuristic: No actions available
+[17:23:25.244] [2.460s] [INFO] Heuristic: No actions available
+[17:23:25.264] [2.480s] [INFO] Heuristic: No actions available
+[17:23:25.284] [2.500s] [INFO] Heuristic: No actions available
+[17:23:25.303] [2.520s] [INFO] Heuristic: No actions available
+[17:23:25.325] [2.540s] [INFO] Heuristic: No actions available
+[17:23:25.345] [2.560s] [INFO] Heuristic: No actions available
+[17:23:25.364] [2.580s] [INFO] Heuristic: No actions available
+[17:23:25.385] [2.600s] [INFO] Heuristic: No actions available
+[17:23:25.403] [2.620s] [INFO] Heuristic: No actions available
+[17:23:25.425] [2.640s] [INFO] Heuristic: No actions available
+[17:23:25.445] [2.660s] [INFO] Heuristic: No actions available
+[17:23:25.465] [2.680s] [INFO] Heuristic: No actions available
+[17:23:25.484] [2.700s] [INFO] Heuristic: No actions available
+[17:23:25.505] [2.720s] [INFO] Heuristic: No actions available
+[17:23:25.524] [2.740s] [INFO] Heuristic: No actions available
+[17:23:25.544] [2.760s] [INFO] Heuristic: No actions available
+[17:23:25.565] [2.780s] [INFO] Heuristic: No actions available
+[17:23:25.585] [2.800s] [INFO] Heuristic: No actions available
+[17:23:25.604] [2.820s] [INFO] Heuristic: No actions available
+[17:23:25.623] [2.840s] [INFO] Heuristic: No actions available
+[17:23:25.644] [2.860s] [INFO] Heuristic: No actions available
+[17:23:25.664] [2.880s] [INFO] Heuristic: No actions available
+[17:23:25.684] [2.900s] [INFO] Heuristic: No actions available
+[17:23:25.703] [2.920s] [INFO] Heuristic: No actions available
+[17:23:25.726] [2.940s] [INFO] Heuristic: No actions available
+[17:23:25.744] [2.960s] [INFO] Heuristic: No actions available
+[17:23:25.764] [2.980s] [INFO] Heuristic: No actions available
+[17:23:25.785] [3.000s] [INFO] Heuristic: No actions available
+[17:23:25.805] [3.020s] [INFO] Heuristic: No actions available
+[17:23:25.825] [3.040s] [INFO] Heuristic: No actions available
+[17:23:25.845] [3.060s] [INFO] Heuristic: No actions available
+[17:23:25.865] [3.080s] [INFO] Heuristic: No actions available
+[17:23:25.885] [3.100s] [INFO] Heuristic: No actions available
+[17:23:25.905] [3.120s] [INFO] Heuristic: No actions available
+[17:23:25.925] [3.140s] [INFO] Heuristic: No actions available
+[17:23:25.944] [3.160s] [INFO] Heuristic: No actions available
+[17:23:25.965] [3.180s] [INFO] Heuristic: No actions available
+[17:23:25.984] [3.200s] [INFO] Heuristic: No actions available
+[17:23:26.006] [3.220s] [INFO] Heuristic: No actions available
+[17:23:26.025] [3.240s] [INFO] Heuristic: No actions available
+[17:23:26.045] [3.260s] [INFO] Heuristic: No actions available
+[17:23:26.064] [3.280s] [INFO] Heuristic: No actions available
+[17:23:26.085] [3.300s] [INFO] Heuristic: No actions available
+[17:23:26.104] [3.320s] [INFO] Heuristic: No actions available
+[17:23:26.124] [3.340s] [INFO] Heuristic: No actions available
+[17:23:26.144] [3.360s] [INFO] Heuristic: No actions available
+[17:23:26.165] [3.380s] [INFO] Heuristic: No actions available
+[17:23:26.185] [3.400s] [INFO] Heuristic: No actions available
+[17:23:26.205] [3.420s] [INFO] Heuristic: No actions available
+[17:23:26.225] [3.440s] [INFO] Heuristic: No actions available
+[17:23:26.245] [3.460s] [INFO] Heuristic: No actions available
+[17:23:26.265] [3.480s] [INFO] Heuristic: No actions available
+[17:23:26.268] [3.484s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[17:23:26.268] [3.484s] [INFO] Enemies alive: 2
+[17:23:26.268] [3.484s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[17:23:26.270] [3.484s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[17:23:26.272] [3.488s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[17:23:26.285] [3.500s] [INFO] Heuristic: No actions available
+[17:23:26.304] [3.520s] [INFO] Heuristic: No actions available
+[17:23:26.325] [3.540s] [INFO] Heuristic: No actions available
+[17:23:26.344] [3.560s] [INFO] Heuristic: No actions available
+[17:23:26.364] [3.580s] [INFO] Heuristic: No actions available
+[17:23:26.384] [3.600s] [INFO] Heuristic: No actions available
+[17:23:26.406] [3.620s] [INFO] Heuristic: No actions available
+[17:23:26.424] [3.640s] [INFO] Heuristic: No actions available
+[17:23:26.444] [3.660s] [INFO] Heuristic: No actions available
+[17:23:26.465] [3.680s] [INFO] Heuristic: No actions available
+[17:23:26.484] [3.700s] [INFO] Heuristic: No actions available
+[17:23:26.505] [3.720s] [INFO] Heuristic: No actions available
+[17:23:26.525] [3.740s] [INFO] Heuristic: No actions available
+[17:23:26.544] [3.760s] [INFO] Heuristic: No actions available
+[17:23:26.564] [3.780s] [INFO] Heuristic: No actions available
+[17:23:26.584] [3.800s] [INFO] Heuristic: No actions available
+[17:23:26.606] [3.820s] [INFO] Heuristic: No actions available
+[17:23:26.625] [3.840s] [INFO] Heuristic: No actions available
+[17:23:26.645] [3.860s] [INFO] Heuristic: No actions available
+[17:23:26.665] [3.880s] [INFO] Heuristic: No actions available
+[17:23:26.685] [3.900s] [INFO] Heuristic: No actions available
+[17:23:26.705] [3.920s] [INFO] Heuristic: No actions available
+[17:23:26.724] [3.940s] [INFO] Heuristic: No actions available
+[17:23:26.744] [3.960s] [INFO] Heuristic: No actions available
+[17:23:26.764] [3.980s] [INFO] Heuristic: No actions available
+[17:23:26.784] [4.000s] [INFO] Heuristic: No actions available
+[17:23:26.805] [4.020s] [INFO] Heuristic: No actions available
+[17:23:26.825] [4.040s] [INFO] Heuristic: No actions available
+[17:23:26.845] [4.060s] [INFO] Heuristic: No actions available
+[17:23:26.865] [4.080s] [INFO] Heuristic: No actions available
+[17:23:26.884] [4.100s] [INFO] Heuristic: No actions available
+[17:23:26.904] [4.120s] [INFO] Heuristic: No actions available
+[17:23:26.925] [4.140s] [INFO] Heuristic: No actions available
+[17:23:26.944] [4.160s] [INFO] Heuristic: No actions available
+[17:23:26.966] [4.180s] [INFO] Heuristic: No actions available
+[17:23:26.984] [4.200s] [INFO] Heuristic: No actions available
+[17:23:27.005] [4.220s] [INFO] Heuristic: No actions available
+[17:23:27.025] [4.240s] [INFO] Heuristic: No actions available
+[17:23:27.045] [4.260s] [INFO] Heuristic: No actions available
+[17:23:27.064] [4.280s] [INFO] Heuristic: No actions available
+[17:23:27.085] [4.300s] [INFO] Heuristic: No actions available
+[17:23:27.106] [4.320s] [INFO] Heuristic: No actions available
+[17:23:27.125] [4.340s] [INFO] Heuristic: No actions available
+[17:23:27.145] [4.360s] [INFO] Heuristic: No actions available
+[17:23:27.165] [4.380s] [INFO] Heuristic: No actions available
+[17:23:27.186] [4.400s] [INFO] Heuristic: No actions available
+[17:23:27.205] [4.420s] [INFO] Heuristic: No actions available
+[17:23:27.223] [4.440s] [INFO] Heuristic: No actions available
+[17:23:27.245] [4.460s] [INFO] Heuristic: No actions available
+[17:23:27.264] [4.480s] [INFO] Heuristic: No actions available
+[17:23:27.284] [4.500s] [INFO] Heuristic: No actions available
+[17:23:27.304] [4.520s] [INFO] Heuristic: No actions available
+[17:23:27.325] [4.540s] [INFO] Heuristic: No actions available
+[17:23:27.344] [4.560s] [INFO] Heuristic: No actions available
+[17:23:27.364] [4.580s] [INFO] Heuristic: No actions available
+[17:23:27.384] [4.600s] [INFO] Heuristic: No actions available
+[17:23:27.404] [4.620s] [INFO] Heuristic: No actions available
+[17:23:27.424] [4.640s] [INFO] Heuristic: No actions available
+[17:23:27.444] [4.660s] [INFO] Heuristic: No actions available
+[17:23:27.465] [4.680s] [INFO] Heuristic: No actions available
+[17:23:27.483] [4.700s] [INFO] Heuristic: No actions available
+[17:23:27.505] [4.720s] [INFO] Heuristic: No actions available
+[17:23:27.526] [4.740s] [INFO] Heuristic: No actions available
+[17:23:27.544] [4.760s] [INFO] Heuristic: No actions available
+[17:23:27.564] [4.780s] [INFO] Heuristic: No actions available
+[17:23:27.586] [4.800s] [INFO] Heuristic: No actions available
+[17:23:27.606] [4.820s] [INFO] Heuristic: No actions available
+[17:23:27.624] [4.840s] [INFO] Heuristic: No actions available
+[17:23:27.645] [4.860s] [INFO] Heuristic: No actions available
+[17:23:27.664] [4.880s] [INFO] Heuristic: No actions available
+[17:23:27.684] [4.900s] [INFO] Heuristic: No actions available
+[17:23:27.704] [4.920s] [INFO] Heuristic: No actions available
+[17:23:27.724] [4.940s] [INFO] Heuristic: No actions available
+[17:23:27.744] [4.960s] [INFO] Heuristic: No actions available
+[17:23:27.764] [4.980s] [INFO] Heuristic: No actions available
+[17:23:27.769] [4.985s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[17:23:27.769] [4.985s] [INFO] Enemies alive: 3
+[17:23:27.770] [4.985s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[17:23:27.770] [4.985s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[17:23:27.773] [4.990s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[17:23:27.784] [5.000s] [INFO] Heuristic: No actions available
+[17:23:27.805] [5.020s] [INFO] Heuristic: No actions available
+[17:23:27.825] [5.040s] [INFO] Heuristic: No actions available
+[17:23:27.846] [5.060s] [INFO] Heuristic: No actions available
+[17:23:27.865] [5.080s] [INFO] Heuristic: No actions available
+[17:23:27.885] [5.100s] [INFO] Heuristic: No actions available
+[17:23:27.904] [5.120s] [INFO] Heuristic: No actions available
+[17:23:27.926] [5.140s] [INFO] Heuristic: No actions available
+[17:23:27.945] [5.160s] [INFO] Heuristic: No actions available
+[17:23:27.965] [5.180s] [INFO] Heuristic: No actions available
+[17:23:27.984] [5.200s] [INFO] Heuristic: No actions available
+[17:23:28.004] [5.220s] [INFO] Heuristic: No actions available
+[17:23:28.024] [5.240s] [INFO] Heuristic: No actions available
+[17:23:28.045] [5.260s] [INFO] Heuristic: No actions available
+[17:23:28.064] [5.280s] [INFO] Heuristic: No actions available
+[17:23:28.085] [5.300s] [INFO] Heuristic: No actions available
+[17:23:28.090] [5.306s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 2: Waypoint (2)
+[17:23:28.104] [5.320s] [INFO] Heuristic: No actions available
+[17:23:28.125] [5.340s] [INFO] Heuristic: No actions available
+[17:23:28.145] [5.360s] [INFO] Observations - Money: 0, Lives: 20, Wave: 0, Enemies: 3
+[17:23:28.145] [5.360s] [INFO] Heuristic: No actions available
+
+=== LOG SESSION ENDED: 7/14/2025 5:23:28 PM ===

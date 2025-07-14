@@ -9,12 +9,12 @@ public class SimpleTowerDefenseAgent : Agent
 {
     [Header("Debug")]
     public bool debugMode = true;
-    
+
     [Header("Game References")]
     public TowerData[] availableTowers;
-    public int maxObservableEnemies = 5;
-    public int maxObservableNodes = 10;
-    
+    public int maxObservableEnemies = 15;
+    public int maxObservableNodes = 2;
+
     [Header("Performance Tracking")]
     private int episodeStartMoney;
     private int episodeStartLives;
@@ -22,27 +22,27 @@ public class SimpleTowerDefenseAgent : Agent
     private int enemiesKilled;
     private int towersBuilt;
     private int wavesCompleted;
-    
+    private List<TowerType> builtTowerTypesThisEpisode;
+    private float lastTowerBuildTime;
+
     private List<Node> buildableNodes;
     private int selectedTowerType = 0;
-    
+
     public override void Initialize()
     {
         if (debugMode) Debug.Log("SimpleTowerDefenseAgent: Initialize called");
-        
         if (availableTowers == null || availableTowers.Length == 0)
         {
             Debug.LogError("SimpleTowerDefenseAgent: No tower data assigned!");
         }
-        
         buildableNodes = FindObjectsByType<Node>(FindObjectsSortMode.None).ToList();
         if (debugMode) Debug.Log($"Found {buildableNodes.Count} buildable nodes");
     }
-    
+
     public override void OnEpisodeBegin()
     {
         if (debugMode) Debug.Log("SimpleTowerDefenseAgent: OnEpisodeBegin called");
-        
+
         if (GameManager.Instance != null)
         {
             GameManager.Instance.ManualReset();
@@ -53,44 +53,44 @@ public class SimpleTowerDefenseAgent : Agent
             towersBuilt = 0;
             wavesCompleted = 0;
         }
-        
+
         selectedTowerType = 0;
-        
+        lastTowerBuildTime = 0f;
+
         if (buildableNodes == null)
         {
             buildableNodes = FindObjectsByType<Node>(FindObjectsSortMode.None).ToList();
         }
+
+        if (builtTowerTypesThisEpisode == null) builtTowerTypesThisEpisode = new List<TowerType>();
+        builtTowerTypesThisEpisode.Clear();
     }
-    
+
     public override void CollectObservations(VectorSensor sensor)
     {
         if (GameManager.Instance == null) return;
-        
-        // Game state observations (4 values)
-        sensor.AddObservation((float)GameManager.Instance.currentMoney / 1000f); // Normalized money
-        sensor.AddObservation((float)GameManager.Instance.currentLives / 20f);   // Normalized lives
-        sensor.AddObservation((float)GameManager.Instance.currentWaveIndex / 10f); // Normalized wave
-        sensor.AddObservation(WaveSpawner.Instance != null ? 
-            (WaveSpawner.Instance.GetComponent<WaveSpawner>().enabled ? 1f : 0f) : 0f); // Wave active
-            
-        // Available tower info (availableTowers.Length * 3 values)
+
+        sensor.AddObservation((float)GameManager.Instance.currentMoney / 1000f);
+        sensor.AddObservation((float)GameManager.Instance.currentLives / 20f);
+        sensor.AddObservation((float)GameManager.Instance.currentWaveIndex / 10f);
+        sensor.AddObservation(WaveSpawner.Instance != null ? (WaveSpawner.Instance.GetComponent<WaveSpawner>().enabled ? 1f : 0f) : 0f);
+
         foreach (var tower in availableTowers)
         {
-            sensor.AddObservation((float)tower.cost / 100f);     // Normalized cost
-            sensor.AddObservation(tower.damage / 50f);           // Normalized damage
-            sensor.AddObservation(tower.range / 10f);            // Normalized range
+            sensor.AddObservation((float)tower.cost / 100f);
+            sensor.AddObservation(tower.damage / 50f);
+            sensor.AddObservation(tower.range / 10f);
         }
-        
-        // Buildable nodes status (maxObservableNodes * 4 values)
+
         for (int i = 0; i < maxObservableNodes; i++)
         {
             if (i < buildableNodes.Count && buildableNodes[i] != null)
             {
                 Node node = buildableNodes[i];
-                sensor.AddObservation(node.transform.position.x / 10f); // Normalized x position
-                sensor.AddObservation(node.transform.position.z / 10f); // Normalized z position
-                sensor.AddObservation(node.tower != null ? 1f : 0f);   // Has tower
-                sensor.AddObservation(CanAffordTowerAt(node) ? 1f : 0f); // Can afford tower
+                sensor.AddObservation(node.transform.position.x / 10f);
+                sensor.AddObservation(node.transform.position.z / 10f);
+                sensor.AddObservation(node.tower != null ? 1f : 0f);
+                sensor.AddObservation(CanAffordTowerAt(node) ? 1f : 0f);
             }
             else
             {
@@ -100,17 +100,16 @@ public class SimpleTowerDefenseAgent : Agent
                 sensor.AddObservation(0f);
             }
         }
-        
-        // Enemy positions (maxObservableEnemies * 3 values)
+
         var enemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
         for (int i = 0; i < maxObservableEnemies; i++)
         {
             if (i < enemies.Length && enemies[i] != null)
             {
                 Transform enemy = enemies[i].transform;
-                sensor.AddObservation(enemy.position.x / 10f); // Normalized x position
-                sensor.AddObservation(enemy.position.z / 10f); // Normalized z position
-                sensor.AddObservation(enemies[i].GetCurrentHealth() / 100f); // Normalized health
+                sensor.AddObservation(enemy.position.x / 10f);
+                sensor.AddObservation(enemy.position.z / 10f);
+                sensor.AddObservation(enemies[i].GetCurrentHealth() / 100f);
             }
             else
             {
@@ -119,121 +118,117 @@ public class SimpleTowerDefenseAgent : Agent
                 sensor.AddObservation(0f);
             }
         }
-        
-        if (debugMode && Time.frameCount % 60 == 0) // Log every 60 frames
-        {
-            Debug.Log($"Observations - Money: {GameManager.Instance.currentMoney}, Lives: {GameManager.Instance.currentLives}, Wave: {GameManager.Instance.currentWaveIndex}, Enemies: {enemies.Length}");
-        }
     }
-    
+
     public override void OnActionReceived(ActionBuffers actionBuffers)
     {
         if (GameManager.Instance == null || GameManager.Instance.gameOver) return;
-        
+
         int action = actionBuffers.DiscreteActions[0];
-        
-        // Action space:
-        // 0: Do nothing
-        // 1-N: Select tower type (N = availableTowers.Length)
-        // (N+1)-(N+maxObservableNodes): Build selected tower on node
-        // (N+maxObservableNodes+1)-(N+2*maxObservableNodes): Upgrade tower on node
-        // (N+2*maxObservableNodes+1)-(N+3*maxObservableNodes): Sell tower on node
-        
         bool actionTaken = false;
-        
+
+        // Do nothing action
         if (action == 0)
         {
-            // Do nothing - small negative reward to encourage action
-            AddReward(-0.005f);
+            // Check if we have any towers built
+            bool hasTowers = buildableNodes.Any(n => n != null && n.tower != null);
+            
+            // Check if enemies are approaching and we have no defense
+            var enemies = FindObjectsByType<Enemy>(FindObjectsSortMode.None);
+            bool enemiesPresent = enemies != null && enemies.Length > 0;
+            
+            if (!hasTowers && enemiesPresent)
+            {
+                AddReward(-0.1f); // Penalty for doing nothing when enemies are present and no towers exist
+            }
+            else if (!hasTowers)
+            {
+                AddReward(-0.05f); // Moderate penalty for having no towers
+            }
+            else
+            {
+                AddReward(-0.001f); // Very small penalty for doing nothing when towers exist
+            }
         }
+        // Select tower type
         else if (action <= availableTowers.Length)
         {
-            // Select tower type
             selectedTowerType = action - 1;
             if (BuildManager.Instance != null)
             {
                 BuildManager.Instance.SelectTowerToBuild(availableTowers[selectedTowerType]);
                 actionTaken = true;
+                AddReward(0.01f);
             }
         }
+        // Build tower
         else if (action <= availableTowers.Length + maxObservableNodes)
         {
-            // Build tower
             int nodeIndex = action - availableTowers.Length - 1;
             if (TryBuildTowerAt(nodeIndex))
             {
                 actionTaken = true;
                 towersBuilt++;
-                AddReward(0.1f); // Reward for building
+                lastTowerBuildTime = Time.time;
+                
+                // Reward building towers, with bonus for early building
+                float timeSinceStart = Time.time - episodeStartTime;
+                float earlyBuildingBonus = Mathf.Max(0, (30f - timeSinceStart) / 30f) * 0.1f;
+                AddReward(0.3f + earlyBuildingBonus);
             }
             else
             {
-                AddReward(-0.05f); // Penalty for invalid build
+                AddReward(-0.02f); // Penalty for failed build attempts
             }
         }
+        // Upgrade tower
         else if (action <= availableTowers.Length + 2 * maxObservableNodes)
         {
-            // Upgrade tower
             int nodeIndex = action - availableTowers.Length - maxObservableNodes - 1;
             if (TryUpgradeTowerAt(nodeIndex))
             {
                 actionTaken = true;
-                AddReward(0.05f); // Reward for upgrading
+                AddReward(0.4f); // Upgrading is good strategy
             }
             else
             {
-                AddReward(-0.5f); 
+                AddReward(-0.02f); // Penalty for failed upgrade attempts
             }
         }
+        // Sell tower
         else if (action <= availableTowers.Length + 3 * maxObservableNodes)
         {
-            // Sell tower
             int nodeIndex = action - availableTowers.Length - 2 * maxObservableNodes - 1;
             if (TrySellTowerAt(nodeIndex))
             {
                 actionTaken = true;
-                AddReward(-0.02f); // Small penalty for selling (should be strategic)
+                // Heavy penalty for selling towers - only do this in very specific circumstances
+                AddReward(-2.0f);
             }
             else
             {
-                AddReward(-0.01f); // Penalty for invalid sell
+                AddReward(-0.02f); // Penalty for failed sell attempts
             }
         }
-        
-        // Check for episode end conditions
+
         CheckEpisodeEnd();
-        
-        if (debugMode)
-        {
-            if (actionTaken)
-            {
-                Debug.Log($"Action {action} executed successfully");
-            }
-            else if (action > 0)
-            {
-                Debug.Log($"Action {action} failed to execute");
-            }
-        }
     }
-    
+
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         var discreteActionsOut = actionsOut.DiscreteActions;
-        
+
         if (GameManager.Instance == null || buildableNodes == null || availableTowers == null || availableTowers.Length == 0)
         {
             discreteActionsOut[0] = 0; // Do nothing
             return;
         }
-        
-        // Strategy: Build towers on empty nodes, then upgrade existing ones
+
         var emptyNodes = buildableNodes.Where(n => n != null && n.tower == null).ToList();
         var occupiedNodes = buildableNodes.Where(n => n != null && n.tower != null).ToList();
-        
-        // Priority 1: Build towers on empty nodes
+
         if (emptyNodes.Count > 0 && GameManager.Instance.currentMoney >= availableTowers[0].cost)
         {
-            // Find next empty node to build on
             int targetNodeIndex = -1;
             for (int i = 0; i < buildableNodes.Count; i++)
             {
@@ -243,76 +238,77 @@ public class SimpleTowerDefenseAgent : Agent
                     break;
                 }
             }
-            
+
             if (targetNodeIndex >= 0)
             {
-                selectedTowerType = 0; // Use first tower type
-                discreteActionsOut[0] = availableTowers.Length + 1 + targetNodeIndex; // Build action
+                selectedTowerType = 0;
+                discreteActionsOut[0] = availableTowers.Length + 1 + targetNodeIndex;
                 if (debugMode) Debug.Log($"Heuristic: Building tower on node {targetNodeIndex}");
                 return;
             }
         }
-        
-        // Priority 2: Upgrade existing towers if we have enough money
-        if (occupiedNodes.Count > 0 && GameManager.Instance.currentMoney >= 50) // Assume upgrade cost ~50
+
+        if (occupiedNodes.Count > 0 && GameManager.Instance.currentMoney >= 50)
         {
-            // Find first upgradeable tower
             for (int i = 0; i < buildableNodes.Count; i++)
             {
                 if (buildableNodes[i] != null && buildableNodes[i].tower != null)
                 {
                     Tower towerScript = buildableNodes[i].tower.GetComponent<Tower>();
-                    if (towerScript != null && towerScript.CanUpgrade() && 
+                    if (towerScript != null && towerScript.CanUpgrade() &&
                         GameManager.Instance.currentMoney >= towerScript.towerData.upgradeCost)
                     {
-                        discreteActionsOut[0] = availableTowers.Length + maxObservableNodes + 1 + i; // Upgrade action
+                        discreteActionsOut[0] = availableTowers.Length + maxObservableNodes + 1 + i;
                         if (debugMode) Debug.Log($"Heuristic: Upgrading tower on node {i}");
                         return;
                     }
                 }
             }
         }
-        
-        // Priority 3: Do nothing if no actions are possible
+
         discreteActionsOut[0] = 0;
         if (debugMode) Debug.Log("Heuristic: No actions available");
     }
-    
+
     private bool CanAffordTowerAt(Node node)
     {
         if (selectedTowerType >= availableTowers.Length) return false;
         return GameManager.Instance.currentMoney >= availableTowers[selectedTowerType].cost;
     }
-    
+
     private bool TryBuildTowerAt(int nodeIndex)
     {
         if (nodeIndex >= buildableNodes.Count || buildableNodes[nodeIndex] == null) return false;
         if (buildableNodes[nodeIndex].tower != null) return false;
         if (availableTowers == null || availableTowers.Length == 0) return false;
-        
-        // Auto-select first available tower if none selected
+
         if (selectedTowerType >= availableTowers.Length) selectedTowerType = 0;
-        
+
         if (BuildManager.Instance != null)
         {
             BuildManager.Instance.SelectTowerToBuild(availableTowers[selectedTowerType]);
             bool result = BuildManager.Instance.BuildTowerOn(buildableNodes[nodeIndex]);
-            
-            if (debugMode)
+
+            if (result)
             {
-                Debug.Log($"Attempting to build {availableTowers[selectedTowerType].name} at node {nodeIndex}: {result}");
+                TowerData builtTowerData = availableTowers[selectedTowerType];
+                if (!builtTowerTypesThisEpisode.Contains(builtTowerData.towerType))
+                {
+                    builtTowerTypesThisEpisode.Add(builtTowerData.towerType);
+                    AddReward(0.4f);
+                    Debug.Log($"Built a new type of tower: {builtTowerData.towerType}. Rewarding diversity!");
+                }
             }
-            
             return result;
         }
         return false;
     }
-    
+
     private bool TryUpgradeTowerAt(int nodeIndex)
     {
         if (nodeIndex >= buildableNodes.Count || buildableNodes[nodeIndex] == null) return false;
         if (buildableNodes[nodeIndex].tower == null) return false;
-        
+
         if (BuildManager.Instance != null)
         {
             BuildManager.Instance.SelectNode(buildableNodes[nodeIndex]);
@@ -321,12 +317,12 @@ public class SimpleTowerDefenseAgent : Agent
         }
         return false;
     }
-    
+
     private bool TrySellTowerAt(int nodeIndex)
     {
         if (nodeIndex >= buildableNodes.Count || buildableNodes[nodeIndex] == null) return false;
         if (buildableNodes[nodeIndex].tower == null) return false;
-        
+
         if (BuildManager.Instance != null)
         {
             BuildManager.Instance.SelectNode(buildableNodes[nodeIndex]);
@@ -335,79 +331,67 @@ public class SimpleTowerDefenseAgent : Agent
         }
         return false;
     }
-    
+
     private void CheckEpisodeEnd()
     {
         if (GameManager.Instance == null) return;
-        
+
         if (GameManager.Instance.gameOver)
         {
-            // Game lost - negative reward based on performance
             float performance = CalculatePerformanceScore();
-            AddReward(-1f + performance); // Base penalty reduced by performance
-            Debug.Log($"Episode ended - Game Over! Performance: {performance}, Lives: {GameManager.Instance.currentLives}");
+            AddReward(-5f + performance);
             EndEpisode();
         }
         else if (GameManager.Instance.gameWon)
         {
-            // Game won - large positive reward
             float performance = CalculatePerformanceScore();
-            AddReward(10f + performance); // Large win bonus plus performance
-            Debug.Log($"Episode ended - Game Won! Performance: {performance}, Wave: {GameManager.Instance.currentWaveIndex}");
+            AddReward(10f + performance);
             EndEpisode();
         }
     }
-    
+
     private float CalculatePerformanceScore()
     {
         if (GameManager.Instance == null) return 0f;
-        
         float score = 0f;
-        
-        // Reward for keeping lives
         score += (float)GameManager.Instance.currentLives / episodeStartLives * 2f;
-        
-        // Reward for efficient money usage
-        float moneyUsed = episodeStartMoney - GameManager.Instance.currentMoney;
-        score += Mathf.Min(moneyUsed / episodeStartMoney, 1f) * 1f;
-        
-        // Reward for waves completed
         score += GameManager.Instance.currentWaveIndex * 0.5f;
-        
-        // Reward for enemies killed and towers built
         score += enemiesKilled * 0.01f;
         score += towersBuilt * 0.05f;
-            // << 이 부분을 추가하세요 >>
-    // Reward for waves completed
-    score += wavesCompleted * 0.5f; // 웨이브를 깰 때마다 0.5점의 추가 보상!
-    // << 여기까지 >>
-
-        // Reward for time efficiency (longer survival = better)
+        score += wavesCompleted * 0.5f;
         float episodeTime = Time.time - episodeStartTime;
-        score += Mathf.Min(episodeTime / 300f, 1f) * 1f; // Max 5 minutes
-        
+        score += Mathf.Min(episodeTime / 300f, 1f) * 1f;
         return score;
     }
-    
+
     public void OnEnemyKilled()
     {
         enemiesKilled++;
-        AddReward(0.02f); // Small reward for each enemy killed
+        AddReward(0.1f);
     }
+
     public void OnWaveCompleted()
     {
         wavesCompleted++;
-        AddReward(0.5f); // 웨이브 클리어 시 보상을 즉시 줍니다.
+        AddReward(0.5f);
     }
+
     private void Update()
     {
-        // Always check for episode end conditions
         CheckEpisodeEnd();
-        
-        // Request decision periodically during training
         if (GameManager.Instance != null && !GameManager.Instance.gameOver && !GameManager.Instance.gameWon)
         {
             RequestDecision();
+            
+            // Give small periodic reward for maintaining towers
+            if (Time.time - lastTowerBuildTime > 1f)
+            {
+                int towerCount = buildableNodes.Count(n => n != null && n.tower != null);
+                if (towerCount > 0)
+                {
+                    AddReward(towerCount * 0.001f); // Small reward for each tower maintained
+                }
+            }
         }
     }
 }
