@@ -107,6 +107,8 @@ public class BuildManager : MonoBehaviour
             Debug.LogWarning($"Tower prefab {tower.name} missing Tower component!");
         }
         
+        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.RecordTowerBuilt(towerToBuild.name, towerToBuild.cost, buildPos);
+        
         Debug.Log($"Tower built! Money left: {GameManager.Instance.currentMoney}, Tower active: {tower.activeInHierarchy}");
         return true;
     }
@@ -119,6 +121,8 @@ public class BuildManager : MonoBehaviour
         int sellValue = towerScript.GetSellValue();
         
         GameManager.Instance.AddMoney(sellValue);
+        
+        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.RecordTowerSold(towerScript.towerData.name, sellValue, selectedNode.transform.position);
         
         GameManager.Instance.UnregisterTower(selectedNode.tower); // GameManager에서 타워 제거
         Destroy(selectedNode.tower);
@@ -134,6 +138,7 @@ public class BuildManager : MonoBehaviour
         Tower towerScript = selectedNode.tower.GetComponent<Tower>();
         if (towerScript.CanUpgrade() && GameManager.Instance.SpendMoney(towerScript.towerData.upgradeCost))
         {
+            if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.RecordTowerUpgraded(towerScript.towerData.name, towerScript.towerData.upgradeCost, selectedNode.transform.position);
             towerScript.Upgrade();
         }
     }

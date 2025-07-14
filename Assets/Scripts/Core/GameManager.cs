@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public List<WaveData> waves = new List<WaveData>();
     
     [Header("Speed Control")]
-    [Range(0.1f, 10f)]
+    [Range(0.1f, 20f)]
     public float gameSpeed = 1f;
     
     [Header("Current Game State")]
@@ -83,6 +83,8 @@ public class GameManager : MonoBehaviour
         gameOver = false;
         gameWon = false;
         
+        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.StartNewSession();
+        
         if (WaveSpawner.Instance != null) WaveSpawner.Instance.ResetSpawner();
         if (BuildManager.Instance != null) BuildManager.Instance.DeselectNode();
         
@@ -123,6 +125,7 @@ public class GameManager : MonoBehaviour
     {
         currentLives--;
         Debug.Log($"Life lost! Current lives: {currentLives}");
+        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.RecordLifeLost();
         if (UIManager.Instance != null) UIManager.Instance.UpdateLives(currentLives);
         if (currentLives <= 0) 
         {
@@ -135,6 +138,7 @@ public class GameManager : MonoBehaviour
     {
         gameOver = true;
         Debug.Log("GameOver() called! Player lost the game!");
+        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.EndSession(false, currentWaveIndex + 1);
         if (UIManager.Instance != null) UIManager.Instance.ShowGameOverScreen();
     }
     
@@ -142,6 +146,7 @@ public class GameManager : MonoBehaviour
     {
         gameWon = true;
         Debug.Log("GameWin() called! Player won the game!");
+        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.EndSession(true, currentWaveIndex + 1);
         if (UIManager.Instance != null) UIManager.Instance.ShowWinScreen();
     }
     

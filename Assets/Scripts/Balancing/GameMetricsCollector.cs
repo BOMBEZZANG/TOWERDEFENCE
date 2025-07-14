@@ -31,7 +31,15 @@ public class GameMetricsCollector : MonoBehaviour
     
     private void InitializeDataCollection()
     {
-        saveFilePath = Path.Combine(Application.persistentDataPath, "game_sessions_data.json");
+        saveFilePath = Path.Combine(Application.dataPath, "..", "GameMetrics", "game_sessions_data.json");
+        
+        // Create directory if it doesn't exist
+        string directory = Path.GetDirectoryName(saveFilePath);
+        if (!Directory.Exists(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
+        
         LoadSessionData();
         StartNewSession();
     }

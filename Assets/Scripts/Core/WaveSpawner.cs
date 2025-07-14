@@ -99,6 +99,8 @@ public class WaveSpawner : MonoBehaviour
         GameManager.Instance.NextWave();
         Debug.Log("Wave " + waveIndex + " completed!");
 
+        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.RecordWaveStarted(waveIndex);
+
         // AI 에이전트를 찾아 웨이브 완료 신호를 보냅니다.
         SimpleTowerDefenseAgent agent = FindFirstObjectByType<SimpleTowerDefenseAgent>();
         if (agent != null)

@@ -60,6 +60,7 @@ public class Enemy : MonoBehaviour
         Debug.Log($"Enemy {gameObject.name} died! Giving {enemyData.reward} money reward.");
         
         GameManager.Instance.AddMoney(enemyData.reward);
+        if (GameMetricsCollector.Instance != null) GameMetricsCollector.Instance.RecordEnemyKilled();
         
         // Notify AI agent of enemy kill
         SimpleTowerDefenseAgent agent = FindFirstObjectByType<SimpleTowerDefenseAgent>();
