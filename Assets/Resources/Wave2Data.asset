@@ -10,15 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9bdb249906320b4f89ab2767f90939e, type: 3}
-  m_Name: Wave3Data
+  m_Name: Wave2Data
   m_EditorClassIdentifier: 
-  waveNumber: 3
-  spawnDelay: 0.3
-  timeBetweenWaves: 5
+  waveNumber: 2
+  spawnDelay: 1
+  timeBetweenWaves: 10
   enemies:
   - enemyData: {fileID: 11400000, guid: ae611d5b7de7a1849b7d2e5d697fe610, type: 2}
-    count: 15
-    spawnDelay: 2
-  - enemyData: {fileID: 11400000, guid: 43c6f44cfd51a5a4b855be4fd0f819c6, type: 2}
-    count: 5
+    count: 10
     spawnDelay: 1

@@ -16,12 +16,12 @@ MonoBehaviour:
   cost: 80
   prefab: {fileID: 8718903893881196398, guid: 8ab356732513b2f4a9072be82ce7ca17, type: 3}
   icon: {fileID: 0}
-  damage: 55
-  range: 4
+  damage: 45
+  range: 6
   fireRate: 0.55
   turnSpeed: 10
   upgradeTo: {fileID: 0}
-  upgradeCost: 0
+  upgradeCost: 150
   towerType: 1
   projectilePrefab: {fileID: 6299525842595148160, guid: ff1c4b39cd836b2489d16bfd97b9fcf6, type: 3}
   projectileSpeed: 10
