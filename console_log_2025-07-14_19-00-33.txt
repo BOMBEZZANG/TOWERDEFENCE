@@ -1,0 +1,25 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 7:00:33 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[19:00:33.464] [0.000s] [INFO] [ClaudeBalanceAPI] ClaudeBalanceAPI started and ready! Press F1 to open analysis window.
+[19:00:33.470] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[19:00:33.471] [0.000s] [INFO] [MetricsCollector] New game session started
+[19:00:33.485] [0.000s] [INFO] Building MachineGunTowerData at position (2.71, 2.41, 0.00)
+[19:00:33.488] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized at (2.71, 2.41, 0.00)
+[19:00:33.490] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[19:00:33.491] [0.000s] [INFO] Tower built! Money left: 0, Tower active: True
+[19:00:33.492] [0.000s] [INFO] Built a new type of tower: MachineGun. Rewarding diversity!
+[19:00:35.895] [1.984s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[19:00:35.896] [1.984s] [INFO] Enemies alive: 1
+[19:00:35.897] [1.984s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[19:00:35.897] [1.984s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[19:00:35.903] [1.995s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+[19:00:37.255] [3.484s] [INFO] Spawned enemy: RunnerEnemy(Clone) with tag: Enemy at position: (-8.06, 6.36, 0.00)
+[19:00:37.257] [3.484s] [INFO] Enemies alive: 2
+[19:00:37.258] [3.484s] [INFO] Set initial target for RunnerEnemy(Clone): Waypoint (0), total waypoints: 4
+[19:00:37.258] [3.484s] [INFO] Enemy RunnerEnemy(Clone) starting movement with speed 1.8, target: Waypoint (0)
+[19:00:37.261] [3.491s] [INFO] Enemy RunnerEnemy(Clone) moving to waypoint 1: Waypoint (1)
+
+=== LOG SESSION ENDED: 7/14/2025 7:00:38 PM ===

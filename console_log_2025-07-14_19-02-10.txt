@@ -1,0 +1,10 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 7:02:10 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[19:02:10.371] [0.000s] [INFO] [ClaudeBalanceAPI] ClaudeBalanceAPI started and ready! Press F1 to open analysis window.
+[19:02:10.376] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[19:02:10.377] [0.000s] [INFO] [MetricsCollector] New game session started
+
+=== LOG SESSION ENDED: 7/14/2025 7:02:11 PM ===

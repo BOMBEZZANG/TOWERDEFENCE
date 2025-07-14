@@ -1,0 +1,14 @@
+=== UNITY CONSOLE LOG ===
+Session started: 7/14/2025 6:39:52 PM
+Unity Version: 6000.0.45f1
+Platform: WindowsEditor
+
+[18:39:52.644] [0.000s] [INFO] SimpleTowerDefenseAgent: OnEpisodeBegin called
+[18:39:52.646] [0.000s] [INFO] [MetricsCollector] New game session started
+[18:39:52.663] [0.000s] [INFO] Building MachineGunTowerData at position (2.42, -2.02, 0.00)
+[18:39:52.665] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized at (2.42, -2.02, 0.00)
+[18:39:52.665] [0.000s] [INFO] Tower MachineGunTower(Clone) initialized successfully
+[18:39:52.666] [0.000s] [INFO] Tower built! Money left: 0, Tower active: True
+[18:39:52.669] [0.000s] [INFO] Built a new type of tower: MachineGun. Rewarding diversity!
+
+=== LOG SESSION ENDED: 7/14/2025 6:39:53 PM ===

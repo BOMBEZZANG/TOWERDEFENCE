@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: CannonTowerData
   m_EditorClassIdentifier: 
   towerName: Cannon
-  cost: 80
+  cost: 70
   prefab: {fileID: 8718903893881196398, guid: 8ab356732513b2f4a9072be82ce7ca17, type: 3}
   icon: {fileID: 0}
-  damage: 30
+  damage: 35
   range: 4
   fireRate: 0.5
   turnSpeed: 10
   upgradeTo: {fileID: 11400000, guid: 52d5b8ba396ad2a4dafa5996d1a57069, type: 2}
-  upgradeCost: 60
+  upgradeCost: 50
   towerType: 1
   projectilePrefab: {fileID: 6299525842595148160, guid: ff1c4b39cd836b2489d16bfd97b9fcf6, type: 3}
   projectileSpeed: 5

@@ -1,22 +1,28 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class ClaudeBalanceAPI : MonoBehaviour
 {
     public static ClaudeBalanceAPI Instance;
     
-    [Header("API Configuration")]
-    [SerializeField] private string claudeApiKey = ""; // Set this in inspector or via code
-    [SerializeField] private string apiUrl = "https://api.anthropic.com/v1/messages";
-    [SerializeField] private bool enableAPI = true;
+    [Header("UI Settings")]
+    public bool showWindow = false;
+    public Rect windowRect = new Rect(20, 20, 600, 400);
     
-    [Header("Balance Settings")]
-    [SerializeField] private float analysisInterval = 300f; // 5 minutes
-    [SerializeField] private int minSessionsForAnalysis = 5;
+    [Header("API Settings")]
+    private string apiKey = "";
+    private string customPrompt = "You are a game balance expert analyzing a tower defense game. I'm providing you with two data files:\n\n1. BALANCE_DATA.json - Contains current game configuration (towers, enemies, waves, targets)\n2. PLAYER SESSION DATA - Contains actual player gameplay sessions\n\nPlease analyze both files and provide:\n- Player performance analysis\n- Balance issues identification\n- Specific suggestions for improvement\n- Predicted impact of suggested changes\n\nFocus on data-driven insights and actionable recommendations.";
+    private string apiUrl = "https://api.anthropic.com/v1/messages";
+    
+    private bool isProcessing = false;
+    private string statusMessage = "";
     
     private void Awake()
     {
@@ -31,166 +37,136 @@ public class ClaudeBalanceAPI : MonoBehaviour
         }
     }
     
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            showWindow = !showWindow;
+            Debug.Log($"[ClaudeBalanceAPI] F1 pressed! Window is now: {(showWindow ? "OPEN" : "CLOSED")}");
+        }
+    }
+    
     private void Start()
     {
-        if (enableAPI && !string.IsNullOrEmpty(claudeApiKey))
+        Debug.Log("[ClaudeBalanceAPI] ClaudeBalanceAPI started and ready! Press F1 to open analysis window.");
+    }
+    
+    private void OnGUI()
+    {
+        if (showWindow)
         {
-            InvokeRepeating(nameof(PerformPeriodicAnalysis), analysisInterval, analysisInterval);
+            windowRect = GUI.Window(0, windowRect, DrawWindow, "Claude API Analysis Tool");
         }
     }
     
-    public void SetApiKey(string apiKey)
+    private void DrawWindow(int windowID)
     {
-        claudeApiKey = apiKey;
-        enableAPI = !string.IsNullOrEmpty(apiKey);
-    }
-    
-    private void PerformPeriodicAnalysis()
-    {
-        if (GameMetricsCollector.Instance == null) return;
+        GUILayout.BeginVertical();
         
-        var sessions = GameMetricsCollector.Instance.GetRecentSessions(20);
-        if (sessions.Count >= minSessionsForAnalysis)
+        // Session Info
+        GUILayout.Label("Session Information:", CustomStyles.boldLabel);
+        if (GameMetricsCollector.Instance != null)
         {
-            StartCoroutine(RequestBalanceAnalysis());
-        }
-    }
-    
-    public void RequestBalanceAnalysisNow()
-    {
-        if (enableAPI)
-        {
-            StartCoroutine(RequestBalanceAnalysis());
+            var stats = GameMetricsCollector.Instance.GetCurrentStats();
+            GUILayout.Label($"Total Sessions: {stats.total_sessions}");
+            GUILayout.Label($"Recent Sessions: {stats.recent_sessions}");
+            GUILayout.Label($"Success Rate: {stats.current_success_rate * 100:F1}%");
+            GUILayout.Label($"Avg Play Time: {stats.current_avg_play_time:F1}s");
         }
         else
         {
-            Debug.LogWarning("[ClaudeBalanceAPI] API is disabled or API key not set");
+            GUILayout.Label("GameMetricsCollector not found!");
         }
+        
+        GUILayout.Space(10);
+        
+        // API Key Input
+        GUILayout.Label("API Key:", CustomStyles.boldLabel);
+        apiKey = GUILayout.TextField(apiKey, GUILayout.Height(20));
+        
+        GUILayout.Space(10);
+        
+        // Custom Prompt Input
+        GUILayout.Label("Custom Prompt:", CustomStyles.boldLabel);
+        customPrompt = GUILayout.TextArea(customPrompt, GUILayout.Height(100));
+        
+        GUILayout.Space(10);
+        
+        // Send Button
+        GUI.enabled = !isProcessing && !string.IsNullOrEmpty(apiKey);
+        if (GUILayout.Button(isProcessing ? "Processing..." : "Send to Claude API", GUILayout.Height(30)))
+        {
+            StartCoroutine(SendToClaudeAPI());
+        }
+        GUI.enabled = true;
+        
+        GUILayout.Space(10);
+        
+        // Status Message
+        if (!string.IsNullOrEmpty(statusMessage))
+        {
+            GUILayout.Label("Status:", CustomStyles.boldLabel);
+            GUILayout.Label(statusMessage);
+        }
+        
+        GUILayout.EndVertical();
+        
+        GUI.DragWindow();
     }
     
-    private IEnumerator RequestBalanceAnalysis()
+    private IEnumerator SendToClaudeAPI()
     {
-        Debug.Log("[ClaudeBalanceAPI] Requesting balance analysis from Claude...");
+        isProcessing = true;
+        statusMessage = "Reading game data files...";
         
-        // Gather current game data
-        var currentBalance = GameBalanceManager.Instance.GetCurrentBalanceData();
-        var recentSessions = GameMetricsCollector.Instance.GetRecentSessions(15);
-        var currentStats = GameMetricsCollector.Instance.GetCurrentStats();
+        // Read the session data JSON file
+        string sessionDataPath = Path.Combine(Application.dataPath, "..", "GameMetrics", "game_sessions_data.json");
+        string balanceDataPath = Path.Combine(Application.dataPath, "..", "GameMetrics", "BALANCE_DATA.json");
         
-        // Create analysis request
-        var analysisPrompt = CreateAnalysisPrompt(currentBalance, recentSessions, currentStats);
-        
-        // Send request to Claude API
-        yield return StartCoroutine(SendClaudeRequest(analysisPrompt, OnBalanceAnalysisReceived));
-    }
-    
-    private string CreateAnalysisPrompt(GameBalanceData currentBalance, List<GameSessionData> sessions, GameStats stats)
-    {
-        var prompt = new StringBuilder();
-        
-        prompt.AppendLine("You are a game balance expert analyzing a tower defense game. Your goal is to suggest balance changes to achieve these targets:");
-        prompt.AppendLine($"- Success Rate Target: {currentBalance.success_rate_target * 100:F1}%");
-        prompt.AppendLine($"- Play Time Target: {currentBalance.play_time_target} seconds");
-        prompt.AppendLine();
-        
-        prompt.AppendLine("Current Performance:");
-        prompt.AppendLine($"- Current Success Rate: {stats.current_success_rate * 100:F1}%");
-        prompt.AppendLine($"- Current Average Play Time: {stats.current_avg_play_time:F1} seconds");
-        prompt.AppendLine($"- Sessions Analyzed: {stats.recent_sessions}");
-        prompt.AppendLine();
-        
-        prompt.AppendLine("Current Game Balance:");
-        prompt.AppendLine($"- Starting Money: ${currentBalance.starting_money}");
-        prompt.AppendLine($"- Starting Lives: {currentBalance.starting_lives}");
-        prompt.AppendLine($"- Available Nodes: {currentBalance.available_node_count}");
-        prompt.AppendLine();
-        
-        prompt.AppendLine("Enemy Data:");
-        foreach (var enemy in currentBalance.enemies)
+        if (!File.Exists(sessionDataPath))
         {
-            prompt.AppendLine($"- {enemy.enemy_name}: Health={enemy.health}, Speed={enemy.speed}, Reward=${enemy.reward}");
-        }
-        prompt.AppendLine();
-        
-        prompt.AppendLine("Tower Data:");
-        foreach (var tower in currentBalance.towers)
-        {
-            prompt.AppendLine($"- {tower.tower_name}: Cost=${tower.cost}, Damage={tower.damage}, Range={tower.range}, FireRate={tower.fire_rate}, UpgradeCost=${tower.upgrade_cost}");
-        }
-        prompt.AppendLine();
-        
-        prompt.AppendLine("Wave Data:");
-        for (int i = 0; i < Mathf.Min(5, currentBalance.waves.Count); i++)
-        {
-            var wave = currentBalance.waves[i];
-            prompt.AppendLine($"- Wave {wave.wave_number}: {wave.enemy_spawns.Count} enemy types, Delay={wave.spawn_delay}s");
-        }
-        prompt.AppendLine();
-        
-        // Add session analysis
-        if (sessions.Count > 0)
-        {
-            prompt.AppendLine("Recent Session Analysis:");
-            int wins = 0;
-            float totalTime = 0;
-            foreach (var session in sessions)
-            {
-                if (session.game_won) wins++;
-                totalTime += session.play_time_seconds;
-                prompt.AppendLine($"- Session: Won={session.game_won}, Time={session.play_time_seconds:F1}s, Wave={session.final_wave_reached}, Towers={session.towers_built}");
-            }
-            prompt.AppendLine();
-        }
-        
-        prompt.AppendLine("Please provide balance suggestions in this JSON format:");
-        prompt.AppendLine("{");
-        prompt.AppendLine("  \"analysis_summary\": \"Brief analysis of current state\",");
-        prompt.AppendLine("  \"suggested_adjustments\": [");
-        prompt.AppendLine("    {");
-        prompt.AppendLine("      \"category\": \"enemy|tower|wave|economy|nodes\",");
-        prompt.AppendLine("      \"target_name\": \"specific item name\",");
-        prompt.AppendLine("      \"property_name\": \"health|damage|cost|etc\",");
-        prompt.AppendLine("      \"current_value\": 100,");
-        prompt.AppendLine("      \"suggested_value\": 120,");
-        prompt.AppendLine("      \"reason\": \"explanation\",");
-        prompt.AppendLine("      \"confidence\": 0.8");
-        prompt.AppendLine("    }");
-        prompt.AppendLine("  ],");
-        prompt.AppendLine("  \"predicted_success_rate\": 0.9,");
-        prompt.AppendLine("  \"predicted_play_time\": 180,");
-        prompt.AppendLine("  \"reasoning\": \"Detailed explanation of suggestions\"");
-        prompt.AppendLine("}");
-        
-        return prompt.ToString();
-    }
-    
-    private IEnumerator SendClaudeRequest(string prompt, System.Action<string> onComplete)
-    {
-        if (string.IsNullOrEmpty(claudeApiKey))
-        {
-            Debug.LogError("[ClaudeBalanceAPI] API key not set!");
+            statusMessage = "Error: game_sessions_data.json not found!";
+            isProcessing = false;
             yield break;
         }
         
-        var requestData = new
+        if (!File.Exists(balanceDataPath))
         {
-            model = "claude-3-sonnet-20240229",
-            max_tokens = 2000,
-            messages = new[]
+            statusMessage = "Error: BALANCE_DATA.json not found!";
+            isProcessing = false;
+            yield break;
+        }
+        
+        string sessionDataContent = File.ReadAllText(sessionDataPath);
+        string balanceDataContent = File.ReadAllText(balanceDataPath);
+        
+        // Create the full prompt with both files
+        string fullPrompt = customPrompt + 
+            "\n\n=== GAME BALANCE DATA ===\n" + balanceDataContent + 
+            "\n\n=== PLAYER SESSION DATA ===\n" + sessionDataContent;
+        
+        statusMessage = "Sending request to Claude API...";
+        
+        // Create request data
+        var requestData = new ClaudeRequest
+        {
+            model = "claude-3-7-sonnet-20250219",
+            max_tokens = 4000,
+            messages = new ClaudeMessage[]
             {
-                new { role = "user", content = prompt }
+                new ClaudeMessage { role = "user", content = fullPrompt }
             }
         };
         
-        string jsonData = JsonUtility.ToJson(requestData);
-        byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
+        string requestJson = JsonUtility.ToJson(requestData);
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(requestJson);
         
         using (UnityWebRequest request = new UnityWebRequest(apiUrl, "POST"))
         {
             request.uploadHandler = new UploadHandlerRaw(bodyRaw);
             request.downloadHandler = new DownloadHandlerBuffer();
             request.SetRequestHeader("Content-Type", "application/json");
-            request.SetRequestHeader("x-api-key", claudeApiKey);
+            request.SetRequestHeader("x-api-key", apiKey);
             request.SetRequestHeader("anthropic-version", "2023-06-01");
             
             yield return request.SendWebRequest();
@@ -199,60 +175,54 @@ public class ClaudeBalanceAPI : MonoBehaviour
             {
                 try
                 {
+                    // Parse Claude's response
                     var response = JsonUtility.FromJson<ClaudeResponse>(request.downloadHandler.text);
                     if (response.content != null && response.content.Length > 0)
                     {
-                        onComplete?.Invoke(response.content[0].text);
+                        string claudeAnalysis = response.content[0].text;
+                        
+                        // Save response to file
+                        string outputPath = Path.Combine(Application.dataPath, "..", "GameMetrics", 
+                            $"claude_analysis_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}.txt");
+                        
+                        File.WriteAllText(outputPath, claudeAnalysis);
+                        
+                        statusMessage = $"Success! Analysis saved to: {Path.GetFileName(outputPath)}";
+                    }
+                    else
+                    {
+                        statusMessage = "Error: Empty response from Claude API";
                     }
                 }
                 catch (Exception e)
                 {
-                    Debug.LogError($"[ClaudeBalanceAPI] Failed to parse response: {e.Message}");
-                    Debug.LogError($"Raw response: {request.downloadHandler.text}");
+                    statusMessage = $"Error parsing response: {e.Message}";
+                    Debug.LogError($"Claude API Response: {request.downloadHandler.text}");
                 }
             }
             else
             {
-                Debug.LogError($"[ClaudeBalanceAPI] Request failed: {request.error}");
-                Debug.LogError($"Response: {request.downloadHandler.text}");
+                statusMessage = $"API Error: {request.error}";
+                Debug.LogError($"Claude API Error: {request.downloadHandler.text}");
             }
         }
+        
+        isProcessing = false;
     }
     
-    private void OnBalanceAnalysisReceived(string claudeResponse)
+    [Serializable]
+    private class ClaudeRequest
     {
-        Debug.Log($"[ClaudeBalanceAPI] Received analysis from Claude");
-        
-        try
-        {
-            // Extract JSON from Claude's response (it might include extra text)
-            string jsonContent = ExtractJsonFromResponse(claudeResponse);
-            
-            if (!string.IsNullOrEmpty(jsonContent))
-            {
-                var analysis = JsonUtility.FromJson<BalanceAdjustmentResponse>(jsonContent);
-                GameBalanceManager.Instance?.ApplyBalanceAnalysis(analysis);
-            }
-        }
-        catch (Exception e)
-        {
-            Debug.LogError($"[ClaudeBalanceAPI] Failed to process Claude response: {e.Message}");
-            Debug.LogError($"Claude response was: {claudeResponse}");
-        }
+        public string model;
+        public int max_tokens;
+        public ClaudeMessage[] messages;
     }
     
-    private string ExtractJsonFromResponse(string response)
+    [Serializable]
+    private class ClaudeMessage
     {
-        // Find JSON content between curly braces
-        int startIndex = response.IndexOf('{');
-        int endIndex = response.LastIndexOf('}');
-        
-        if (startIndex >= 0 && endIndex > startIndex)
-        {
-            return response.Substring(startIndex, endIndex - startIndex + 1);
-        }
-        
-        return "";
+        public string role;
+        public string content;
     }
     
     [Serializable]
@@ -267,4 +237,9 @@ public class ClaudeBalanceAPI : MonoBehaviour
         public string text;
         public string type;
     }
+}
+
+public static class CustomStyles
+{
+    public static GUIStyle boldLabel = new GUIStyle(GUI.skin.label) { fontStyle = FontStyle.Bold };
 }

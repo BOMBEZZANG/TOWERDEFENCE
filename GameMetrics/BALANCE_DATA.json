@@ -1,0 +1,139 @@
+{
+  "game_info": {
+    "game_name": "Tower Defense",
+    "version": "1.0",
+    "last_updated": "2025-07-14",
+    "starting_money": 100,
+    "starting_lives": 20,
+    "game_speed_range": {
+      "min": 0.1,
+      "max": 20.0,
+      "default": 1.0
+    }
+  },
+  "towers": [
+    {
+      "name": "Machine Gun",
+      "cost": 50,
+      "damage": 10,
+      "range": 5,
+      "fire_rate": 2,
+      "turn_speed": 10,
+      "upgrade_cost": 30,
+      "projectile_speed": 10,
+      "type": "rapid_fire",
+      "dps": 20,
+      "cost_per_dps": 2.5
+    },
+    {
+      "name": "Cannon",
+      "cost": 80,
+      "damage": 30,
+      "range": 4,
+      "fire_rate": 0.5,
+      "turn_speed": 10,
+      "upgrade_cost": 60,
+      "projectile_speed": 5,
+      "type": "heavy_damage",
+      "dps": 15,
+      "cost_per_dps": 5.33
+    }
+  ],
+  "enemies": [
+    {
+      "name": "Runner",
+      "health": 30,
+      "speed": 1.8,
+      "reward": 10,
+      "type": "fast",
+      "color": "blue",
+      "hp_per_dollar": 3.0
+    },
+    {
+      "name": "Tanker",
+      "health": 100,
+      "speed": 1.2,
+      "reward": 30,
+      "type": "tank",
+      "color": "red",
+      "hp_per_dollar": 3.33
+    }
+  ],
+  "waves": [
+    {
+      "wave_number": 1,
+      "spawn_delay": 1.0,
+      "time_between_waves": 5.0,
+      "enemies": [
+        {
+          "enemy_type": "Runner",
+          "count": 5,
+          "spawn_delay": 1.5
+        }
+      ],
+      "total_enemies": 5,
+      "total_hp": 150,
+      "total_reward": 50
+    },
+    {
+      "wave_number": 2,
+      "spawn_delay": 1.0,
+      "time_between_waves": 10.0,
+      "enemies": [
+        {
+          "enemy_type": "Runner",
+          "count": 10,
+          "spawn_delay": 1.0
+        }
+      ],
+      "total_enemies": 10,
+      "total_hp": 300,
+      "total_reward": 100
+    },
+    {
+      "wave_number": 3,
+      "spawn_delay": 0.3,
+      "time_between_waves": 5.0,
+      "enemies": [
+        {
+          "enemy_type": "Runner",
+          "count": 5,
+          "spawn_delay": 1.0
+        },
+        {
+          "enemy_type": "Tanker",
+          "count": 4,
+          "spawn_delay": 1.0
+        },
+        {
+          "enemy_type": "Runner",
+          "count": 5,
+          "spawn_delay": 2.0
+        }
+      ],
+      "total_enemies": 14,
+      "total_hp": 700,
+      "total_reward": 170
+    }
+  ],
+  "balance_targets": {
+    "success_rate": 0.9,
+    "average_play_time": 180,
+    "difficulty_curve": 1.2
+  },
+  "metrics_collection": {
+    "enabled": true,
+    "max_sessions": 50,
+    "data_location": "GameMetrics/game_sessions_data.json",
+    "tracked_events": [
+      "tower_built",
+      "tower_upgraded", 
+      "tower_sold",
+      "enemy_killed",
+      "life_lost",
+      "wave_started",
+      "game_won",
+      "game_lost"
+    ]
+  }
+}

@@ -225,17 +225,3 @@ public class GameMetricsCollector : MonoBehaviour
     }
 }
 
-[Serializable]
-public class SessionDataWrapper
-{
-    public List<GameSessionData> sessions;
-}
-
-[Serializable]
-public class GameStats
-{
-    public float current_success_rate;
-    public float current_avg_play_time;
-    public int total_sessions;
-    public int recent_sessions;
-}
